@@ -435,7 +435,7 @@
             const container = document.getElementById('dashboardContent');
             // 如果畫面上還沒有東西，才顯示大大的 Loading 字樣；若是自動刷新，則盡量不干擾視覺
             if (container.children.length === 0 || container.innerHTML.includes('掃描日誌資料中')) {
-                container.innerHTML = '<div class="loading">正在連線至 Google 資料庫獲取日誌...</div>';
+                container.innerHTML = '<div class="loading">正在連線至資料庫獲取日誌...</div>';
             }
 
             const reports = [];
