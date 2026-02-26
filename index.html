@@ -383,16 +383,33 @@
             const lowerKeywords = ERROR_KEYWORDS.map(k => k.toLowerCase());
             const lowerSafeKeywords = SAFE_KEYWORDS.map(k => k.toLowerCase());
 
+            // 新增：取得目前時間的時間戳記與 24 小時的毫秒數
+            const now = Date.now();
+            const TWENTY_FOUR_HOURS_MS = 24 * 60 * 60 * 1000;
+
             for (let i = lines.length - 1; i >= 0; i--) {
-                const currentLine = lines[i].trim().toLowerCase();
+                const currentLine = lines[i].trim();
+                if (!currentLine) continue; // 忽略空行
+                
+                // 新增：嘗試從該行提取日期 (支援 YYYY-MM-DD 或 YYYY/MM/DD 等常見格式)
+                const dateMatch = currentLine.match(/\b(20\d{2}[-/\.]\d{1,2}[-/\.]\d{1,2}(?:[\sT]\d{1,2}:\d{2}(?::\d{2})?)?)\b/);
+                if (dateMatch) {
+                    const logDate = new Date(dateMatch[1]).getTime();
+                    // 如果這行日誌的時間早於 24 小時前，直接中斷往上搜尋 (因為越往上越舊)
+                    if (!isNaN(logDate) && (now - logDate > TWENTY_FOUR_HOURS_MS)) {
+                        break; // 停止掃描舊資料
+                    }
+                }
+
+                const lowerLine = currentLine.toLowerCase();
                 
                 // 優先檢查白名單
-                const isSafe = lowerSafeKeywords.some(safeKeyword => currentLine.includes(safeKeyword));
+                const isSafe = lowerSafeKeywords.some(safeKeyword => lowerLine.includes(safeKeyword));
                 if (isSafe) {
                     continue; // 包含安全字串，直接跳過此行的錯誤檢查
                 }
 
-                const hasError = lowerKeywords.some(keyword => currentLine.includes(keyword));
+                const hasError = lowerKeywords.some(keyword => lowerLine.includes(keyword));
                 
                 if (hasError) {
                     const startIdx = Math.max(0, i - 1);
@@ -402,7 +419,7 @@
                 }
             }
 
-            return { source: sourceName, status: 'ok', message: '[ STATUS: NORMAL ] 未偵測到異常字串。系統運行中。' };
+            return { source: sourceName, status: 'ok', message: '[ STATUS: NORMAL ] 24小時內未偵測到異常。系統運行中。' };
         }
 
         // 背景更新函數 (用於當使用者正在看詳細內容時，默默更新快取)
