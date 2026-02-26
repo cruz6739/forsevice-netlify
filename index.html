@@ -2,7 +2,6 @@
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
-    <!-- 1. 修改：加入禁止雙擊放大的 viewport 設定，確保 App 般的體驗 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>系統監控儀表板 (Log Monitor)</title>
     <style>
@@ -142,7 +141,7 @@
         .message {
             font-size: 14px;
             color: #b0dcff;
-            /* 2. 修改：增強文字換行能力，防止長代碼破版 */
+            /* 增強文字換行能力，防止長代碼破版 */
             word-wrap: break-word;
             word-break: break-all;
             overflow-wrap: anywhere;
@@ -160,7 +159,7 @@
             font-size: 13px;
             line-height: 1.4;
             white-space: pre-wrap;
-            /* 2. 修改：防止 raw text 中的超長字串無止盡延伸 */
+            /* 防止 raw text 中的超長字串無止盡延伸 */
             word-wrap: break-word;
             word-break: break-all;
             overflow-wrap: anywhere;
@@ -205,7 +204,7 @@
                 letter-spacing: 0;
             }
             
-            /* 3. 修改：改用 Grid 佈局，強制切成 2欄，徹底解決寬度擠壓問題 */
+            /* 改用 Grid 佈局，因為現在有 5 個按鈕 (1 個總覽 + 4 個來源) */
             #navMenu { 
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
@@ -213,15 +212,21 @@
                 margin-bottom: 15px; 
                 width: 96%; 
             }
+            
+            /* 讓第一個「總覽警報」橫跨兩欄，維持對稱感 */
+            #btn-dashboard {
+                grid-column: span 2;
+            }
+
             .nav-btn { 
                 padding: 10px 4px; 
                 font-size: 11px; 
-                letter-spacing: 0; /* 取消字距節省空間 */
-                width: 100%; /* 填滿 grid 單位 */
+                letter-spacing: 0; 
+                width: 100%; 
                 text-align: center; 
-                white-space: nowrap; /* 禁止按鈕文字變成兩行 */
+                white-space: nowrap; 
                 overflow: hidden;
-                text-overflow: ellipsis; /* 文字過長顯示... */
+                text-overflow: ellipsis; 
             }
             
             #mainContainer { 
@@ -270,6 +275,7 @@
     <div id="last-updated">[ 系統初始化中... ]</div>
 
     <div id="navMenu">
+        <!-- 這個按鈕在手機版會自動跨兩欄 (grid-column: span 2) -->
         <button class="nav-btn active" id="btn-dashboard" onclick="showView('dashboard')">[ 總覽警報 ]</button>
     </div>
 
@@ -294,7 +300,9 @@
         const LOG_SOURCES = [
             { name: '資料平衡', fileId: '1LldN-fYIwBz3vFCp_gJF8u4F4a249aih' },
             { name: '平衡明細', fileId: '1KaG6eMMCAIce2MwIECYKWmqlbKLFvHql' },
-            { name: 'SYNGBOT', fileId: '13feqrsK4o0rsBi_CE70DPH6ZmASDLNJT' }
+            { name: 'SYNGBOT', fileId: '13feqrsK4o0rsBi_CE70DPH6ZmASDLNJT' },
+            // 新增：執行記錄檔改為 GDVJF平衡
+            { name: 'GDVJF平衡', fileId: '1cRAxzou-AmReAejVSIFzxxA9MzzEZH6e' }
         ];
 
         const ERROR_KEYWORDS = ['錯誤', 'error', '停止', '警告', 'warning'];
