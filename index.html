@@ -367,7 +367,8 @@
             const id = setTimeout(() => controller.abort(), timeout);
             
             try {
-                const response = await fetch(resource, { ...options, signal: controller.signal });
+                // 🚀 工程師修正 1：強制加上 cache: 'no-store'，要求瀏覽器絕對不要使用本地快取
+                const response = await fetch(resource, { ...options, cache: 'no-store', signal: controller.signal });
                 clearTimeout(id);
                 return response;
             } catch (error) {
@@ -378,8 +379,10 @@
 
         // 🏆 Fetch 函數 (加入多重 Proxy 備援與 Timeout 機制)
         async function fetchLogContent(fileId) {
-            const sheetUrl = `https://docs.google.com/spreadsheets/d/${fileId}/export?format=csv`;
-            const driveUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+            // 🚀 工程師修正 2：加入時間戳記 (Cache Buster)，強迫 Proxy 伺服器每次都去抓最新資料
+            const timestamp = new Date().getTime();
+            const sheetUrl = `https://docs.google.com/spreadsheets/d/${fileId}/export?format=csv&t=${timestamp}`;
+            const driveUrl = `https://drive.google.com/uc?export=download&id=${fileId}&t=${timestamp}`;
             
             let text = "";
 
