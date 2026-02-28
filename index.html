@@ -7,10 +7,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
-        /* 加入全域 box-sizing 避免 padding 撐破寬度 */
-        * {
-            box-sizing: border-box;
-        }
+        * { box-sizing: border-box; }
 
         body {
             font-family: 'Share Tech Mono', 'Courier New', monospace;
@@ -24,7 +21,6 @@
             color: #a8d8ff;
         }
 
-        /* 背景掃描線效果 */
         body::before {
             content: '';
             position: fixed;
@@ -50,7 +46,7 @@
             opacity: 0.85;
             z-index: 1;
             text-align: center;
-            padding: 0 10px; /* 避免標題貼邊 */
+            padding: 0 10px;
         }
 
         #last-updated {
@@ -141,7 +137,6 @@
         .message {
             font-size: 14px;
             color: #b0dcff;
-            /* 增強文字換行能力，防止長代碼破版 */
             word-wrap: break-word;
             word-break: break-all;
             overflow-wrap: anywhere;
@@ -159,7 +154,6 @@
             font-size: 13px;
             line-height: 1.4;
             white-space: pre-wrap;
-            /* 防止 raw text 中的超長字串無止盡延伸 */
             word-wrap: break-word;
             word-break: break-all;
             overflow-wrap: anywhere;
@@ -187,95 +181,43 @@
             100% { opacity: 0.5; text-shadow: none; }
         }
 
-        /* ========================================== */
-        /* 手機版自適應設計 (向下相容至 4.7 吋/320px) */
-        /* ========================================== */
+        /* 手機版自適應 */
         @media (max-width: 600px) {
-            body { 
-                padding-top: 10px; 
-            }
-            h1 { 
-                font-size: 15px; 
-                letter-spacing: 1px; 
-            }
-            #last-updated { 
-                font-size: 10px; 
-                margin-bottom: 15px; 
-                letter-spacing: 0;
-            }
-            
-            /* 改用 Grid 佈局，因為現在有 5 個按鈕 (1 個總覽 + 4 個來源) */
+            body { padding-top: 10px; }
+            h1 { font-size: 15px; letter-spacing: 1px; }
+            #last-updated { font-size: 10px; margin-bottom: 15px; letter-spacing: 0; }
             #navMenu { 
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
-                gap: 8px; 
-                margin-bottom: 15px; 
-                width: 96%; 
+                gap: 8px; margin-bottom: 15px; width: 96%; 
             }
-            
-            /* 讓第一個「總覽警報」橫跨兩欄，維持對稱感 */
-            #btn-dashboard {
-                grid-column: span 2;
-            }
-
+            #btn-dashboard { grid-column: span 2; }
             .nav-btn { 
-                padding: 10px 4px; 
-                font-size: 11px; 
-                letter-spacing: 0; 
-                width: 100%; 
-                text-align: center; 
-                white-space: nowrap; 
-                overflow: hidden;
-                text-overflow: ellipsis; 
+                padding: 10px 4px; font-size: 11px; letter-spacing: 0; 
+                width: 100%; text-align: center; white-space: nowrap; 
+                overflow: hidden; text-overflow: ellipsis; 
             }
-            
-            #mainContainer { 
-                width: 96%; 
-            }
-            .log-entry { 
-                padding: 12px; 
-                margin-bottom: 10px; 
-            }
-            .source-tag {
-                font-size: 11px;
-            }
-            .message { 
-                font-size: 12px; 
-            }
-            h2 { 
-                font-size: 14px; 
-            }
-            #rawLogView { 
-                padding: 10px; 
-                font-size: 11px; 
-                max-height: 75vh; 
-            }
+            #mainContainer { width: 96%; }
+            .log-entry { padding: 12px; margin-bottom: 10px; }
+            .source-tag { font-size: 11px; }
+            .message { font-size: 12px; }
+            h2 { font-size: 14px; }
+            #rawLogView { padding: 10px; font-size: 11px; max-height: 75vh; }
         }
         
-        /* 針對 iPhone SE 等極小螢幕 (375px 以下) 再次微調 */
         @media (max-width: 375px) {
-            .nav-btn {
-                font-size: 10px;
-                padding: 8px 2px;
-            }
-            .message, #rawLogView {
-                font-size: 11px;
-            }
-            h1 {
-                font-size: 13px;
-            }
+            .nav-btn { font-size: 10px; padding: 8px 2px; }
+            .message, #rawLogView { font-size: 11px; }
+            h1 { font-size: 13px; }
         }
     </style>
 </head>
 <body>
 
     <h1>[ SYSTEM MONITOR DASHBOARD ]</h1>
-    
-    <!-- 顯示最後更新時間 -->
     <div id="last-updated">[ 系統初始化中... ]</div>
 
     <div id="navMenu">
-        <!-- 這個按鈕在手機版會自動跨兩欄 (grid-column: span 2) -->
         <button class="nav-btn active" id="btn-dashboard" onclick="showView('dashboard')">[ 總覽警報 ]</button>
     </div>
 
@@ -286,7 +228,6 @@
                 <div class="loading">掃描日誌資料中... Please wait...</div>
             </div>
         </div>
-
         <div id="view-detail" style="display: none;">
             <h2 id="detailTitle">>> Log Content</h2>
             <div id="rawLogView">載入中...</div>
@@ -294,30 +235,26 @@
     </div>
 
     <script>
-        // =====================================================================
-        // 🛑🛑🛑 資料來源設定 🛑🛑🛑
-        // =====================================================================
         const LOG_SOURCES = [
             { name: '資料平衡', fileId: '1LldN-fYIwBz3vFCp_gJF8u4F4a249aih' },
             { name: '平衡明細', fileId: '1KaG6eMMCAIce2MwIECYKWmqlbKLFvHql' },
             { name: 'SYNGBOT', fileId: '13feqrsK4o0rsBi_CE70DPH6ZmASDLNJT' },
-            // 新增：執行記錄檔改為 GDVJF平衡
             { name: 'GDVJF平衡', fileId: '1cRAxzou-AmReAejVSIFzxxA9MzzEZH6e' }
         ];
 
         const ERROR_KEYWORDS = ['錯誤', 'error', '停止', '警告', 'warning'];
-        // 安全白名單：包含這些字眼的行將不視為錯誤
         const SAFE_KEYWORDS = ['腳本執行完成，錯誤代碼: 0', 'error code: 0'];
         const logCache = {}; 
-        
-        // 設定自動更新的間隔時間 (5 分鐘 = 300,000 毫秒)
         const REFRESH_INTERVAL = 5 * 60 * 1000;
+        
+        // 新增：用於記錄時間狀態，防禦瀏覽器休眠
+        let nextRefreshTime = Date.now() + REFRESH_INTERVAL;
+        let lastRefreshString = "尚未連線";
 
-        // 確保 DOM 完全載入後再執行
         const init = () => {
             initNavigation();
             scanAllLogs();
-            startAutoRefresh(); // 啟動自動刷新排程
+            startAutoRefresh();
         };
 
         if (document.readyState === 'loading') {
@@ -326,26 +263,59 @@
             init();
         }
 
-        // 啟動 5 分鐘自動刷新機制
         function startAutoRefresh() {
+            // 1. 視覺化引擎：改為每秒執行一次的倒數計時器
             setInterval(() => {
-                console.log('系統執行自動輪詢 (Polling)...');
-                
-                // 如果目前停留在「總覽警報」畫面，就重新掃描並渲染
-                // 這樣可以避免使用者正在看完整日誌時，畫面突然被切走
-                if (document.getElementById('view-dashboard').style.display !== 'none') {
-                    scanAllLogs();
+                const now = Date.now();
+                const timeLeft = Math.max(0, nextRefreshTime - now);
+
+                if (timeLeft <= 0) {
+                    // 時間到，觸發更新並重置計時器
+                    nextRefreshTime = Date.now() + REFRESH_INTERVAL;
+                    if (document.getElementById('view-dashboard').style.display !== 'none') {
+                        scanAllLogs();
+                    } else {
+                        backgroundUpdate();
+                    }
                 } else {
-                    // 如果在看完整日誌，就在背景偷偷更新 Cache，並更新時間標籤即可
-                    backgroundUpdate();
+                    // 實時更新畫面上的倒數秒數
+                    updateCountdownUI(timeLeft);
                 }
-            }, REFRESH_INTERVAL);
+            }, 1000);
+
+            // 2. 喚醒偵測引擎：當使用者切回分頁或解鎖手機時，立刻檢查是否錯過了更新
+            document.addEventListener('visibilitychange', () => {
+                if (document.visibilityState === 'visible') {
+                    if (Date.now() >= nextRefreshTime) {
+                        console.log('系統從休眠中喚醒，發現已超時，立即補發更新請求...');
+                        nextRefreshTime = Date.now() + REFRESH_INTERVAL;
+                        
+                        if (document.getElementById('view-dashboard').style.display !== 'none') {
+                            scanAllLogs();
+                        } else {
+                            backgroundUpdate();
+                        }
+                    }
+                }
+            });
         }
 
         function updateLastRefreshTime() {
             const now = new Date();
-            const timeString = now.toLocaleTimeString('zh-TW', { hour12: false });
-            document.getElementById('last-updated').innerText = `[ 最後連線時間: ${timeString} | 下次更新: 5分鐘後 ]`;
+            lastRefreshString = now.toLocaleTimeString('zh-TW', { hour12: false });
+            // 更新完畢後，把下次更新時間往後推 5 分鐘
+            nextRefreshTime = Date.now() + REFRESH_INTERVAL;
+            updateCountdownUI(REFRESH_INTERVAL);
+        }
+
+        function updateCountdownUI(timeLeftMs) {
+            const secondsTotal = Math.floor(timeLeftMs / 1000);
+            const m = Math.floor(secondsTotal / 60).toString().padStart(2, '0');
+            const s = (secondsTotal % 60).toString().padStart(2, '0');
+            const targetEl = document.getElementById('last-updated');
+            if(targetEl) {
+                targetEl.innerText = `[ 最後連線: ${lastRefreshString} | 下次更新: ${m}:${s} ]`;
+            }
         }
 
         function initNavigation() {
@@ -360,14 +330,14 @@
             });
         }
 
-        // 🏆 輔助函數：帶有超時控制的 Fetch
+        // 🏆 極致防快取 Fetch 函數
         async function fetchWithTimeout(resource, options = {}) {
             const { timeout = 8000 } = options;
             const controller = new AbortController();
             const id = setTimeout(() => controller.abort(), timeout);
             
             try {
-                // 🚀 工程師修正 1：強制加上 cache: 'no-store'，要求瀏覽器絕對不要使用本地快取
+                // 強制加入 cache: 'no-store' 勒令瀏覽器絕對不准快取
                 const response = await fetch(resource, { ...options, cache: 'no-store', signal: controller.signal });
                 clearTimeout(id);
                 return response;
@@ -377,28 +347,44 @@
             }
         }
 
-        // 🏆 Fetch 函數 (加入多重 Proxy 備援與 Timeout 機制)
+        // 🏆 多重通道抓取策略
         async function fetchLogContent(fileId) {
-            // 🚀 工程師修正 2：加入時間戳記 (Cache Buster)，強迫 Proxy 伺服器每次都去抓最新資料
-            const timestamp = new Date().getTime();
+            const timestamp = new Date().getTime(); // 產生毫秒級亂數破除快取
+            
+            // 通道 1: Google Visualization API (專攻 Sheets，最快且無快取)
+            const gvizUrl = `https://docs.google.com/spreadsheets/d/${fileId}/gviz/tq?tqx=out:csv&t=${timestamp}`;
+            // 通道 2: 傳統 Google Sheets 匯出
             const sheetUrl = `https://docs.google.com/spreadsheets/d/${fileId}/export?format=csv&t=${timestamp}`;
+            // 通道 3: 針對純文字檔 (txt/log) 的 Drive 下載
             const driveUrl = `https://drive.google.com/uc?export=download&id=${fileId}&t=${timestamp}`;
             
             let text = "";
 
+            // 策略 A: 先嘗試 Gviz API
+            try {
+                const res0 = await fetchWithTimeout(gvizUrl, { timeout: 4000 });
+                if (res0.ok) {
+                    text = await res0.text();
+                    if (!text.trim().startsWith('<!DOCTYPE html>') && text.trim().length > 0) return text;
+                }
+            } catch(e) {}
+
+            // 策略 B: 嘗試傳統 Sheet CSV
             try {
                 const res1 = await fetchWithTimeout(sheetUrl, { timeout: 4000 });
                 if (res1.ok) {
                     text = await res1.text();
                     if (!text.trim().startsWith('<!DOCTYPE html>')) return text;
                 }
-            } catch (e) {
-                console.warn(`[Strategy 1] Google Sheets fetch failed for ${fileId}`);
-            }
+            } catch (e) {}
 
+            // 策略 C: 使用備援 Proxy (加入各家專屬的強硬破快取指令)
             const proxies = [
-                `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(driveUrl)}`,
-                `https://api.allorigins.win/raw?url=${encodeURIComponent(driveUrl)}`,
+                // allorigins 支援 disableCache 參數
+                `https://api.allorigins.win/raw?url=${encodeURIComponent(driveUrl)}&disableCache=true`,
+                // codetabs 利用 quest 加上無意義的 rnd 參數破壞快取
+                `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(driveUrl)}&rnd=${timestamp}`,
+                // corsproxy 純靠尾部參數
                 `https://corsproxy.io/?${encodeURIComponent(driveUrl)}`
             ];
 
@@ -412,11 +398,11 @@
                         }
                     }
                 } catch (error) {
-                    console.warn(`[Strategy 2] Proxy failed or timeout: ${proxyUrl}`, error.name);
+                    console.warn(`[Proxy Failed]: ${proxyUrl}`);
                 }
             }
 
-            return `[ 系統警示 ] 無法讀取檔案：${sourceNameByFileId(fileId)}\n--------------------------------\n錯誤：伺服器連線超時 (408) 或遭到跨網域 (CORS) 阻擋。\n\n【工程師強烈建議】：\n請將您的 Log 內容複製並貼上到全新的「Google Sheets (試算表)」中，並將程式碼的 fileId 替換為試算表的 ID。\nGoogle Sheets 原生支援跨網域讀取，能「永久且徹底」解決此連線中斷問題！`;
+            return `[ 系統警示 ] 無法讀取檔案：${sourceNameByFileId(fileId)}\n--------------------------------\n錯誤：所有備援通道皆失敗。\n\n【工程師筆記】：\n若此檔案是 .txt 或 .log 檔，Google Drive 伺服器本身可能會有 5~15 分鐘的物理快取延遲，請稍候再試。若是 .xlsx/.csv，建議將其轉為「Google 試算表 (Google Sheets)」格式，將能100%徹底解決連線與延遲問題！`;
         }
 
         function sourceNameByFileId(id) {
@@ -425,42 +411,29 @@
         }
 
         function analyzeLog(text, sourceName) {
-            if (text.includes('[ 系統警示 ]')) {
-                return { source: sourceName, status: 'error', message: text };
-            }
+            if (text.includes('[ 系統警示 ]')) return { source: sourceName, status: 'error', message: text };
 
             const lines = text.split('\n');
             const lowerKeywords = ERROR_KEYWORDS.map(k => k.toLowerCase());
             const lowerSafeKeywords = SAFE_KEYWORDS.map(k => k.toLowerCase());
-
-            // 取得目前時間的時間戳記與 24 小時的毫秒數
             const now = Date.now();
             const TWENTY_FOUR_HOURS_MS = 24 * 60 * 60 * 1000;
 
             for (let i = lines.length - 1; i >= 0; i--) {
                 const currentLine = lines[i].trim();
-                if (!currentLine) continue; // 忽略空行
+                if (!currentLine) continue; 
                 
-                // 嘗試從該行提取日期 (支援 YYYY-MM-DD 或 YYYY/MM/DD 等常見格式)
                 const dateMatch = currentLine.match(/\b(20\d{2}[-/\.]\d{1,2}[-/\.]\d{1,2}(?:[\sT]\d{1,2}:\d{2}(?::\d{2})?)?)\b/);
                 if (dateMatch) {
                     const logDate = new Date(dateMatch[1]).getTime();
-                    // 如果這行日誌的時間早於 24 小時前，直接中斷往上搜尋 (因為越往上越舊)
-                    if (!isNaN(logDate) && (now - logDate > TWENTY_FOUR_HOURS_MS)) {
-                        break; // 停止掃描舊資料
-                    }
+                    if (!isNaN(logDate) && (now - logDate > TWENTY_FOUR_HOURS_MS)) break; 
                 }
 
                 const lowerLine = currentLine.toLowerCase();
-                
-                // 優先檢查白名單
                 const isSafe = lowerSafeKeywords.some(safeKeyword => lowerLine.includes(safeKeyword));
-                if (isSafe) {
-                    continue; // 包含安全字串，直接跳過此行的錯誤檢查
-                }
+                if (isSafe) continue; 
 
                 const hasError = lowerKeywords.some(keyword => lowerLine.includes(keyword));
-                
                 if (hasError) {
                     const startIdx = Math.max(0, i - 1);
                     const endIdx = Math.min(lines.length - 1, i + 1);
@@ -472,7 +445,6 @@
             return { source: sourceName, status: 'ok', message: '[ STATUS: NORMAL ] 24小時內未偵測到異常。系統運行中。' };
         }
 
-        // 背景更新函數 (用於當使用者正在看詳細內容時，默默更新快取)
         async function backgroundUpdate() {
             for (const source of LOG_SOURCES) {
                 const text = await fetchLogContent(source.fileId);
@@ -483,15 +455,14 @@
 
         async function scanAllLogs() {
             const container = document.getElementById('dashboardContent');
-            // 如果畫面上還沒有東西，才顯示大大的 Loading 字樣；若是自動刷新，則盡量不干擾視覺
             if (container.children.length === 0 || container.innerHTML.includes('掃描日誌資料中')) {
-                container.innerHTML = '<div class="loading">正在連線至資料庫獲取日誌...</div>';
+                container.innerHTML = '<div class="loading">正在連線至資料庫獲取最新日誌...</div>';
             }
 
             const reports = [];
             for (const source of LOG_SOURCES) {
                 const text = await fetchLogContent(source.fileId);
-                logCache[source.fileId] = text; // 快取結果
+                logCache[source.fileId] = text; 
                 const report = analyzeLog(text, source.name);
                 reports.push(report);
             }
@@ -508,7 +479,7 @@
                 container.appendChild(div);
             });
 
-            updateLastRefreshTime(); // 更新時間標記
+            updateLastRefreshTime(); 
         }
 
         function showView(viewName) {
@@ -517,7 +488,7 @@
                 document.getElementById('btn-dashboard').classList.add('active');
                 document.getElementById('view-dashboard').style.display = 'block';
                 document.getElementById('view-detail').style.display = 'none';
-                scanAllLogs(); // 切換回首頁時強制重新整理一次
+                scanAllLogs(); 
             }
         }
 
@@ -540,7 +511,7 @@
             }
 
             viewer.textContent = text;
-            viewer.scrollTop = viewer.scrollHeight; // 自動捲動到最底部看最新訊息
+            viewer.scrollTop = viewer.scrollHeight; 
         }
     </script>
 </body>
