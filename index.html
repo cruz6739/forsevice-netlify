@@ -258,7 +258,9 @@
         const ERROR_KEYWORDS = ['錯誤', 'error', '停止', '警告', 'warning'];
         const SAFE_KEYWORDS = ['腳本執行完成，錯誤代碼: 0', 'error code: 0'];
         const logCache = {}; 
-        const REFRESH_INTERVAL = 5 * 60 * 1000;
+        
+        // 變更為 1 分鐘自動更新
+        const REFRESH_INTERVAL = 1 * 60 * 1000;
         
         // 新增：用於記錄時間狀態，防禦瀏覽器休眠
         let nextRefreshTime = Date.now() + REFRESH_INTERVAL;
