@@ -57,6 +57,19 @@
             text-shadow: 0 0 4px rgba(0, 200, 255, 0.3);
             letter-spacing: 1px;
             text-align: center;
+            transition: color 0.3s;
+        }
+
+        /* 讀取中狀態的特殊顏色 */
+        .status-syncing {
+            color: #00e5ff !important;
+            text-shadow: 0 0 8px rgba(0, 229, 255, 0.8) !important;
+            animation: pulseSync 1s infinite alternate;
+        }
+
+        @keyframes pulseSync {
+            from { opacity: 0.7; }
+            to { opacity: 1; text-shadow: 0 0 15px rgba(0, 229, 255, 1); }
         }
 
         #navMenu {
@@ -250,6 +263,7 @@
         // 新增：用於記錄時間狀態，防禦瀏覽器休眠
         let nextRefreshTime = Date.now() + REFRESH_INTERVAL;
         let lastRefreshString = "尚未連線";
+        let isSyncing = false; // 防止重複觸發
 
         const init = () => {
             initNavigation();
@@ -264,32 +278,30 @@
         }
 
         function startAutoRefresh() {
-            // 1. 視覺化引擎：改為每秒執行一次的倒數計時器
+            // 視覺化引擎：每秒執行一次的倒數計時器
             setInterval(() => {
+                if (isSyncing) return; // 如果正在抓資料，暫停倒數顯示
+
                 const now = Date.now();
                 const timeLeft = Math.max(0, nextRefreshTime - now);
 
                 if (timeLeft <= 0) {
-                    // 時間到，觸發更新並重置計時器
-                    nextRefreshTime = Date.now() + REFRESH_INTERVAL;
+                    // 觸發更新
                     if (document.getElementById('view-dashboard').style.display !== 'none') {
                         scanAllLogs();
                     } else {
                         backgroundUpdate();
                     }
                 } else {
-                    // 實時更新畫面上的倒數秒數
                     updateCountdownUI(timeLeft);
                 }
             }, 1000);
 
-            // 2. 喚醒偵測引擎：當使用者切回分頁或解鎖手機時，立刻檢查是否錯過了更新
+            // 喚醒偵測引擎
             document.addEventListener('visibilitychange', () => {
-                if (document.visibilityState === 'visible') {
+                if (document.visibilityState === 'visible' && !isSyncing) {
                     if (Date.now() >= nextRefreshTime) {
-                        console.log('系統從休眠中喚醒，發現已超時，立即補發更新請求...');
-                        nextRefreshTime = Date.now() + REFRESH_INTERVAL;
-                        
+                        console.log('系統從休眠中喚醒，立即補發更新請求...');
                         if (document.getElementById('view-dashboard').style.display !== 'none') {
                             scanAllLogs();
                         } else {
@@ -303,8 +315,13 @@
         function updateLastRefreshTime() {
             const now = new Date();
             lastRefreshString = now.toLocaleTimeString('zh-TW', { hour12: false });
-            // 更新完畢後，把下次更新時間往後推 5 分鐘
             nextRefreshTime = Date.now() + REFRESH_INTERVAL;
+            isSyncing = false;
+            
+            // 移除讀取中特效
+            const targetEl = document.getElementById('last-updated');
+            targetEl.classList.remove('status-syncing');
+            
             updateCountdownUI(REFRESH_INTERVAL);
         }
 
@@ -313,9 +330,16 @@
             const m = Math.floor(secondsTotal / 60).toString().padStart(2, '0');
             const s = (secondsTotal % 60).toString().padStart(2, '0');
             const targetEl = document.getElementById('last-updated');
-            if(targetEl) {
+            if(targetEl && !isSyncing) {
                 targetEl.innerText = `[ 最後連線: ${lastRefreshString} | 下次更新: ${m}:${s} ]`;
             }
+        }
+
+        function setSyncingState() {
+            isSyncing = true;
+            const targetEl = document.getElementById('last-updated');
+            targetEl.innerText = `[ 🔄 正在同步最新資料... 請稍候 ]`;
+            targetEl.classList.add('status-syncing'); // 加入霓虹發光特效
         }
 
         function initNavigation() {
@@ -330,14 +354,12 @@
             });
         }
 
-        // 🏆 極致防快取 Fetch 函數
         async function fetchWithTimeout(resource, options = {}) {
             const { timeout = 8000 } = options;
             const controller = new AbortController();
             const id = setTimeout(() => controller.abort(), timeout);
             
             try {
-                // 強制加入 cache: 'no-store' 勒令瀏覽器絕對不准快取
                 const response = await fetch(resource, { ...options, cache: 'no-store', signal: controller.signal });
                 clearTimeout(id);
                 return response;
@@ -347,20 +369,15 @@
             }
         }
 
-        // 🏆 多重通道抓取策略
         async function fetchLogContent(fileId) {
-            const timestamp = new Date().getTime(); // 產生毫秒級亂數破除快取
+            const timestamp = new Date().getTime(); 
             
-            // 通道 1: Google Visualization API (專攻 Sheets，最快且無快取)
             const gvizUrl = `https://docs.google.com/spreadsheets/d/${fileId}/gviz/tq?tqx=out:csv&t=${timestamp}`;
-            // 通道 2: 傳統 Google Sheets 匯出
             const sheetUrl = `https://docs.google.com/spreadsheets/d/${fileId}/export?format=csv&t=${timestamp}`;
-            // 通道 3: 針對純文字檔 (txt/log) 的 Drive 下載
             const driveUrl = `https://drive.google.com/uc?export=download&id=${fileId}&t=${timestamp}`;
             
             let text = "";
 
-            // 策略 A: 先嘗試 Gviz API
             try {
                 const res0 = await fetchWithTimeout(gvizUrl, { timeout: 4000 });
                 if (res0.ok) {
@@ -369,7 +386,6 @@
                 }
             } catch(e) {}
 
-            // 策略 B: 嘗試傳統 Sheet CSV
             try {
                 const res1 = await fetchWithTimeout(sheetUrl, { timeout: 4000 });
                 if (res1.ok) {
@@ -378,13 +394,9 @@
                 }
             } catch (e) {}
 
-            // 策略 C: 使用備援 Proxy (加入各家專屬的強硬破快取指令)
             const proxies = [
-                // allorigins 支援 disableCache 參數
                 `https://api.allorigins.win/raw?url=${encodeURIComponent(driveUrl)}&disableCache=true`,
-                // codetabs 利用 quest 加上無意義的 rnd 參數破壞快取
                 `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(driveUrl)}&rnd=${timestamp}`,
-                // corsproxy 純靠尾部參數
                 `https://corsproxy.io/?${encodeURIComponent(driveUrl)}`
             ];
 
@@ -445,19 +457,42 @@
             return { source: sourceName, status: 'ok', message: '[ STATUS: NORMAL ] 24小時內未偵測到異常。系統運行中。' };
         }
 
+        // 🚀 修復核心：背景更新完後，強制重繪畫面
         async function backgroundUpdate() {
-            for (const source of LOG_SOURCES) {
+            setSyncingState(); // 觸發讀取中動畫
+
+            for (let i = 0; i < LOG_SOURCES.length; i++) {
+                const source = LOG_SOURCES[i];
                 const text = await fetchLogContent(source.fileId);
                 logCache[source.fileId] = text;
+                
+                // 【關鍵修復】：檢查使用者目前是不是正在看這個檔案的完整日誌
+                const isDetailViewOpen = document.getElementById('view-detail').style.display !== 'none';
+                const isActiveBtn = document.getElementById(`btn-log-${i}`).classList.contains('active');
+                
+                if (isDetailViewOpen && isActiveBtn) {
+                    const viewer = document.getElementById('rawLogView');
+                    viewer.textContent = text;
+                    // 自動往下捲動，讓使用者立刻看到最新輸出的行數
+                    viewer.scrollTop = viewer.scrollHeight; 
+                    
+                    // 👉 工程師新增：加入視覺閃爍回饋，讓您明確看到該畫面已完成自動刷新
+                    viewer.style.transition = 'box-shadow 0.4s ease, border-color 0.4s ease';
+                    viewer.style.boxShadow = 'inset 0 0 40px rgba(0, 229, 255, 0.4)';
+                    viewer.style.borderColor = '#00e5ff';
+                    setTimeout(() => {
+                        viewer.style.boxShadow = 'inset 0 0 20px rgba(0,0,0,0.8)';
+                        viewer.style.borderColor = '#005577';
+                    }, 800);
+                }
             }
-            updateLastRefreshTime();
+            
+            updateLastRefreshTime(); // 結束狀態，重置倒數
         }
 
         async function scanAllLogs() {
+            setSyncingState(); // 觸發讀取中動畫
             const container = document.getElementById('dashboardContent');
-            if (container.children.length === 0 || container.innerHTML.includes('掃描日誌資料中')) {
-                container.innerHTML = '<div class="loading">正在連線至資料庫獲取最新日誌...</div>';
-            }
 
             const reports = [];
             for (const source of LOG_SOURCES) {
@@ -488,6 +523,7 @@
                 document.getElementById('btn-dashboard').classList.add('active');
                 document.getElementById('view-dashboard').style.display = 'block';
                 document.getElementById('view-detail').style.display = 'none';
+                // 使用者手動切換回總覽，立刻觸發一次更新
                 scanAllLogs(); 
             }
         }
@@ -502,10 +538,10 @@
             document.getElementById('detailTitle').innerText = `>> 完整日誌：${source.name}`;
             
             const viewer = document.getElementById('rawLogView');
-            viewer.innerHTML = '<span class="loading">讀取檔案中...</span>';
 
             let text = logCache[source.fileId];
             if (!text || text.includes('[ 系統警示 ]')) {
+                viewer.innerHTML = '<span class="loading">讀取檔案中...</span>';
                 text = await fetchLogContent(source.fileId);
                 logCache[source.fileId] = text;
             }
