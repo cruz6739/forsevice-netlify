@@ -246,7 +246,7 @@
     </div>
 
     <script>
-        // ?? 核心升級：混合雙引擎資料源 (Hybrid Data Sources)
+        // 🚀 核心升級：混合雙引擎資料源 (Hybrid Data Sources)
         const LOG_SOURCES = [
             // 1. 本地直讀引擎：讀取同專案內檔案，無延遲。
             { name: '平衡明細', url: 'ypSYNCypput_log.txt' },
@@ -264,7 +264,7 @@
         const init = () => {
             initNavigation();
             scanAllLogs();
-            // ?? 已移除 startAutoRefresh()，改為手動/網頁載入時更新
+            // 💡 已移除 startAutoRefresh()，改為手動/網頁載入時更新
         };
 
         if (document.readyState === 'loading') {
@@ -290,13 +290,13 @@
             
             const targetEl = document.getElementById('last-updated');
             targetEl.classList.remove('status-syncing');
-            // ?? 更新提示文字，引導使用者自行重新整理
+            // 💡 更新提示文字，引導使用者自行重新整理
             targetEl.innerText = `[ 取得時間: ${lastRefreshString} | 欲獲取最新狀態請重新整理網頁 ]`;
         }
 
         function setSyncingState() {
             const targetEl = document.getElementById('last-updated');
-            targetEl.innerText = `[ ?? 正在同步最新資料... 請稍候 ]`;
+            targetEl.innerText = `[ 🔄 正在同步最新資料... 請稍候 ]`;
             targetEl.classList.add('status-syncing'); 
         }
 
@@ -327,7 +327,7 @@
             }
         }
 
-        // ?? 雙引擎資料獲取函式
+        // 🚀 雙引擎資料獲取函式
         async function fetchLogContent(source) {
             const timestamp = new Date().getTime(); 
 
@@ -445,7 +445,7 @@
                 const cacheKey = source.url || source.fileId;
                 let text = logCache[cacheKey]; 
                 
-                // ?? 優化：只有在初次載入(快取無資料)時才進行網路抓取
+                // 💡 優化：只有在初次載入(快取無資料)時才進行網路抓取
                 if (!text) {
                     text = await fetchLogContent(source);
                     logCache[cacheKey] = text;
@@ -459,7 +459,7 @@
             reports.forEach(report => {
                 const div = document.createElement('div');
                 div.className = `log-entry ${report.status === 'error' ? 'error-alert' : ''}`;
-                const icon = report.status === 'error' ? '?? [警告/錯誤]' : '? [正常]';
+                const icon = report.status === 'error' ? '⚠️ [警告/錯誤]' : '✅ [正常]';
                 
                 div.innerHTML = `
                     <div class="source-tag">${icon} 來源：${report.source}</div>
@@ -478,7 +478,7 @@
                 document.getElementById('view-dashboard').style.display = 'block';
                 document.getElementById('view-detail').style.display = 'none';
                 
-                // ?? 切換回總覽時，因為快取已有資料，會瞬間繪製完畢，不需要再重抓
+                // 💡 切換回總覽時，因為快取已有資料，會瞬間繪製完畢，不需要再重抓
                 scanAllLogs(); 
             }
         }
