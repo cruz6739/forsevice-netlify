@@ -60,7 +60,6 @@
             transition: color 0.3s;
         }
 
-        /* 讀取中狀態的特殊顏色 */
         .status-syncing {
             color: #00e5ff !important;
             text-shadow: 0 0 8px rgba(0, 229, 255, 0.8) !important;
@@ -194,17 +193,16 @@
             100% { opacity: 0.5; text-shadow: none; }
         }
 
-        /* 手機版自適應 */
         @media (max-width: 600px) {
             body { padding-top: 10px; }
             h1 { font-size: 15px; letter-spacing: 1px; }
             #last-updated { font-size: 10px; margin-bottom: 15px; letter-spacing: 0; }
             #navMenu { 
                 display: grid;
+                /* 因為現在剛好 4 個按鈕 (1總覽 + 3來源)，呈現完美 2x2 網格 */
                 grid-template-columns: repeat(2, 1fr);
                 gap: 8px; margin-bottom: 15px; width: 96%; 
             }
-            #btn-dashboard { grid-column: span 2; }
             .nav-btn { 
                 padding: 10px 4px; font-size: 11px; letter-spacing: 0; 
                 width: 100%; text-align: center; white-space: nowrap; 
@@ -248,9 +246,11 @@
     </div>
 
     <script>
+        // ?? 核心升級：混合雙引擎資料源 (Hybrid Data Sources)
         const LOG_SOURCES = [
-            { name: '資料平衡', fileId: '1LldN-fYIwBz3vFCp_gJF8u4F4a249aih' },
-            { name: '平衡明細', fileId: '1KaG6eMMCAIce2MwIECYKWmqlbKLFvHql' },
+            // 1. 本地直讀引擎：讀取同專案內檔案，無延遲。
+            { name: '平衡明細', url: 'ypSYNCypput_log.txt' },
+            // 2. Google 雲端引擎：保留原有的 Google Drive 介接通道。
             { name: 'SYNGBOT', fileId: '13feqrsK4o0rsBi_CE70DPH6ZmASDLNJT' },
             { name: 'GDVJF平衡', fileId: '1cRAxzou-AmReAejVSIFzxxA9MzzEZH6e' }
         ];
@@ -259,18 +259,12 @@
         const SAFE_KEYWORDS = ['腳本執行完成，錯誤代碼: 0', 'error code: 0'];
         const logCache = {}; 
         
-        // 變更為 1 分鐘自動更新
-        const REFRESH_INTERVAL = 1 * 60 * 1000;
-        
-        // 新增：用於記錄時間狀態，防禦瀏覽器休眠
-        let nextRefreshTime = Date.now() + REFRESH_INTERVAL;
         let lastRefreshString = "尚未連線";
-        let isSyncing = false; // 防止重複觸發
 
         const init = () => {
             initNavigation();
             scanAllLogs();
-            startAutoRefresh();
+            // ?? 已移除 startAutoRefresh()，改為手動/網頁載入時更新
         };
 
         if (document.readyState === 'loading') {
@@ -279,69 +273,31 @@
             init();
         }
 
-        function startAutoRefresh() {
-            // 視覺化引擎：每秒執行一次的倒數計時器
-            setInterval(() => {
-                if (isSyncing) return; // 如果正在抓資料，暫停倒數顯示
-
-                const now = Date.now();
-                const timeLeft = Math.max(0, nextRefreshTime - now);
-
-                if (timeLeft <= 0) {
-                    // 觸發更新
-                    if (document.getElementById('view-dashboard').style.display !== 'none') {
-                        scanAllLogs();
-                    } else {
-                        backgroundUpdate();
-                    }
-                } else {
-                    updateCountdownUI(timeLeft);
-                }
-            }, 1000);
-
-            // 喚醒偵測引擎
-            document.addEventListener('visibilitychange', () => {
-                if (document.visibilityState === 'visible' && !isSyncing) {
-                    if (Date.now() >= nextRefreshTime) {
-                        console.log('系統從休眠中喚醒，立即補發更新請求...');
-                        if (document.getElementById('view-dashboard').style.display !== 'none') {
-                            scanAllLogs();
-                        } else {
-                            backgroundUpdate();
-                        }
-                    }
-                }
-            });
+        // 防漏字：強制轉義 HTML 標籤的防禦函式
+        function escapeHTML(str) {
+            return str.replace(/[&<>'"]/g, tag => ({
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                "'": '&#39;',
+                '"': '&quot;'
+            }[tag] || tag));
         }
 
         function updateLastRefreshTime() {
             const now = new Date();
             lastRefreshString = now.toLocaleTimeString('zh-TW', { hour12: false });
-            nextRefreshTime = Date.now() + REFRESH_INTERVAL;
-            isSyncing = false;
             
-            // 移除讀取中特效
             const targetEl = document.getElementById('last-updated');
             targetEl.classList.remove('status-syncing');
-            
-            updateCountdownUI(REFRESH_INTERVAL);
-        }
-
-        function updateCountdownUI(timeLeftMs) {
-            const secondsTotal = Math.floor(timeLeftMs / 1000);
-            const m = Math.floor(secondsTotal / 60).toString().padStart(2, '0');
-            const s = (secondsTotal % 60).toString().padStart(2, '0');
-            const targetEl = document.getElementById('last-updated');
-            if(targetEl && !isSyncing) {
-                targetEl.innerText = `[ 最後連線: ${lastRefreshString} | 下次更新: ${m}:${s} ]`;
-            }
+            // ?? 更新提示文字，引導使用者自行重新整理
+            targetEl.innerText = `[ 取得時間: ${lastRefreshString} | 欲獲取最新狀態請重新整理網頁 ]`;
         }
 
         function setSyncingState() {
-            isSyncing = true;
             const targetEl = document.getElementById('last-updated');
-            targetEl.innerText = `[ 🔄 正在同步最新資料... 請稍候 ]`;
-            targetEl.classList.add('status-syncing'); // 加入霓虹發光特效
+            targetEl.innerText = `[ ?? 正在同步最新資料... 請稍候 ]`;
+            targetEl.classList.add('status-syncing'); 
         }
 
         function initNavigation() {
@@ -371,57 +327,77 @@
             }
         }
 
-        async function fetchLogContent(fileId) {
+        // ?? 雙引擎資料獲取函式
+        async function fetchLogContent(source) {
             const timestamp = new Date().getTime(); 
-            
-            const gvizUrl = `https://docs.google.com/spreadsheets/d/${fileId}/gviz/tq?tqx=out:csv&t=${timestamp}`;
-            const sheetUrl = `https://docs.google.com/spreadsheets/d/${fileId}/export?format=csv&t=${timestamp}`;
-            const driveUrl = `https://drive.google.com/uc?export=download&id=${fileId}&t=${timestamp}`;
-            
-            let text = "";
 
-            try {
-                const res0 = await fetchWithTimeout(gvizUrl, { timeout: 4000 });
-                if (res0.ok) {
-                    text = await res0.text();
-                    if (!text.trim().startsWith('<!DOCTYPE html>') && text.trim().length > 0) return text;
-                }
-            } catch(e) {}
-
-            try {
-                const res1 = await fetchWithTimeout(sheetUrl, { timeout: 4000 });
-                if (res1.ok) {
-                    text = await res1.text();
-                    if (!text.trim().startsWith('<!DOCTYPE html>')) return text;
-                }
-            } catch (e) {}
-
-            const proxies = [
-                `https://api.allorigins.win/raw?url=${encodeURIComponent(driveUrl)}&disableCache=true`,
-                `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(driveUrl)}&rnd=${timestamp}`,
-                `https://corsproxy.io/?${encodeURIComponent(driveUrl)}`
-            ];
-
-            for (const proxyUrl of proxies) {
+            // 【引擎 A】：偵測到 url，啟動本地極速讀取
+            if (source.url) {
+                // 仍保留時間戳以強制破除 Github Pages/CDN 的快取
+                const fetchUrl = `${source.url}?t=${timestamp}`;
                 try {
-                    const res2 = await fetchWithTimeout(proxyUrl, { timeout: 7000 });
-                    if (res2.ok) {
-                        text = await res2.text();
-                        if (!text.trim().startsWith('<!DOCTYPE html>') && !text.trim().includes('window.google')) {
-                            return text;
+                    const response = await fetchWithTimeout(fetchUrl, { timeout: 5000 });
+                    if (response.ok) {
+                        const text = await response.text();
+                        if (text.trim().startsWith('<!DOCTYPE html>')) {
+                            return `[ 系統警示 ] 檔案讀取失敗：${source.name}\n--------------------------------\n伺服器回傳了 HTML 網頁，請確認您的伺服器/專案下存在【 ${source.url} 】檔案。`;
                         }
+                        return text || `[ 系統提示 ] ${source.name} 紀錄檔目前為空。`;
+                    } else {
+                        return `[ 系統警示 ] 檔案讀取失敗：${source.name} (HTTP ${response.status})`;
                     }
                 } catch (error) {
-                    console.warn(`[Proxy Failed]: ${proxyUrl}`);
+                    return `[ 系統警示 ] 無法連線讀取：${source.name} (${error.message})`;
                 }
             }
 
-            return `[ 系統警示 ] 無法讀取檔案：${sourceNameByFileId(fileId)}\n--------------------------------\n錯誤：所有備援通道皆失敗。\n\n【工程師筆記】：\n若此檔案是 .txt 或 .log 檔，Google Drive 伺服器本身可能會有 5~15 分鐘的物理快取延遲，請稍候再試。若是 .xlsx/.csv，建議將其轉為「Google 試算表 (Google Sheets)」格式，將能100%徹底解決連線與延遲問題！`;
-        }
+            // 【引擎 B】：偵測到 fileId，啟動 Google Drive 備援讀取
+            if (source.fileId) {
+                const fileId = source.fileId;
+                const gvizUrl = `https://docs.google.com/spreadsheets/d/${fileId}/gviz/tq?tqx=out:csv&t=${timestamp}`;
+                const sheetUrl = `https://docs.google.com/spreadsheets/d/${fileId}/export?format=csv&t=${timestamp}`;
+                const driveUrl = `https://drive.google.com/uc?export=download&id=${fileId}&t=${timestamp}`;
+                
+                let text = "";
 
-        function sourceNameByFileId(id) {
-            const s = LOG_SOURCES.find(x => x.fileId === id);
-            return s ? s.name : id;
+                try {
+                    const res0 = await fetchWithTimeout(gvizUrl, { timeout: 4000 });
+                    if (res0.ok) {
+                        text = await res0.text();
+                        if (!text.trim().startsWith('<!DOCTYPE html>') && text.trim().length > 0) return text;
+                    }
+                } catch(e) {}
+
+                try {
+                    const res1 = await fetchWithTimeout(sheetUrl, { timeout: 4000 });
+                    if (res1.ok) {
+                        text = await res1.text();
+                        if (!text.trim().startsWith('<!DOCTYPE html>')) return text;
+                    }
+                } catch (e) {}
+
+                const proxies = [
+                    `https://api.allorigins.win/raw?url=${encodeURIComponent(driveUrl)}&disableCache=true`,
+                    `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(driveUrl)}&rnd=${timestamp}`,
+                    `https://corsproxy.io/?${encodeURIComponent(driveUrl)}`
+                ];
+
+                for (const proxyUrl of proxies) {
+                    try {
+                        const res2 = await fetchWithTimeout(proxyUrl, { timeout: 7000 });
+                        if (res2.ok) {
+                            text = await res2.text();
+                            if (!text.trim().startsWith('<!DOCTYPE html>') && !text.trim().includes('window.google')) {
+                                return text;
+                            }
+                        }
+                    } catch (error) {
+                        console.warn(`[Proxy Failed]: ${proxyUrl}`);
+                    }
+                }
+
+                return `[ 系統警示 ] 無法讀取檔案：${source.name}\n--------------------------------\n錯誤：所有 Google 備援通道皆失敗。`;
+            }
         }
 
         function analyzeLog(text, sourceName) {
@@ -459,47 +435,22 @@
             return { source: sourceName, status: 'ok', message: '[ STATUS: NORMAL ] 24小時內未偵測到異常。系統運行中。' };
         }
 
-        // 🚀 修復核心：背景更新完後，強制重繪畫面
-        async function backgroundUpdate() {
-            setSyncingState(); // 觸發讀取中動畫
-
-            for (let i = 0; i < LOG_SOURCES.length; i++) {
-                const source = LOG_SOURCES[i];
-                const text = await fetchLogContent(source.fileId);
-                logCache[source.fileId] = text;
-                
-                // 【關鍵修復】：檢查使用者目前是不是正在看這個檔案的完整日誌
-                const isDetailViewOpen = document.getElementById('view-detail').style.display !== 'none';
-                const isActiveBtn = document.getElementById(`btn-log-${i}`).classList.contains('active');
-                
-                if (isDetailViewOpen && isActiveBtn) {
-                    const viewer = document.getElementById('rawLogView');
-                    viewer.textContent = text;
-                    // 自動往下捲動，讓使用者立刻看到最新輸出的行數
-                    viewer.scrollTop = viewer.scrollHeight; 
-                    
-                    // 👉 工程師新增：加入視覺閃爍回饋，讓您明確看到該畫面已完成自動刷新
-                    viewer.style.transition = 'box-shadow 0.4s ease, border-color 0.4s ease';
-                    viewer.style.boxShadow = 'inset 0 0 40px rgba(0, 229, 255, 0.4)';
-                    viewer.style.borderColor = '#00e5ff';
-                    setTimeout(() => {
-                        viewer.style.boxShadow = 'inset 0 0 20px rgba(0,0,0,0.8)';
-                        viewer.style.borderColor = '#005577';
-                    }, 800);
-                }
-            }
-            
-            updateLastRefreshTime(); // 結束狀態，重置倒數
-        }
-
         async function scanAllLogs() {
-            setSyncingState(); // 觸發讀取中動畫
+            setSyncingState(); 
             const container = document.getElementById('dashboardContent');
 
             const reports = [];
             for (const source of LOG_SOURCES) {
-                const text = await fetchLogContent(source.fileId);
-                logCache[source.fileId] = text; 
+                // 動態取得 Cache 鑰匙
+                const cacheKey = source.url || source.fileId;
+                let text = logCache[cacheKey]; 
+                
+                // ?? 優化：只有在初次載入(快取無資料)時才進行網路抓取
+                if (!text) {
+                    text = await fetchLogContent(source);
+                    logCache[cacheKey] = text;
+                }
+                
                 const report = analyzeLog(text, source.name);
                 reports.push(report);
             }
@@ -508,10 +459,11 @@
             reports.forEach(report => {
                 const div = document.createElement('div');
                 div.className = `log-entry ${report.status === 'error' ? 'error-alert' : ''}`;
-                const icon = report.status === 'error' ? '⚠️ [警告/錯誤]' : '✅ [正常]';
+                const icon = report.status === 'error' ? '?? [警告/錯誤]' : '? [正常]';
+                
                 div.innerHTML = `
                     <div class="source-tag">${icon} 來源：${report.source}</div>
-                    <div class="message">${report.message}</div>
+                    <div class="message">${escapeHTML(report.message)}</div>
                 `;
                 container.appendChild(div);
             });
@@ -525,7 +477,8 @@
                 document.getElementById('btn-dashboard').classList.add('active');
                 document.getElementById('view-dashboard').style.display = 'block';
                 document.getElementById('view-detail').style.display = 'none';
-                // 使用者手動切換回總覽，立刻觸發一次更新
+                
+                // ?? 切換回總覽時，因為快取已有資料，會瞬間繪製完畢，不需要再重抓
                 scanAllLogs(); 
             }
         }
@@ -541,11 +494,14 @@
             
             const viewer = document.getElementById('rawLogView');
 
-            let text = logCache[source.fileId];
+            // 動態取得 Cache 鑰匙
+            const cacheKey = source.url || source.fileId;
+            let text = logCache[cacheKey];
+            
             if (!text || text.includes('[ 系統警示 ]')) {
                 viewer.innerHTML = '<span class="loading">讀取檔案中...</span>';
-                text = await fetchLogContent(source.fileId);
-                logCache[source.fileId] = text;
+                text = await fetchLogContent(source);
+                logCache[cacheKey] = text;
             }
 
             viewer.textContent = text;
