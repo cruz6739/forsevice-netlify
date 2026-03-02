@@ -199,7 +199,6 @@
             #last-updated { font-size: 10px; margin-bottom: 15px; letter-spacing: 0; }
             #navMenu { 
                 display: grid;
-                /* 因為現在剛好 4 個按鈕 (1總覽 + 3來源)，呈現完美 2x2 網格 */
                 grid-template-columns: repeat(2, 1fr);
                 gap: 8px; margin-bottom: 15px; width: 96%; 
             }
@@ -248,11 +247,12 @@
     <script>
         // 🚀 核心升級：混合雙引擎資料源 (Hybrid Data Sources)
         const LOG_SOURCES = [
-            // 1. 本地直讀引擎：讀取同專案內檔案，無延遲。
-            { name: '平衡明細', url: 'ypSYNCypput_log.txt' },
+            // 1. 絕對路徑直讀引擎：改用完整網址，徹底解決「無法解析 URL」的環境報錯
+            { name: '平衡明細', url: 'https://cruz6739.github.io/forsevice-netlify/ypSYNCypput_log.txt' },
             // 2. Google 雲端引擎：保留原有的 Google Drive 介接通道。
             { name: 'GDVJF平衡', fileId: '1cRAxzou-AmReAejVSIFzxxA9MzzEZH6e' },
-            { name: 'SYNGBOT', fileId: '13feqrsK4o0rsBi_CE70DPH6ZmASDLNJT' }
+            // 💡 SYNGBOT 同樣改為絕對路徑
+            { name: 'SYNGBOT', url: 'https://cruz6739.github.io/forsevice-netlify/syngaction02_log.txt' } 
         ];
 
         const ERROR_KEYWORDS = ['錯誤', 'error', '停止', '警告', 'warning'];
@@ -264,7 +264,7 @@
         const init = () => {
             initNavigation();
             scanAllLogs();
-            // 💡 已移除 startAutoRefresh()，改為手動/網頁載入時更新
+            // 網頁載入時更新一次
         };
 
         if (document.readyState === 'loading') {
@@ -290,7 +290,7 @@
             
             const targetEl = document.getElementById('last-updated');
             targetEl.classList.remove('status-syncing');
-            // 💡 更新提示文字，引導使用者自行重新整理
+            // 引導使用者自行重新整理
             targetEl.innerText = `[ 取得時間: ${lastRefreshString} | 欲獲取最新狀態請重新整理網頁 ]`;
         }
 
@@ -318,6 +318,7 @@
             const id = setTimeout(() => controller.abort(), timeout);
             
             try {
+                // 勒令瀏覽器絕不快取，每次強制發送真實請求
                 const response = await fetch(resource, { ...options, cache: 'no-store', signal: controller.signal });
                 clearTimeout(id);
                 return response;
@@ -333,7 +334,7 @@
 
             // 【引擎 A】：偵測到 url，啟動本地極速讀取
             if (source.url) {
-                // 仍保留時間戳以強制破除 Github Pages/CDN 的快取
+                // 強制破除 Github Pages/CDN 的快取
                 const fetchUrl = `${source.url}?t=${timestamp}`;
                 try {
                     const response = await fetchWithTimeout(fetchUrl, { timeout: 5000 });
@@ -445,7 +446,7 @@
                 const cacheKey = source.url || source.fileId;
                 let text = logCache[cacheKey]; 
                 
-                // 💡 優化：只有在初次載入(快取無資料)時才進行網路抓取
+                // 💡 只有在初次載入時(快取無資料)才進行網路抓取
                 if (!text) {
                     text = await fetchLogContent(source);
                     logCache[cacheKey] = text;
