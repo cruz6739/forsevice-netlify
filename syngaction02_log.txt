@@ -1,0 +1,36 @@
+2026-02-26 09:40:35,136 - [INFO] 系統啟動成功：AI 模型已連線。
+2026-02-26 09:40:35,166 - [INFO] 伺服器開始運行 (背景待命狀態)...
+2026-02-26 09:42:17,989 - [INFO] 接收到訊息來源 [林育平]
+2026-02-26 09:42:17,992 - [INFO] AFC is enabled with max remote calls: 10.
+2026-02-26 09:42:21,776 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 09:42:21,781 - [INFO] 成功產出行動指引。
+2026-02-26 09:55:16,908 - [INFO] 接收到訊息來源 [林育平]
+2026-02-26 09:55:16,910 - [INFO] 廠區 T2A 指引更新成功。
+2026-02-26 13:44:46,520 - [INFO] 接收到訊息來源 [林育平]
+2026-02-26 13:44:46,530 - [INFO] AFC is enabled with max remote calls: 10.
+2026-02-26 13:44:52,542 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 13:44:52,546 - [INFO] 成功產出行動指引。
+2026-02-26 14:23:12,104 - [INFO] 系統啟動成功：AI 模型已連線。
+2026-02-26 14:23:12,131 - [INFO] 伺服器開始運行 (背景待命狀態)...
+2026-02-26 14:24:48,479 - [INFO] 接收到訊息來源 [林育平]
+2026-02-26 14:24:48,481 - [INFO] AFC is enabled with max remote calls: 10.
+2026-02-26 14:24:51,057 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 14:24:51,061 - [ERROR] 呼叫 API 發生異常: 'NoneType' object has no attribute 'strip'
+2026-02-26 14:55:36,676 - [INFO] 系統啟動成功：AI 模型已連線。
+2026-02-26 14:55:36,695 - [INFO] 伺服器開始運行 (背景待命狀態)...
+2026-02-26 14:57:43,556 - [INFO] 接收到訊息來源 [林育平]，內容為: [BOT 現在起爲測試]
+2026-02-26 14:57:43,559 - [INFO] AFC is enabled with max remote calls: 10.
+2026-02-26 14:57:46,109 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 14:57:46,112 - [INFO] 成功產出行動指引。
+2026-02-26 14:58:06,110 - [INFO] 接收到訊息來源 [林育平]，內容為: [BOT 現在起爲上線]
+2026-02-26 14:58:06,111 - [INFO] AFC is enabled with max remote calls: 10.
+2026-02-26 14:58:08,053 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-02-26 14:58:08,057 - [INFO] AI 回傳了空值 (None)。
+2026-02-26 15:04:19,175 - [INFO] 系統啟動成功：AI 模型已連線。
+2026-02-26 15:04:19,203 - [INFO] 伺服器開始運行 (背景待命狀態)...
+2026-02-26 15:05:12,480 - [INFO] 接收到訊息來源 [林育平]，內容為: [BOT 現在起爲測試]
+2026-02-26 15:05:12,480 - [INFO] 模式切換：已進入測試狀態
+2026-02-26 15:05:27,933 - [INFO] 接收到訊息來源 [林育平]，內容為: [BOT 現在起爲上線]
+2026-02-26 15:05:27,933 - [INFO] 模式切換：已恢復上線狀態
+2026-02-26 15:05:43,828 - [INFO] 接收到訊息來源 [林育平]，內容為: [BOT 現在起爲測試]
+2026-02-26 15:05:43,829 - [INFO] 模式切換：已進入測試狀態
