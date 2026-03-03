@@ -1,3 +1,4 @@
+//VNo.2603031252
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
@@ -245,13 +246,13 @@
     </div>
 
     <script>
-        // 🚀 核心升級：混合雙引擎資料源 (Hybrid Data Sources)
+        // 🚀 核心升級：改回使用 GitHub Pages 網址 (取代容易快取的 Raw API)
         const LOG_SOURCES = [
-            // 1. 絕對路徑直讀引擎：改用完整網址，徹底解決「無法解析 URL」的環境報錯
+            // 1. GitHub Pages 直讀：配合時間戳記破除快取，部署完成後即時更新
             { name: '平衡明細', url: 'https://cruz6739.github.io/forsevice-netlify/ypSYNCypput_log.txt' },
-            // 2. Google 雲端引擎：保留原有的 Google Drive 介接通道。
+            // 2. Google 雲端引擎
             { name: 'GDVJF平衡', fileId: '1cRAxzou-AmReAejVSIFzxxA9MzzEZH6e' },
-            // 💡 SYNGBOT 同樣改為絕對路徑
+            // 💡 SYNGBOT：同樣指向 GitHub Pages 的最新發佈網址
             { name: 'SYNGBOT', url: 'https://cruz6739.github.io/forsevice-netlify/syngaction02_log.txt' } 
         ];
 
@@ -264,7 +265,6 @@
         const init = () => {
             initNavigation();
             scanAllLogs();
-            // 網頁載入時更新一次
         };
 
         if (document.readyState === 'loading') {
@@ -273,7 +273,6 @@
             init();
         }
 
-        // 防漏字：強制轉義 HTML 標籤的防禦函式
         function escapeHTML(str) {
             return str.replace(/[&<>'"]/g, tag => ({
                 '&': '&amp;',
@@ -290,7 +289,6 @@
             
             const targetEl = document.getElementById('last-updated');
             targetEl.classList.remove('status-syncing');
-            // 引導使用者自行重新整理
             targetEl.innerText = `[ 取得時間: ${lastRefreshString} | 欲獲取最新狀態請重新整理網頁 ]`;
         }
 
@@ -318,7 +316,6 @@
             const id = setTimeout(() => controller.abort(), timeout);
             
             try {
-                // 勒令瀏覽器絕不快取，每次強制發送真實請求
                 const response = await fetch(resource, { ...options, cache: 'no-store', signal: controller.signal });
                 clearTimeout(id);
                 return response;
@@ -328,20 +325,18 @@
             }
         }
 
-        // 🚀 雙引擎資料獲取函式
         async function fetchLogContent(source) {
             const timestamp = new Date().getTime(); 
 
-            // 【引擎 A】：偵測到 url，啟動本地極速讀取
+            // 【引擎 A】：讀取 GitHub Pages 資料
             if (source.url) {
-                // 強制破除 Github Pages/CDN 的快取
                 const fetchUrl = `${source.url}?t=${timestamp}`;
                 try {
                     const response = await fetchWithTimeout(fetchUrl, { timeout: 5000 });
                     if (response.ok) {
                         const text = await response.text();
-                        if (text.trim().startsWith('<!DOCTYPE html>')) {
-                            return `[ 系統警示 ] 檔案讀取失敗：${source.name}\n--------------------------------\n伺服器回傳了 HTML 網頁，請確認您的伺服器/專案下存在【 ${source.url} 】檔案。`;
+                        if (text.trim() === '404: Not Found' || text.trim().startsWith('<!DOCTYPE html>')) {
+                            return `[ 系統警示 ] 檔案讀取失敗：${source.name}\n--------------------------------\n找不到該檔案，或伺服器回傳了網頁。請確認 GitHub Actions 是否已部署完成。`;
                         }
                         return text || `[ 系統提示 ] ${source.name} 紀錄檔目前為空。`;
                     } else {
@@ -352,7 +347,7 @@
                 }
             }
 
-            // 【引擎 B】：偵測到 fileId，啟動 Google Drive 備援讀取
+            // 【引擎 B】：Google Drive 備援讀取
             if (source.fileId) {
                 const fileId = source.fileId;
                 const gvizUrl = `https://docs.google.com/spreadsheets/d/${fileId}/gviz/tq?tqx=out:csv&t=${timestamp}`;
@@ -442,11 +437,9 @@
 
             const reports = [];
             for (const source of LOG_SOURCES) {
-                // 動態取得 Cache 鑰匙
                 const cacheKey = source.url || source.fileId;
                 let text = logCache[cacheKey]; 
                 
-                // 💡 只有在初次載入時(快取無資料)才進行網路抓取
                 if (!text) {
                     text = await fetchLogContent(source);
                     logCache[cacheKey] = text;
@@ -479,7 +472,6 @@
                 document.getElementById('view-dashboard').style.display = 'block';
                 document.getElementById('view-detail').style.display = 'none';
                 
-                // 💡 切換回總覽時，因為快取已有資料，會瞬間繪製完畢，不需要再重抓
                 scanAllLogs(); 
             }
         }
@@ -495,7 +487,6 @@
             
             const viewer = document.getElementById('rawLogView');
 
-            // 動態取得 Cache 鑰匙
             const cacheKey = source.url || source.fileId;
             let text = logCache[cacheKey];
             
