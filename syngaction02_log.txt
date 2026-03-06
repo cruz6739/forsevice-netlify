@@ -50,3 +50,6 @@
 2026-03-05 16:17:48,970 - [INFO] AFC is enabled with max remote calls: 10.
 2026-03-05 16:17:51,614 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
 2026-03-05 16:17:51,619 - [INFO] 成功產出行動指引。
+2026-03-06 13:12:28,628 - [INFO] 系統啟動成功：AI 模型已連線。
+2026-03-06 13:12:28,655 - [INFO] 已從日誌恢復 0 筆 1 小時內的警報快取。
+2026-03-06 13:12:28,655 - [INFO] 伺服器開始運行 (背景待命狀態)...
