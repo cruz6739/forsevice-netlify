@@ -52,3 +52,5 @@
 2026-03-10 13:16:08,332 - [INFO] AFC is enabled with max remote calls: 10.
 2026-03-10 13:16:10,389 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
 2026-03-10 13:16:10,391 - [INFO] 成功產出行動指引。
+2026-03-10 13:20:56,831 - [INFO] 接收到訊息來源 [林育平]，內容為: [廠區 [T2A] 供電_5F MP44-1跳脫 CFN警報]
+2026-03-10 13:20:56,832 - [INFO] [INFO] 攔截到重複警報 (T2A)，進入冷卻期略過處理。
