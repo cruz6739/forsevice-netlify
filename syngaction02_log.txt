@@ -30,3 +30,7 @@
 2026-03-10 12:43:59,560 - [INFO] 伺服器開始運行 (背景待命狀態)...
 2026-03-10 12:46:49,497 - [INFO] 接收到訊息來源 [林育平]，內容為: [BOT 現在起爲上線]
 2026-03-10 12:46:49,497 - [INFO] 模式切換：已恢復上線狀態
+2026-03-10 12:46:58,185 - [INFO] 接收到訊息來源 [林育平]，內容為: [廠區 [T2A]於2026/03/10 11:00:56的警報點[ASCR_RF_C_STATIC_PV](T2A排氣_7F  75HP酸排A205洗滌塔靜壓)數值變更為93(mmAq),發生了警報,警報狀態為LOLO]
+2026-03-10 12:46:58,190 - [INFO] AFC is enabled with max remote calls: 10.
+2026-03-10 12:47:02,852 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-10 12:47:02,858 - [INFO] 成功產出行動指引。
