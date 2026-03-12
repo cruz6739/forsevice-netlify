@@ -69,3 +69,7 @@
 2026-03-12 15:37:16,414 - [INFO] 伺服器開始運行 (背景待命狀態)...
 2026-03-12 15:42:58,111 - [INFO] 接收到訊息來源 [林育平]，內容為: [BOT 現在起爲上線]
 2026-03-12 15:42:58,112 - [INFO] 模式切換：已恢復上線狀態
+2026-03-12 15:44:00,919 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/12 11:25:00的警報點[CHS_S1_CHU_01_COND_ITT](T2A空調_S1_CHU_01_冰水主機_冷凝器入水溫度)數值變更為327.7(℃),發生了警報,警報狀態為HIHI]
+2026-03-12 15:44:00,921 - [INFO] AFC is enabled with max remote calls: 10.
+2026-03-12 15:44:06,509 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-12 15:44:06,514 - [INFO] 成功產出行動指引。
