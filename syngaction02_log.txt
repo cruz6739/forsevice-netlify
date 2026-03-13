@@ -77,3 +77,7 @@
 2026-03-13 13:33:55,621 - [INFO] 目前為測試模式，已攔截此訊息。
 2026-03-13 13:34:25,952 - [INFO] 接收到訊息來源 [fmcs]，內容為: [BOT 現在起爲上線]
 2026-03-13 13:34:25,952 - [INFO] 模式切換：已恢復上線狀態
+2026-03-13 13:34:35,455 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [S2A]於2026/03/12 11:25:00的警報點(警報 A棟 洗滌塔A104 洗滌塔流量過低警報) 數值變更為32,發生了警報,警報狀態為LOLO]
+2026-03-13 13:34:35,470 - [INFO] AFC is enabled with max remote calls: 10.
+2026-03-13 13:34:39,264 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-03-13 13:34:39,266 - [INFO] 成功產出行動指引。
