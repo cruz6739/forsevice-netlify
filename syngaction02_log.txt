@@ -1,60 +1,3 @@
-2026-03-10 12:42:28,250 - [INFO] 系統啟動成功：AI 模型已連線。
-2026-03-10 12:42:28,286 - [INFO] 已從日誌恢復 0 筆 1 小時內的警報快取。
-2026-03-10 12:42:28,286 - [INFO] 伺服器開始運行 (背景待命狀態)...
-2026-03-10 12:42:38,752 - [INFO] 【系統狀態】伺服器已由控制中樞 (Admin) 強制關閉下線。
-2026-03-10 12:43:59,539 - [INFO] 系統啟動成功：AI 模型已連線。
-2026-03-10 12:43:59,560 - [INFO] 已從日誌恢復 0 筆 1 小時內的警報快取。
-2026-03-10 12:43:59,560 - [INFO] 伺服器開始運行 (背景待命狀態)...
-2026-03-10 12:46:49,497 - [INFO] 接收到訊息來源 [林育平]，內容為: [BOT 現在起爲上線]
-2026-03-10 12:46:49,497 - [INFO] 模式切換：已恢復上線狀態
-2026-03-10 12:46:58,185 - [INFO] 接收到訊息來源 [林育平]，內容為: [廠區 [T2A]於2026/03/10 11:00:56的警報點[ASCR_RF_C_STATIC_PV](T2A排氣_7F  75HP酸排A205洗滌塔靜壓)數值變更為93(mmAq),發生了警報,警報狀態為LOLO]
-2026-03-10 12:46:58,190 - [INFO] AFC is enabled with max remote calls: 10.
-2026-03-10 12:47:02,852 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-03-10 12:47:02,858 - [INFO] 成功產出行動指引。
-2026-03-10 12:50:31,428 - [INFO] 接收到訊息來源 [林育平]，內容為: [廠區 [T2A]於2026/03/10 11:00:56的警報點[ASCR_RF_C_STATIC_PV](T2A排氣_7F  75HP酸排A205洗滌塔靜壓)數值變更為93(mmAq),發生了警報,警報狀態為LOLO]
-2026-03-10 12:50:31,429 - [INFO] [INFO] 攔截到重複警報 (T2A)，進入冷卻期略過處理。
-2026-03-10 12:55:14,517 - [INFO] 【系統狀態】伺服器已由控制中樞 (Admin) 強制關閉下線。
-2026-03-10 12:59:17,225 - [INFO] 系統啟動成功：AI 模型已連線。
-2026-03-10 12:59:17,259 - [INFO] 已從日誌恢復 1 筆 1 小時內的警報快取。
-2026-03-10 12:59:17,259 - [INFO] 伺服器開始運行 (背景待命狀態)...
-2026-03-10 13:00:07,466 - [INFO] 接收到訊息來源 [林育平]，內容為: [廠區 [T2A]於2026/03/10 09:51:56的警報點[CHS_S1_ET_TK_01_LT_L_ALM](T2A空調_S1_ET_TK_01_膨脹水箱液位(壓合)_液位低限警報)數值變更為ALARM(),發生了警報,警報狀態為CFN]
-2026-03-10 13:00:07,472 - [INFO] AFC is enabled with max remote calls: 10.
-2026-03-10 13:00:11,489 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-03-10 13:00:11,493 - [INFO] 成功產出行動指引。
-2026-03-10 13:00:56,147 - [INFO] 接收到訊息來源 [林育平]，內容為: [廠區 [T2A]於2026/03/10 04:57:03的警報點[VSCR_RF_ASTATIC_PV](T2A排氣_7F  60HP有機排A301系統靜壓)數值變更為146(mmAq),發生了警報,警報狀態為HI]
-2026-03-10 13:00:56,151 - [INFO] AFC is enabled with max remote calls: 10.
-2026-03-10 13:00:59,758 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-03-10 13:00:59,760 - [INFO] 成功產出行動指引。
-2026-03-10 13:16:08,330 - [INFO] 接收到訊息來源 [林育平]，內容為: [廠區 [T2A] 供電_5F MP44-1跳脫 CFN警報]
-2026-03-10 13:16:08,332 - [INFO] AFC is enabled with max remote calls: 10.
-2026-03-10 13:16:10,389 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-03-10 13:16:10,391 - [INFO] 成功產出行動指引。
-2026-03-10 13:20:56,831 - [INFO] 接收到訊息來源 [林育平]，內容為: [廠區 [T2A] 供電_5F MP44-1跳脫 CFN警報]
-2026-03-10 13:20:56,832 - [INFO] [INFO] 攔截到重複警報 (T2A)，進入冷卻期略過處理。
-2026-03-10 13:22:25,738 - [INFO] 接收到訊息來源 [林育平]，內容為: [廠區 [T2A]於2026/03/10 11:00:56的警報點[ASCR_RF_C_STATIC_PV](T2A排氣_7F  75HP酸排A205洗滌塔靜壓)數值變更為93(mmAq),發生了警報,警報狀態為LOLO]
-2026-03-10 13:22:25,740 - [INFO] AFC is enabled with max remote calls: 10.
-2026-03-10 13:22:29,436 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-03-10 13:22:29,438 - [INFO] 成功產出行動指引。
-2026-03-10 13:24:52,346 - [INFO] 接收到訊息來源 [林育平]，內容為: [廠區 [T2A]於2026/03/10 10:36:34的警報點[BSCR_6F_A_PH_PV](T2A排氣_6F  100HP鹼排A101洗滌塔PH)數值變更為8.2(),發生了警報,警報狀態為HIHI]
-2026-03-10 13:24:52,348 - [INFO] AFC is enabled with max remote calls: 10.
-2026-03-10 13:24:56,531 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-03-10 13:24:56,535 - [INFO] 成功產出行動指引。
-2026-03-10 13:28:17,472 - [INFO] 接收到訊息來源 [林育平]，內容為: [廠區 [T2A] 造水_(低樓層)供水電阻值計數值變更為2.5,發生警報,狀態為LOLO]
-2026-03-10 13:28:17,476 - [INFO] AFC is enabled with max remote calls: 10.
-2026-03-10 13:28:21,102 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-03-10 13:28:21,104 - [INFO] 成功產出行動指引。
-2026-03-10 13:36:39,716 - [INFO] 接收到訊息來源 [林育平]，內容為: [廠區 [T2A]於2026/03/09 20:06:52的警報點[T2A_WDC_ECC_PLC_1DPT_MMAQ](T2A_DUST_溼式集塵PLC電盤_#1靜壓值)數值變更為-507(mmAq),發生了警報,警報狀態為LOLO]
-2026-03-10 13:36:39,721 - [INFO] AFC is enabled with max remote calls: 10.
-2026-03-10 13:36:47,105 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-03-10 13:36:47,110 - [INFO] 成功產出行動指引。
-2026-03-10 13:40:09,928 - [INFO] 接收到訊息來源 [林育平]，內容為: [廠區 [T2A] 空壓_01_馬達電流 數值變更為20A，警報狀態為LOLO]
-2026-03-10 13:40:09,933 - [INFO] AFC is enabled with max remote calls: 10.
-2026-03-10 13:40:12,897 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-03-10 13:40:12,899 - [INFO] 成功產出行動指引。
-2026-03-10 13:40:46,870 - [INFO] 接收到訊息來源 [林育平]，內容為: [廠區 [T2A] 空壓_01_馬達電流 數值變更為250A，警報狀態為HIHI]
-2026-03-10 13:40:46,872 - [INFO] AFC is enabled with max remote calls: 10.
-2026-03-10 13:40:50,528 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-03-10 13:40:50,530 - [INFO] 成功產出行動指引。
 2026-03-12 15:37:16,373 - [INFO] 系統啟動成功：AI 模型已連線。
 2026-03-12 15:37:16,414 - [INFO] 已從日誌恢復 0 筆 1 小時內的警報快取。
 2026-03-12 15:37:16,414 - [INFO] 伺服器開始運行 (背景待命狀態)...
@@ -130,3 +73,4 @@
 2026-03-14 14:02:37,080 - [INFO] 系統啟動成功：AI 模型已連線。
 2026-03-14 14:02:37,110 - [INFO] 已從日誌恢復 0 筆 1 小時內的警報快取。
 2026-03-14 14:02:37,111 - [INFO] 伺服器開始運行 (背景待命狀態)...
+2026-03-18 11:22:38,037 - [INFO] 【系統狀態】伺服器已由控制中樞 (Admin) 強制關閉下線。
