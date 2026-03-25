@@ -30,3 +30,16 @@ HJ2_F SCADA(VM),    03/25/2026 10:40:51,    7000,    錯誤,    aksfridge 服務
 2026-03-25 11:42:11,001 - [INFO] AFC is enabled with max remote calls: 10.
 2026-03-25 11:42:17,597 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
 2026-03-25 11:42:17,603 - [INFO] 已將 Google 搜尋的新錯誤解讀自動學習並寫入 FMCS Error.txt。
+2026-03-25 11:49:18,341 - [INFO] 接收到訊息來源 [fmcs]，內容為: [SCADA RUNTIME MONITORING ALERT_ 2 NEW Anomalies Detected
+
+Runtime monitoring detected 2 records.
+
+=================================
+New Log Contents (Mapped):
+=================================
+## Service Monitor Log ##
+2026-03-25 10:40:45 S2A_AC SCADA FMCS TEST
+
+## System/App Error Log ##
+HJ2_F SCADA(VM),    03/25/2026 10:40:51,    7000,    錯誤,    aksfridge 服務無法啟動，因為下列錯誤:]
+2026-03-25 11:49:18,342 - [INFO] [INFO] 攔截到重複警報 (S2A)，進入冷卻期略過處理。
