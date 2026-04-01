@@ -119,3 +119,6 @@ STEP 2:
 STEP 3:
 現場檢修: 派員至7F實測水質。若正常為PH探頭髒污；若偏鹼請檢查實體加藥管路是否堵塞或製程端有異常排氣。]
 2026-04-01 11:57:14,538 - [INFO] 廠區 T2A 指引更新成功。
+2026-04-01 12:01:58,495 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/31 09:04:11的警報點[CHS_S1_ET_TK_01_LT_L_ALM](T2A空調_S1_ET_TK_01_膨脹水箱液位(壓合)_液位低限警報)數值變更為ALARM(),發生了警報,警報狀態為CFN]
+2026-04-01 12:01:58,500 - [INFO] AFC is enabled with max remote calls: 10.
+2026-04-01 12:02:10,943 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
