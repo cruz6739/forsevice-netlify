@@ -159,3 +159,10 @@ STEP 3:
 2026-04-01 13:49:22,362 - [INFO] 系統啟動成功：AI 模型已連線。
 2026-04-01 13:49:22,388 - [INFO] 已從日誌恢復 0 筆快取。
 2026-04-01 13:49:22,388 - [INFO] 伺服器開始運行 (背景待命狀態)...
+2026-04-01 13:50:06,808 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/28 07:39:11的警報點[DCW_S1_AC_DCW_B101_STT_PV](T2A空調_S1_AC_DCW_B101_供水溫度_訊號)數值變更為16(kg/cm?),發生了警報,警報狀態為HI]
+2026-04-01 13:50:06,832 - [INFO] AFC is enabled with max remote calls: 10.
+2026-04-01 13:50:12,647 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-01 13:50:12,651 - [INFO] 本地知識庫不足，自動啟動 Google 網路搜尋生成行動指引...
+2026-04-01 13:50:12,652 - [INFO] AFC is enabled with max remote calls: 10.
+2026-04-01 13:50:12,928 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-04-01 13:50:12,930 - [ERROR] Google 網路搜尋生成行動指引時發生異常: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 47.279465211s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47s'}]}}
