@@ -140,3 +140,10 @@ STEP 3:
 2026-04-01 12:13:49,667 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/04/01 04:10:16的警報點[CHS_S1_CHU_04_TRIP](T2A空調_S1_CHU_04_冰水主機_跳脫)數值變更為跳脫(),發生了警報,警報狀態為CFN]
 2026-04-01 12:15:09,003 - [INFO] 接收到訊息來源 [fmcs]，內容為: [BOT 現在起爲上線]
 2026-04-01 12:15:09,004 - [INFO] 模式切換：已恢復上線狀態
+2026-04-01 12:16:01,768 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/28 07:39:11的警報點[DCW_S1_AC_DCW_B101_STT_PV](T2A空調_S1_AC_DCW_B101_供水溫度_訊號)數值變更為16(kg/cm?),發生了警報,警報狀態為HI]
+2026-04-01 12:16:01,773 - [INFO] AFC is enabled with max remote calls: 10.
+2026-04-01 12:16:05,584 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-01 12:16:05,588 - [INFO] 本地知識庫不足，自動啟動 Google 網路搜尋生成行動指引...
+2026-04-01 12:16:05,588 - [INFO] AFC is enabled with max remote calls: 10.
+2026-04-01 12:16:18,551 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-01 12:16:18,557 - [INFO] Google 網路搜尋行動指引生成成功。
