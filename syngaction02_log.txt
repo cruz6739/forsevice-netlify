@@ -1,4 +1,3 @@
-2026-03-25 11:42:08,286 - [INFO] 接收到訊息來源 [fmcs]，內容為: [SCADA RUNTIME MONITORING ALERT_ 2 NEW Anomalies Detected
 
 Runtime monitoring detected 2 records.
 
@@ -9,13 +8,6 @@ New Log Contents (Mapped):
 
 ## System/App Error Log ##
 HJ2_F SCADA(VM),    03/25/2026 10:40:51,    7000,    錯誤,    aksfridge 服務無法啟動，因為下列錯誤:]
-2026-03-25 11:42:08,290 - [INFO] 偵測到系統錯誤日誌，進入 FMCS Error 專屬 RAG 流程...
-2026-03-25 11:42:08,291 - [INFO] AFC is enabled with max remote calls: 10.
-2026-03-25 11:42:10,995 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-03-25 11:42:11,000 - [INFO] 本地無此錯誤紀錄，正在啟動 Google 網路搜尋功能進行解讀...
-2026-03-25 11:42:11,001 - [INFO] AFC is enabled with max remote calls: 10.
-2026-03-25 11:42:17,597 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-03-25 11:42:17,603 - [INFO] 已將 Google 搜尋的新錯誤解讀自動學習並寫入 FMCS Error.txt。
 2026-03-25 11:49:18,341 - [INFO] 接收到訊息來源 [fmcs]，內容為: [SCADA RUNTIME MONITORING ALERT_ 2 NEW Anomalies Detected
 
 Runtime monitoring detected 2 records.
@@ -100,3 +92,10 @@ HJ2_F SCADA(VM),	03/25/2026 10:40:51,	7000,	錯誤,	aksfridge 服務無法啟動
 2026-04-01 11:40:52,865 - [INFO] 系統啟動成功：AI 模型已連線。
 2026-04-01 11:40:52,892 - [INFO] 已從日誌恢復 1 筆快取。
 2026-04-01 11:40:52,892 - [INFO] 伺服器開始運行 (背景待命狀態)...
+2026-04-01 11:42:06,078 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/21 04:10:14的警報點[BSCR_6F_A_PUMP_FLOW_PV](T2A排氣_6F  100HP鹼排A101泵浦運轉流量)數值變更為1,345(),發生了警報,警報狀態為LO]
+2026-04-01 11:42:06,081 - [INFO] AFC is enabled with max remote calls: 10.
+2026-04-01 11:42:09,964 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-01 11:42:09,969 - [INFO] 本地知識庫不足，自動啟動 Google 網路搜尋生成行動指引...
+2026-04-01 11:42:09,970 - [INFO] AFC is enabled with max remote calls: 10.
+2026-04-01 11:42:24,365 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-01 11:42:24,372 - [INFO] Google 網路搜尋行動指引生成成功。
