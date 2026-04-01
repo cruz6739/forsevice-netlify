@@ -147,3 +147,5 @@ STEP 3:
 2026-04-01 12:16:05,588 - [INFO] AFC is enabled with max remote calls: 10.
 2026-04-01 12:16:18,551 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
 2026-04-01 12:16:18,557 - [INFO] Google 網路搜尋行動指引生成成功。
+2026-04-01 12:17:14,639 - [INFO] 接收到訊息來源 [fmcs]，內容為: [BOT 現在起為測試]
+2026-04-01 12:17:14,640 - [INFO] 模式切換：已進入測試狀態
