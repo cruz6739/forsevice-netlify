@@ -62,3 +62,5 @@ HJ2_F SCADA(VM),	03/25/2026 10:40:51,	7000,	錯誤,	aksfridge 服務無法啟動
 2026-04-01 09:10:21,625 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/30 10:25:44的警報點[ASCR_RF_E_PUMP_FLOW_PV](T2A排氣_7F  75HP酸排A204泵浦運轉流量)數值變更為930(M3/HR),發生了警報,警報狀態為LOLO]
 2026-04-01 09:10:21,632 - [INFO] AFC is enabled with max remote calls: 10.
 2026-04-01 09:10:27,603 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-01 09:10:37,285 - [INFO] 接收到訊息來源 [fmcs]，內容為: [BOT 現在起爲上線]
+2026-04-01 09:10:37,286 - [INFO] 模式切換：已恢復上線狀態
