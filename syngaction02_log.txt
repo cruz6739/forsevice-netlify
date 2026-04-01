@@ -221,3 +221,7 @@ STEP 3:
 2026-04-01 15:59:55,718 - [INFO] 伺服器開始運行 (背景待命狀態)...
 2026-04-01 16:00:36,152 - [INFO] 接收到訊息來源 [fmcs]，內容為: [BOT 現在起為上線]
 2026-04-01 16:00:36,152 - [INFO] 模式切換：已恢復上線狀態
+2026-04-01 16:00:46,367 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/29 23:11:17的警報點[VSCR_RF_ASTATIC_PV](T2A排氣_7F  60HP有機排A301系統靜壓)數值變更為151(mmAq),發生了警報,警報狀態為HI]
+2026-04-01 16:00:46,379 - [INFO] 【模糊比對未命中】最佳標題：「廠區 [T2A]於2026/03/29 23:11:17的警報點[VSCR_RF_ASTATIC_P 警報處置指引」，相似度：63.69%（門檻 70%），進入 API 流程。
+2026-04-01 16:00:46,380 - [INFO] AFC is enabled with max remote calls: 10.
+2026-04-01 16:00:52,068 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
