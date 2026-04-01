@@ -97,3 +97,6 @@ HJ2_F SCADA(VM),	03/25/2026 10:40:51,	7000,	錯誤,	aksfridge 服務無法啟動
 2026-04-01 11:04:42,394 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
 2026-04-01 11:04:42,398 - [INFO] Google 網路搜尋行動指引生成成功。
 2026-04-01 11:31:34,256 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
+2026-04-01 11:40:52,865 - [INFO] 系統啟動成功：AI 模型已連線。
+2026-04-01 11:40:52,892 - [INFO] 已從日誌恢復 1 筆快取。
+2026-04-01 11:40:52,892 - [INFO] 伺服器開始運行 (背景待命狀態)...
