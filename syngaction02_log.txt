@@ -196,3 +196,12 @@ STEP 3:
 2026-04-01 15:46:49,473 - [INFO] 【模糊比對未命中】最佳標題：「T2A排氣_7F 75HP酸排A204洗滌塔PH 警報處置指引」，相似度：39.37%（門檻 70%），進入 API 流程。
 2026-04-01 15:46:49,475 - [INFO] AFC is enabled with max remote calls: 10.
 2026-04-01 15:46:53,817 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-01 15:46:53,825 - [INFO] [自動回存] 已將 Gemini自動學習 結果寫入 T2A.txt（標題：廠區 [T2A]於2026/03/29 20:45:51的警報點[ASCR_RF_B_PH_PV](）
+2026-04-01 15:47:22,195 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/29 20:45:51的警報點[ASCR_RF_B_PH_PV](T2A排氣_7F  75HP酸排A202洗滌塔PH)數值變更為7.0(PH),發生了警報,警報狀態為LO]
+2026-04-01 15:47:22,206 - [INFO] 【模糊比對未命中】最佳標題：「廠區 [T2A]於2026/03/29 20:45:51的警報點[ASCR_RF_B_PH_PV]( 警報處置指引」，相似度：65.79%（門檻 70%），進入 API 流程。
+2026-04-01 15:47:22,206 - [INFO] AFC is enabled with max remote calls: 10.
+2026-04-01 15:47:25,904 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-01 15:47:25,908 - [INFO] 本地知識庫不足或 API 異常，自動啟動 Google 網路搜尋生成行動指引...
+2026-04-01 15:47:25,908 - [INFO] AFC is enabled with max remote calls: 10.
+2026-04-01 15:47:41,583 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-01 15:47:41,590 - [INFO] Google 網路搜尋行動指引生成成功。
