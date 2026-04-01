@@ -99,3 +99,10 @@ HJ2_F SCADA(VM),	03/25/2026 10:40:51,	7000,	錯誤,	aksfridge 服務無法啟動
 2026-04-01 11:42:09,970 - [INFO] AFC is enabled with max remote calls: 10.
 2026-04-01 11:42:24,365 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
 2026-04-01 11:42:24,372 - [INFO] Google 網路搜尋行動指引生成成功。
+2026-04-01 11:45:18,124 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/29 20:45:51的警報點[ASCR_RF_B_PH_PV](T2A排氣_7F  75HP酸排A202洗滌塔PH)數值變更為7.0(PH),發生了警報,警報狀態為LO]
+2026-04-01 11:45:18,127 - [INFO] AFC is enabled with max remote calls: 10.
+2026-04-01 11:45:25,464 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-01 11:45:25,468 - [INFO] 本地知識庫不足，自動啟動 Google 網路搜尋生成行動指引...
+2026-04-01 11:45:25,468 - [INFO] AFC is enabled with max remote calls: 10.
+2026-04-01 11:45:35,725 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-01 11:45:35,730 - [INFO] Google 網路搜尋行動指引生成成功。
