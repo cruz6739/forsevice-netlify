@@ -28,10 +28,6 @@ New Log Contents (Mapped):
 
 ## System/App Error Log ##
 HJ2_F SCADA(VM),	03/25/2026 10:40:51,	7000,	錯誤,	aksfridge 服務無法啟動，因為下列錯誤:]
-2026-03-26 12:40:54,014 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
-2026-03-26 12:43:40,230 - [INFO] 系統啟動成功：AI 模型已連線。
-2026-03-26 12:43:40,280 - [INFO] 已從日誌恢復 0 筆快取。
-2026-03-26 12:43:40,280 - [INFO] 伺服器開始運行 (背景待命狀態)...
 2026-04-01 09:10:21,625 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/30 10:25:44的警報點[ASCR_RF_E_PUMP_FLOW_PV](T2A排氣_7F  75HP酸排A204泵浦運轉流量)數值變更為930(M3/HR),發生了警報,警報狀態為LOLO]
 2026-04-01 09:10:21,632 - [INFO] AFC is enabled with max remote calls: 10.
 2026-04-01 09:10:27,603 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
@@ -251,3 +247,4 @@ STEP 3:
 2026-04-02 09:06:38,136 - [INFO] 伺服器開始運行 (背景待命狀態)...
 2026-04-02 09:06:57,859 - [INFO] 接收到訊息來源 [fmcs]，內容為: [BOT 現在起爲測試]
 2026-04-02 09:06:57,860 - [INFO] 模式切換：已進入測試狀態
+2026-04-02 16:00:06,099 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
