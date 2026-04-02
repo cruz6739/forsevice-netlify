@@ -255,3 +255,7 @@ STEP 3:
 2026-04-02 16:01:13,834 - [INFO] 模式切換：已進入測試狀態
 2026-04-02 16:01:51,772 - [INFO] 接收到訊息來源 [fmcs]，內容為: [BOT 現在起爲上線]
 2026-04-02 16:01:51,773 - [INFO] 模式切換：已恢復上線狀態
+2026-04-02 21:32:55,767 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/04/02 17:46:41的警報點[DCW_S1_AC_DCW_B101_STT_PV](T2A空調_S1_AC_DCW_B101_供水溫度_訊號)數值變更為16(kg/cm?),發生了警報,警報狀態為HI]
+2026-04-02 21:32:55,781 - [INFO] 【模糊比對未命中】最佳標題：「廠區 [T2A]於2026/03/28 07:39:11的警報點[DCW_S1_AC_DCW_B10 警報處置指引」，相似度：51.76%（門檻 70%），進入 API 流程。
+2026-04-02 21:32:55,782 - [INFO] AFC is enabled with max remote calls: 10.
+2026-04-02 21:33:07,885 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
