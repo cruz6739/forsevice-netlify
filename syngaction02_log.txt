@@ -281,3 +281,7 @@ HJ1_F SCADA(VM),	04/03/2026 16:35:17,	1000,	錯誤,	失敗的應用程式名稱:
 2026-04-03 19:19:25,074 - [INFO] AFC is enabled with max remote calls: 10.
 2026-04-03 19:19:44,189 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
 2026-04-03 19:19:44,197 - [INFO] 已將 Google 搜尋的新錯誤解讀自動學習並寫入 FMCS Error.txt。
+2026-04-03 19:25:35,703 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/04/02 17:46:41的警報點[DCW_S1_AC_DCW_B101_STT_PV](T2A空調_S1_AC_DCW_B101_供水溫度_訊號)數值變更為16(kg/cm?),發生了警報,警報狀態為HI]
+2026-04-03 19:25:35,738 - [INFO] 【模糊比對未命中】最佳標題：「廠區 [T2A]於2026/04/02 17:46:41的警報點[DCW_S1_AC_DCW_B10 警報處置指引」，相似度：58.82%（門檻 70%），進入 API 流程。
+2026-04-03 19:25:35,739 - [INFO] AFC is enabled with max remote calls: 10.
+2026-04-03 19:25:41,346 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
