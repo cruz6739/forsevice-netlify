@@ -264,3 +264,20 @@ STEP 3:
 2026-04-02 21:34:00,752 - [INFO] 模式切換：已進入測試狀態
 2026-04-03 19:19:15,490 - [INFO] 接收到訊息來源 [fmcs]，內容為: [BOT 現在起為上線]
 2026-04-03 19:19:15,492 - [INFO] 模式切換：已恢復上線狀態
+2026-04-03 19:19:20,968 - [INFO] 接收到訊息來源 [fmcs]，內容為: [SCADA RUNTIME MONITORING ALERT_1 NEW Anomalies Detected
+
+Runtime monitoring detected 1 records.
+
+=================================
+New Log Contents (Mapped):
+=================================
+
+## System/App Error Log ##
+HJ1_F SCADA(VM),	04/03/2026 16:35:17,	1000,	錯誤,	失敗的應用程式名稱: MsMpEng.exe，版本: 4.18.25030.2，時間戳記: 0xc18e5150]
+2026-04-03 19:19:20,971 - [INFO] 偵測到系統錯誤日誌，進入 FMCS Error 專屬 RAG 流程...
+2026-04-03 19:19:20,998 - [INFO] AFC is enabled with max remote calls: 10.
+2026-04-03 19:19:25,069 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-03 19:19:25,073 - [INFO] 本地無此錯誤紀錄，正在啟動 Google 網路搜尋功能進行解讀...
+2026-04-03 19:19:25,074 - [INFO] AFC is enabled with max remote calls: 10.
+2026-04-03 19:19:44,189 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-03 19:19:44,197 - [INFO] 已將 Google 搜尋的新錯誤解讀自動學習並寫入 FMCS Error.txt。
