@@ -290,3 +290,5 @@ HJ1_F SCADA(VM),	04/03/2026 16:35:17,	1000,	錯誤,	失敗的應用程式名稱:
 2026-04-05 09:46:11,561 - [INFO] 【模糊比對未命中】最佳標題：「廠區 [T2A]於2026/03/29 20:45:51的警報點[ASCR_RF_B_PH_PV]( 警報處置指引」，相似度：50.00%（門檻 70%），進入 API 流程。
 2026-04-05 09:46:11,562 - [INFO] AFC is enabled with max remote calls: 10.
 2026-04-05 09:46:16,904 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-05 09:46:16,910 - [INFO] [自動回存] 已將 Gemini自動學習 結果寫入 T2A.txt（標題：廠區 [T2A]於2026/04/04 18:51:43的警報點[DRU_3F_TT_PV](T2A）
+2026-04-07 16:47:12,101 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
