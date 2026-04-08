@@ -5231,11 +5231,6 @@ Elapsed time:   2h19m46.2s
 2026/04/07 17:02:45 INFO  : YPput/py/syngbot_admin.err.log.old: Copied (new)
 2026/04/07 17:02:47 INFO  : YPput/py/syngbot_admin.err.log: Copied (new)
 2026/04/07 17:02:49 INFO  : YPput/py/syngbot_admin.out.log.old: Copied (new)
-[2026-04-08 11:54:16] ========== 開始執行雙向資料夾平衡作業 ==========
-[2026-04-08 11:54:16] --- 開始執行: 去程 (YPput -> YP) ---
-[2026-04-08 11:54:17] 已同步: py\bot_runtime.log (來源修改時間: 2026-04-08 11:53:04)
-[2026-04-08 11:54:17] --- 開始執行: 回程 (YP -> YPput) ---
-[2026-04-08 11:54:17] ========== 雙向資料夾平衡作業完成 ==========
 [2026-04-08 11:56:16] ========== 開始執行雙向資料夾平衡作業 ==========
 [2026-04-08 11:56:16] --- 開始執行: 去程 (YPput -> YP) ---
 [2026-04-08 11:56:17] --- 開始執行: 回程 (YP -> YPput) ---
@@ -5673,3 +5668,34 @@ Elapsed time:   2h19m46.2s
 [2026-04-08 12:52:20] --- 開始執行: 回程 (YP -> YPput) ---
 [2026-04-08 12:52:20] 已同步: .tmp.drivedownload\23605.1775623935795067 (來源修改時間: 2026-04-08 12:52:16)
 [2026-04-08 12:52:21] ========== 雙向資料夾平衡作業完成 ==========
+[2026-04-08 12:54:16] ========== 開始執行雙向資料夾平衡作業 ==========
+[2026-04-08 12:54:16] --- 開始執行: 去程 (YPput -> YP) ---
+[2026-04-08 12:54:17] 已同步: YPput\YPput\YPput\P+ID識別AI Agent訓練測試\S2A_P+ID_pic\S2A_SCADA_P+ID.pdf (來源修改時間: 2026-03-12 10:03:43)
+[2026-04-08 12:54:18] 已同步: YPput\YPput\YPput\P+ID識別AI Agent訓練測試\Synology Chat_LOG\260331_警報點(S1_S2_PCB_S3).xlsx (來源修改時間: 2026-04-01 12:57:13)
+[2026-04-08 12:54:18] 已同步: YPput\YPput\YPput\P+ID識別AI Agent訓練測試\Synology Chat_LOG\clear (1).py (來源修改時間: 2026-04-01 08:46:45)
+[2026-04-08 12:54:18] 已同步: YPput\YPput\YPput\P+ID識別AI Agent訓練測試\Synology Chat_LOG\clear.py (來源修改時間: 2026-04-01 08:46:45)
+[2026-04-08 12:54:18] 已同步: YPput\YPput\YPput\P+ID識別AI Agent訓練測試\Synology Chat_LOG\SynologyChat_警報發報分析報告 (1).pptx (來源修改時間: 2026-03-31 11:49:36)
+[2026-04-08 12:54:18] 已同步: YPput\YPput\YPput\P+ID識別AI Agent訓練測試\Synology Chat_LOG\SynologyChat_警報發報分析報告.pptx (來源修改時間: 2026-03-31 11:49:36)
+[2026-04-08 12:54:18] 已同步: YPput\YPput\YPput\P+ID識別AI Agent訓練測試\Synology Chat_LOG\T2A_AA (1).xlsx (來源修改時間: 2026-04-01 12:35:40)
+[2026-04-08 12:54:18] 已同步: YPput\YPput\YPput\P+ID識別AI Agent訓練測試\Synology Chat_LOG\T2A_AA.xlsx (來源修改時間: 2026-04-01 12:35:40)
+[2026-04-08 12:54:18] 已同步: YPput\YPput\YPput\P+ID識別AI Agent訓練測試\Synology Chat_LOG\trFixAlmChat Trace.zip (來源修改時間: 2026-03-31 09:55:59)
+[2026-04-08 12:54:18] 已同步: YPput\YPput\YPput\P+ID識別AI Agent訓練測試\Synology Chat_LOG\trFixAlmChat Trace20260228.log (來源修改時間: 2026-04-01 08:47:09)
+[2026-04-08 12:54:18] 已同步: YPput\YPput\YPput\P+ID識別AI Agent訓練測試\Synology Chat_LOG\trFixAlmChat Trace20260302.log (來源修改時間: 2026-04-01 08:48:20)
+[2026-04-08 12:54:19] 已同步: YPput\YPput\YPput\py\syngbot_ngrok.exe (來源修改時間: 2026-03-14 13:32:33)
+[2026-04-08 12:54:19] 已同步: YPput\YPput\YPput\py\syngbot_ngrok.out.log (來源修改時間: 2026-03-23 10:37:42)
+[2026-04-08 12:54:19] 已同步: YPput\YPput\YPput\py\syngbot_ngrok.out.log.old (來源修改時間: 2026-03-14 13:52:09)
+[2026-04-08 12:54:19] 已同步: YPput\YPput\YPput\py\syngbot_ngrok.wrapper.log (來源修改時間: 2026-03-23 10:37:41)
+[2026-04-08 12:54:19] 已同步: YPput\YPput\YPput\py\syngbot_ngrok.xml (來源修改時間: 2026-03-14 13:50:50)
+[2026-04-08 12:54:19] 已同步: YPput\YPput\YPput\py\syngaction_RAG\FMCS Error.txt (來源修改時間: 2026-04-03 19:19:44)
+[2026-04-08 12:54:19] 已同步: YPput\YPput\YPput\py\syngaction_RAG\HJ1.txt (來源修改時間: 2026-02-26 08:33:19)
+[2026-04-08 12:54:19] 已同步: YPput\YPput\YPput\py\syngaction_RAG\HJ2.txt (來源修改時間: 2026-02-26 08:33:28)
+[2026-04-08 12:54:19] 已同步: YPput\YPput\YPput\py\syngaction_RAG\LC2-1.txt (來源修改時間: 2026-02-26 08:33:47)
+[2026-04-08 12:54:19] 已同步: YPput\YPput\YPput\py\syngaction_RAG\LC2.txt (來源修改時間: 2026-02-26 08:33:31)
+[2026-04-08 12:54:19] 已同步: YPput\YPput\YPput\py\syngaction_RAG\LC3.txt (來源修改時間: 2026-02-26 08:33:54)
+[2026-04-08 12:54:19] 已同步: YPput\YPput\YPput\py\syngaction_RAG\PCB.txt (來源修改時間: 2026-02-26 08:32:58)
+[2026-04-08 12:54:19] 已同步: YPput\YPput\YPput\py\syngaction_RAG\S2A.txt (來源修改時間: 2026-03-12 15:03:16)
+[2026-04-08 12:54:19] 已同步: YPput\YPput\YPput\py\syngaction_RAG\S3.txt (來源修改時間: 2026-02-26 08:33:08)
+[2026-04-08 12:54:19] 已同步: YPput\YPput\YPput\py\syngaction_RAG\T2A.txt (來源修改時間: 2026-04-05 09:46:16)
+[2026-04-08 12:54:19] 已同步: YPput\YPput\YPput\py\syngaction_RAG\T2C.txt (來源修改時間: 2026-02-26 08:32:41)
+[2026-04-08 12:54:19] --- 開始執行: 回程 (YP -> YPput) ---
+[2026-04-08 12:54:20] ========== 雙向資料夾平衡作業完成 ==========
