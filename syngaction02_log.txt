@@ -40,14 +40,6 @@ STEP 2:
 確認循環泵浦: 檢查洗滌塔下方循環泵浦「PA/PB」有無過載，確認「FL」流量是否過低，水路不良導致探頭異常。
 STEP 3:
 現場檢修: 派員至7F實測水質。若正常為PH探頭髒污；若偏鹼請檢查實體加藥管路是否堵塞或製程端有異常排氣。]
-2026-04-01 12:20:42,261 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/04/01 04:04:11的警報點[CHS_S1_CHU_04_TRIP](T2A空調_S1_CHU_04_冰水主機_跳脫)數值變更為跳脫(),發生了警報,警報狀態為CFN]
-2026-04-01 12:20:42,265 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 12:20:43,163 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
-2026-04-01 12:20:43,166 - [ERROR] 呼叫 API 發生異常: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 17.307449658s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '17s'}]}}
-2026-04-01 12:21:14,689 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/04/01 09:13:38的警報點[ASCR_RF_D_DIFFERENTIAL_PV](T2A排氣_7F  75HP酸排A201洗滌塔塔身壓差)數值變更為12(mmAq),發生了警報,警報狀態為HI]
-2026-04-01 12:21:14,693 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 12:21:15,131 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
-2026-04-01 12:21:15,134 - [ERROR] 呼叫 API 發生異常: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 45.106165294s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '45s'}]}}
 2026-04-01 13:48:36,316 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
 2026-04-01 13:49:22,362 - [INFO] 系統啟動成功：AI 模型已連線。
 2026-04-01 13:49:22,388 - [INFO] 已從日誌恢復 0 筆快取。
@@ -233,3 +225,7 @@ HJ1_F SCADA(VM),	04/03/2026 16:35:17,	1000,	錯誤,	失敗的應用程式名稱:
 2026-04-08 11:23:00,297 - [INFO] rclone log 已成功同步至 GitHub。
 2026-04-08 11:53:04,396 - [INFO] rclone log 已成功同步至 GitHub。
 2026-04-08 12:20:39,450 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
+2026-04-08 12:34:27,713 - [INFO] 系統啟動成功：AI 模型已連線。
+2026-04-08 12:34:27,752 - [INFO] 已從日誌恢復 0 筆快取。
+2026-04-08 12:34:27,753 - [INFO] rclone log 定時同步排程已啟動（每 30 分鐘）。
+2026-04-08 12:34:27,753 - [INFO] 伺服器開始運行 (背景待命狀態)...
