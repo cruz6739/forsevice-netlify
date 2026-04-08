@@ -5231,32 +5231,6 @@ Elapsed time:   2h19m46.2s
 2026/04/07 17:02:45 INFO  : YPput/py/syngbot_admin.err.log.old: Copied (new)
 2026/04/07 17:02:47 INFO  : YPput/py/syngbot_admin.err.log: Copied (new)
 2026/04/07 17:02:49 INFO  : YPput/py/syngbot_admin.out.log.old: Copied (new)
-[2026-04-08 13:00:16] ========== 開始執行雙向資料夾平衡作業 ==========
-[2026-04-08 13:00:16] --- 開始執行: 去程 (YPput -> YP) ---
-[2026-04-08 13:00:19] 已同步: YPput\YPput\YPput\py\ngrok.exe (來源修改時間: 2026-03-13 16:15:23)
-[2026-04-08 13:00:19] 已同步: YPput\YPput\YPput\YPput\YPput\ForGem\20260209_FMCS_重點工作報告.gslides (來源修改時間: 2026-03-13 13:51:11)
-[2026-04-08 13:00:19] 已同步: YPput\YPput\YPput\YPput\YPput\ForGem\20260211_FMCS_weekly05_YPedit.gslides (來源修改時間: 2026-03-13 13:51:21)
-[2026-04-08 13:00:19] 已同步: YPput\YPput\YPput\YPput\YPput\ForGem\20260303_FMCS_weekly09_YPedit (1).gslides (來源修改時間: 2026-03-13 13:51:01)
-[2026-04-08 13:00:19] 已同步: YPput\YPput\YPput\YPput\YPput\ForGem\20260303_FMCS_weekly09_YPedit.gslides (來源修改時間: 2026-03-13 13:51:07)
-[2026-04-08 13:00:19] 已同步: YPput\YPput\YPput\YPput\YPput\ForGem\20260311_FMCS_weekly10_YPedit.gslides (來源修改時間: 2026-03-13 13:51:16)
-[2026-04-08 13:00:19] 已同步: YPput\YPput\YPput\YPput\YPput\ForGem\AddressBook20260223.gsheet (來源修改時間: 2026-03-13 13:51:25)
-[2026-04-08 13:00:19] 已同步: YPput\YPput\YPput\YPput\YPput\ForGem\Form.gslides (來源修改時間: 2026-02-13 08:49:26)
-[2026-04-08 13:00:19] 已同步: YPput\YPput\YPput\YPput\YPput\ForGem\iFIX 2022 專案遷移與 PDB 穩定性維護手冊.pdf (來源修改時間: 2026-02-11 09:14:00)
-[2026-04-08 13:00:19] 已同步: YPput\YPput\YPput\YPput\YPput\ForGem\iFIX SCADA 警報設定模組檔案存取異常分析.pdf (來源修改時間: 2026-02-11 09:58:13)
-[2026-04-08 13:00:19] 已同步: YPput\YPput\YPput\YPput\YPput\ForGem\iFIX 加值模組功能說明手冊.pdf (來源修改時間: 2026-02-13 09:14:13)
-[2026-04-08 13:00:19] 已同步: YPput\YPput\YPput\YPput\YPput\ForGem\IGS (Kepware) 多廠牌控制器連線設定手冊.pdf (來源修改時間: 2026-02-13 13:25:14)
-[2026-04-08 13:00:19] 已同步: YPput\YPput\YPput\YPput\YPput\ForGem\IR 智慧巡檢系統與 Tailscale 遠端整合建置手冊.pdf (來源修改時間: 2026-02-10 15:42:18)
-[2026-04-08 13:00:20] 已同步: YPput\YPput\YPput\YPput\YPput\ForGem\Mitsubishi PLC-Q serials_Session BFM_Solution.gdoc (來源修改時間: 2026-02-10 12:12:09)
-[2026-04-08 13:00:20] 已同步: YPput\YPput\YPput\YPput\YPput\ForGem\PCB_EXH_RAW.gsheet (來源修改時間: 2026-03-13 13:51:27)
-[2026-04-08 13:00:20] 已同步: YPput\YPput\YPput\YPput\YPput\ForGem\RTX4090-LLM-WKS-BOM.xlsx (來源修改時間: 2026-03-05 21:04:57)
-[2026-04-08 13:00:20] 已同步: YPput\YPput\YPput\YPput\YPput\ForGem\vSphere叢集異常排除與維護實務手冊.pdf (來源修改時間: 2026-02-11 10:05:13)
-[2026-04-08 13:00:20] 已同步: YPput\YPput\YPput\YPput\YPput\ForGem\技術手冊_Python 與 Proficy IGS 通訊整合實務.pdf (來源修改時間: 2026-02-11 10:10:41)
-[2026-04-08 13:00:20] 已同步: YPput\YPput\YPput\YPput\YPput\ForGem\數據可視化看板架設手冊.pdf (來源修改時間: 2026-02-24 08:49:41)
-[2026-04-08 13:00:20] 已同步: YPput\YPput\YPput\YPput\YPput\Job\20260209_FMCS_重點工作報告.pptx (來源修改時間: 2026-02-06 17:02:14)
-[2026-04-08 13:00:20] 已同步: YPput\YPput\YPput\YPput\YPput\Job\Mitsubishi_Q_Series_UDP_Defense.pptx (來源修改時間: 2026-03-23 14:25:39)
-[2026-04-08 13:00:20] 已同步: YPput\YPput\YPput\YPput\YPput\Job\Thumbs.db (來源修改時間: 2026-04-07 08:42:15)
-[2026-04-08 13:00:20] 已同步: YPput\YPput\YPput\YPput\YPput\Job\~$20260326_品質月專案(期中)報告_FMCS0800.pptx (來源修改時間: 2026-03-31 15:42:28)
-[2026-04-08 13:00:20] --- 開始執行: 回程 (YP -> YPput) ---
 [2026-04-08 13:00:22] ========== 雙向資料夾平衡作業完成 ==========
 [2026-04-08 13:02:16] ========== 開始執行雙向資料夾平衡作業 ==========
 [2026-04-08 13:02:16] --- 開始執行: 去程 (YPput -> YP) ---
@@ -5376,3 +5350,7 @@ Elapsed time:   2h19m46.2s
 [2026-04-08 13:58:16] --- 開始執行: 去程 (YPput -> YP) ---
 [2026-04-08 13:58:18] --- 開始執行: 回程 (YP -> YPput) ---
 [2026-04-08 13:58:19] ========== 雙向資料夾平衡作業完成 ==========
+[2026-04-08 14:00:16] ========== 開始執行雙向資料夾平衡作業 ==========
+[2026-04-08 14:00:16] --- 開始執行: 去程 (YPput -> YP) ---
+[2026-04-08 14:00:18] --- 開始執行: 回程 (YP -> YPput) ---
+[2026-04-08 14:00:19] ========== 雙向資料夾平衡作業完成 ==========
