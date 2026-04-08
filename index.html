@@ -246,13 +246,12 @@
     </div>
 
     <script>
-        // 🚀 核心升級：改回使用 GitHub Pages 網址 (取代容易快取的 Raw API)
         const LOG_SOURCES = [
-            // 1. GitHub Pages 直讀：配合時間戳記破除快取，部署完成後即時更新
+            // 1. GAS 平衡作業明細（原有，不動）
             { name: '平衡明細', url: 'https://cruz6739.github.io/forsevice-netlify/ypSYNCypput_log.txt' },
-            // 2. Google 雲端引擎
-            { name: 'GDVJF平衡', fileId: '1cRAxzou-AmReAejVSIFzxxA9MzzEZH6e' },
-            // 💡 SYNGBOT：同樣指向 GitHub Pages 的最新發佈網址
+            // 2. ★ GDVJF平衡：改為讀取 rclone 同步紀錄（獨立檔名，不影響平衡明細）
+            { name: 'GDVJF平衡', url: 'https://cruz6739.github.io/forsevice-netlify/rclone_sync_log.txt' },
+            // 3. SYNGBOT（原有，不動）
             { name: 'SYNGBOT', url: 'https://cruz6739.github.io/forsevice-netlify/syngaction02_log.txt' } 
         ];
 
@@ -328,7 +327,6 @@
         async function fetchLogContent(source) {
             const timestamp = new Date().getTime(); 
 
-            // 【引擎 A】：讀取 GitHub Pages 資料
             if (source.url) {
                 const fetchUrl = `${source.url}?t=${timestamp}`;
                 try {
@@ -345,54 +343,6 @@
                 } catch (error) {
                     return `[ 系統警示 ] 無法連線讀取：${source.name} (${error.message})`;
                 }
-            }
-
-            // 【引擎 B】：Google Drive 備援讀取
-            if (source.fileId) {
-                const fileId = source.fileId;
-                const gvizUrl = `https://docs.google.com/spreadsheets/d/${fileId}/gviz/tq?tqx=out:csv&t=${timestamp}`;
-                const sheetUrl = `https://docs.google.com/spreadsheets/d/${fileId}/export?format=csv&t=${timestamp}`;
-                const driveUrl = `https://drive.google.com/uc?export=download&id=${fileId}&t=${timestamp}`;
-                
-                let text = "";
-
-                try {
-                    const res0 = await fetchWithTimeout(gvizUrl, { timeout: 4000 });
-                    if (res0.ok) {
-                        text = await res0.text();
-                        if (!text.trim().startsWith('<!DOCTYPE html>') && text.trim().length > 0) return text;
-                    }
-                } catch(e) {}
-
-                try {
-                    const res1 = await fetchWithTimeout(sheetUrl, { timeout: 4000 });
-                    if (res1.ok) {
-                        text = await res1.text();
-                        if (!text.trim().startsWith('<!DOCTYPE html>')) return text;
-                    }
-                } catch (e) {}
-
-                const proxies = [
-                    `https://api.allorigins.win/raw?url=${encodeURIComponent(driveUrl)}&disableCache=true`,
-                    `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(driveUrl)}&rnd=${timestamp}`,
-                    `https://corsproxy.io/?${encodeURIComponent(driveUrl)}`
-                ];
-
-                for (const proxyUrl of proxies) {
-                    try {
-                        const res2 = await fetchWithTimeout(proxyUrl, { timeout: 7000 });
-                        if (res2.ok) {
-                            text = await res2.text();
-                            if (!text.trim().startsWith('<!DOCTYPE html>') && !text.trim().includes('window.google')) {
-                                return text;
-                            }
-                        }
-                    } catch (error) {
-                        console.warn(`[Proxy Failed]: ${proxyUrl}`);
-                    }
-                }
-
-                return `[ 系統警示 ] 無法讀取檔案：${source.name}\n--------------------------------\n錯誤：所有 Google 備援通道皆失敗。`;
             }
         }
 
