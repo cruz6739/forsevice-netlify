@@ -28,68 +28,8 @@ New Log Contents (Mapped):
 
 ## System/App Error Log ##
 HJ2_F SCADA(VM),	03/25/2026 10:40:51,	7000,	錯誤,	aksfridge 服務無法啟動，因為下列錯誤:]
-2026-04-01 09:10:21,625 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/30 10:25:44的警報點[ASCR_RF_E_PUMP_FLOW_PV](T2A排氣_7F  75HP酸排A204泵浦運轉流量)數值變更為930(M3/HR),發生了警報,警報狀態為LOLO]
-2026-04-01 09:10:21,632 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 09:10:27,603 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-01 09:10:37,285 - [INFO] 接收到訊息來源 [fmcs]，內容為: [BOT 現在起爲上線]
-2026-04-01 09:10:37,286 - [INFO] 模式切換：已恢復上線狀態
-2026-04-01 09:11:38,588 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/30 10:25:44的警報點[ASCR_RF_E_PUMP_FLOW_PV](T2A排氣_7F  75HP酸排A204泵浦運轉流量)數值變更為930(M3/HR),發生了警報,警報狀態為HIHI]
-2026-04-01 09:11:38,592 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 09:11:43,680 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-01 09:22:18,022 - [INFO] 接收到訊息來源 [fmcs]，內容為: [BOT 幫我上google網路搜尋]
-2026-04-01 09:22:18,026 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 09:22:20,026 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-01 09:28:13,179 - [INFO] 接收到訊息來源 [fmcs]，內容為: [BOT 幫我上網路搜尋
 
 廠區 [T2A]於2026/03/30 20:06:39的警報點[DCW_S1_AC_DCW_B101_STT_PV](T2A空調_S1_AC_DCW_B101_供水溫度_訊號)數值變更為16(kg/cm?),發生了警報,警報狀態為HI]
-2026-04-01 09:28:13,183 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 09:28:19,065 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-01 09:35:22,300 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
-2026-04-01 09:37:31,643 - [INFO] 系統啟動成功：AI 模型已連線。
-2026-04-01 09:37:31,684 - [INFO] 已從日誌恢復 4 筆快取。
-2026-04-01 09:37:31,684 - [INFO] 伺服器開始運行 (背景待命狀態)...
-2026-04-01 09:38:16,745 - [INFO] 接收到訊息來源 [fmcs]，內容為: [BOT 現在起爲上線]
-2026-04-01 09:38:16,745 - [INFO] 模式切換：已恢復上線狀態
-2026-04-01 09:38:20,702 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/27 17:04:49的警報點[CHS_S1_CHS_01_STT_PV](T2A空調_S1_CHS_01_供水溫度_訊號)數值變更為9.0(℃),發生了警報,警報狀態為HI]
-2026-04-01 09:38:20,705 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 09:38:25,642 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-01 09:38:25,645 - [INFO] 本地知識庫不足，自動啟動 Google 網路搜尋生成行動指引...
-2026-04-01 09:38:25,646 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 09:38:45,444 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-01 09:38:45,451 - [INFO] Google 網路搜尋行動指引生成成功。
-2026-04-01 11:03:28,369 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
-2026-04-01 11:03:58,521 - [INFO] 系統啟動成功：AI 模型已連線。
-2026-04-01 11:03:58,569 - [INFO] 已從日誌恢復 0 筆快取。
-2026-04-01 11:03:58,569 - [INFO] 伺服器開始運行 (背景待命狀態)...
-2026-04-01 11:04:20,531 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/31 15:08:49的警報點[DCW_S1_AC_DCW_B101_STT_PV](T2A空調_S1_AC_DCW_B101_供水溫度_訊號)數值變更為16(kg/cm?),發生了警報,警報狀態為HI]
-2026-04-01 11:04:20,555 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 11:04:28,684 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-01 11:04:28,689 - [INFO] 本地知識庫不足，自動啟動 Google 網路搜尋生成行動指引...
-2026-04-01 11:04:28,689 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 11:04:42,394 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-01 11:04:42,398 - [INFO] Google 網路搜尋行動指引生成成功。
-2026-04-01 11:31:34,256 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
-2026-04-01 11:40:52,865 - [INFO] 系統啟動成功：AI 模型已連線。
-2026-04-01 11:40:52,892 - [INFO] 已從日誌恢復 1 筆快取。
-2026-04-01 11:40:52,892 - [INFO] 伺服器開始運行 (背景待命狀態)...
-2026-04-01 11:42:06,078 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/21 04:10:14的警報點[BSCR_6F_A_PUMP_FLOW_PV](T2A排氣_6F  100HP鹼排A101泵浦運轉流量)數值變更為1,345(),發生了警報,警報狀態為LO]
-2026-04-01 11:42:06,081 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 11:42:09,964 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-01 11:42:09,969 - [INFO] 本地知識庫不足，自動啟動 Google 網路搜尋生成行動指引...
-2026-04-01 11:42:09,970 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 11:42:24,365 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-01 11:42:24,372 - [INFO] Google 網路搜尋行動指引生成成功。
-2026-04-01 11:45:18,124 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/29 20:45:51的警報點[ASCR_RF_B_PH_PV](T2A排氣_7F  75HP酸排A202洗滌塔PH)數值變更為7.0(PH),發生了警報,警報狀態為LO]
-2026-04-01 11:45:18,127 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 11:45:25,464 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-01 11:45:25,468 - [INFO] 本地知識庫不足，自動啟動 Google 網路搜尋生成行動指引...
-2026-04-01 11:45:25,468 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 11:45:35,725 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-01 11:45:35,730 - [INFO] Google 網路搜尋行動指引生成成功。
-2026-04-01 11:46:37,847 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/29 20:45:51的警報點[ASCR_RF_B_PH_PV](T2A排氣_7F  75HP酸排A204洗滌塔PH)數值變更為7.0(PH),發生了警報,警報狀態為HI]
-2026-04-01 11:46:37,851 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 11:46:41,852 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-01 11:57:14,536 - [INFO] 接收到訊息來源 [fmcs]，內容為: [BOT 更新T2A行動指引
 
 【T2A排氣_7F 75HP酸排A204洗滌塔PH 警報處置指引】
 發生條件：高於設定上限值。
@@ -100,49 +40,6 @@ STEP 2:
 確認循環泵浦: 檢查洗滌塔下方循環泵浦「PA/PB」有無過載，確認「FL」流量是否過低，水路不良導致探頭異常。
 STEP 3:
 現場檢修: 派員至7F實測水質。若正常為PH探頭髒污；若偏鹼請檢查實體加藥管路是否堵塞或製程端有異常排氣。]
-2026-04-01 11:57:14,538 - [INFO] 廠區 T2A 指引更新成功。
-2026-04-01 12:01:58,495 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/31 09:04:11的警報點[CHS_S1_ET_TK_01_LT_L_ALM](T2A空調_S1_ET_TK_01_膨脹水箱液位(壓合)_液位低限警報)數值變更為ALARM(),發生了警報,警報狀態為CFN]
-2026-04-01 12:01:58,500 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 12:02:10,943 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-01 12:04:39,748 - [INFO] 接收到訊息來源 [fmcs]，內容為: [BOT 現在起爲上線]
-2026-04-01 12:04:39,751 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 12:04:43,169 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-01 12:04:43,173 - [INFO] 本地知識庫不足，自動啟動 Google 網路搜尋生成行動指引...
-2026-04-01 12:04:43,174 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 12:05:01,820 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-01 12:05:01,824 - [INFO] Google 網路搜尋行動指引生成成功。
-2026-04-01 12:10:59,070 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
-2026-04-01 12:11:46,432 - [INFO] 系統啟動成功：AI 模型已連線。
-2026-04-01 12:11:46,469 - [INFO] 已從日誌恢復 5 筆快取。
-2026-04-01 12:11:46,469 - [INFO] 伺服器開始運行 (背景待命狀態)...
-2026-04-01 12:12:07,838 - [INFO] 接收到訊息來源 [fmcs]，內容為: [BOT 現在起爲上線]
-2026-04-01 12:12:07,838 - [INFO] 模式切換：已恢復上線狀態
-2026-04-01 12:12:52,586 - [INFO] 接收到訊息來源 [fmcs]，內容為: [BOT 現在起爲測試]
-2026-04-01 12:12:52,587 - [INFO] 模式切換：已進入測試狀態
-2026-04-01 12:13:49,667 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/04/01 04:10:16的警報點[CHS_S1_CHU_04_TRIP](T2A空調_S1_CHU_04_冰水主機_跳脫)數值變更為跳脫(),發生了警報,警報狀態為CFN]
-2026-04-01 12:15:09,003 - [INFO] 接收到訊息來源 [fmcs]，內容為: [BOT 現在起爲上線]
-2026-04-01 12:15:09,004 - [INFO] 模式切換：已恢復上線狀態
-2026-04-01 12:16:01,768 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/28 07:39:11的警報點[DCW_S1_AC_DCW_B101_STT_PV](T2A空調_S1_AC_DCW_B101_供水溫度_訊號)數值變更為16(kg/cm?),發生了警報,警報狀態為HI]
-2026-04-01 12:16:01,773 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 12:16:05,584 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-01 12:16:05,588 - [INFO] 本地知識庫不足，自動啟動 Google 網路搜尋生成行動指引...
-2026-04-01 12:16:05,588 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 12:16:18,551 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-01 12:16:18,557 - [INFO] Google 網路搜尋行動指引生成成功。
-2026-04-01 12:17:14,639 - [INFO] 接收到訊息來源 [fmcs]，內容為: [BOT 現在起為測試]
-2026-04-01 12:17:14,640 - [INFO] 模式切換：已進入測試狀態
-2026-04-01 12:17:28,092 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/28 07:39:11的警報點[DCW_S1_AC_DCW_B101_STT_PV](T2A空調_S1_AC_DCW_B101_供水溫度_訊號)數值變更為16(kg/cm?),發生了警報,警報狀態為HI]
-2026-04-01 12:17:40,311 - [INFO] 接收到訊息來源 [fmcs]，內容為: [BOT 現在起爲上線]
-2026-04-01 12:17:40,312 - [INFO] 模式切換：已恢復上線狀態
-2026-04-01 12:18:13,989 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/29 20:45:51的警報點[ASCR_RF_B_PH_PV](T2A排氣_7F  75HP酸排A202洗滌塔PH)數值變更為7.0(PH),發生了警報,警報狀態為LO]
-2026-04-01 12:18:13,993 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 12:18:18,286 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-01 12:18:18,290 - [INFO] 本地知識庫不足，自動啟動 Google 網路搜尋生成行動指引...
-2026-04-01 12:18:18,290 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-01 12:18:32,537 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-01 12:18:32,544 - [INFO] Google 網路搜尋行動指引生成成功。
-2026-04-01 12:19:49,008 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/03/28 07:39:11的警報點[DCW_S1_AC_DCW_B101_STT_PV](T2A空調_S1_AC_DCW_B101_供水溫度_訊號)數值變更為16(kg/cm?),發生了警報,警報狀態為HI]
-2026-04-01 12:19:49,009 - [INFO] [INFO] 攔截到重複警報 (T2A)，進入冷卻期略過處理。
 2026-04-01 12:20:42,261 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/04/01 04:04:11的警報點[CHS_S1_CHU_04_TRIP](T2A空調_S1_CHU_04_冰水主機_跳脫)數值變更為跳脫(),發生了警報,警報狀態為CFN]
 2026-04-01 12:20:42,265 - [INFO] AFC is enabled with max remote calls: 10.
 2026-04-01 12:20:43,163 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
@@ -296,3 +193,43 @@ HJ1_F SCADA(VM),	04/03/2026 16:35:17,	1000,	錯誤,	失敗的應用程式名稱:
 2026-04-07 16:50:26,700 - [INFO] 已從日誌恢復 0 筆快取。
 2026-04-07 16:50:26,701 - [INFO] rclone log 定時同步排程已啟動（每 30 分鐘）。
 2026-04-07 16:50:26,701 - [INFO] 伺服器開始運行 (背景待命狀態)...
+2026-04-07 16:50:30,094 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-07 17:20:34,301 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-07 17:50:38,224 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-07 18:20:42,100 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-07 18:50:46,066 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-07 19:20:49,898 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-07 19:50:54,056 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-07 20:20:58,437 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-07 20:51:02,432 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-07 21:21:06,753 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-07 21:51:10,909 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-07 22:21:15,702 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-07 22:51:20,239 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-07 23:21:24,353 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-07 23:51:28,252 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 00:21:32,021 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 00:51:36,004 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 01:21:40,344 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 01:51:44,186 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 02:21:47,507 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 02:51:51,628 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 03:21:55,753 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 03:51:59,826 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 04:22:04,388 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 04:52:08,219 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 05:22:12,664 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 05:52:16,213 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 06:22:19,867 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 06:52:24,208 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 07:22:28,050 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 07:52:31,872 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 08:22:35,978 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 08:52:39,988 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 09:22:44,667 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 09:52:48,498 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 10:22:52,593 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 10:52:56,711 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 11:23:00,297 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 11:53:04,396 - [INFO] rclone log 已成功同步至 GitHub。
+2026-04-08 12:20:39,450 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
