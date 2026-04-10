@@ -40,9 +40,6 @@ STEP 2:
 確認循環泵浦: 檢查洗滌塔下方循環泵浦「PA/PB」有無過載，確認「FL」流量是否過低，水路不良導致探頭異常。
 STEP 3:
 現場檢修: 派員至7F實測水質。若正常為PH探頭髒污；若偏鹼請檢查實體加藥管路是否堵塞或製程端有異常排氣。]
-2026-04-03 19:19:15,490 - [INFO] 接收到訊息來源 [fmcs]，內容為: [BOT 現在起為上線]
-2026-04-03 19:19:15,492 - [INFO] 模式切換：已恢復上線狀態
-2026-04-03 19:19:20,968 - [INFO] 接收到訊息來源 [fmcs]，內容為: [SCADA RUNTIME MONITORING ALERT_1 NEW Anomalies Detected
 
 Runtime monitoring detected 1 records.
 
@@ -52,18 +49,6 @@ New Log Contents (Mapped):
 
 ## System/App Error Log ##
 HJ1_F SCADA(VM),	04/03/2026 16:35:17,	1000,	錯誤,	失敗的應用程式名稱: MsMpEng.exe，版本: 4.18.25030.2，時間戳記: 0xc18e5150]
-2026-04-03 19:19:20,971 - [INFO] 偵測到系統錯誤日誌，進入 FMCS Error 專屬 RAG 流程...
-2026-04-03 19:19:20,998 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-03 19:19:25,069 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-03 19:19:25,073 - [INFO] 本地無此錯誤紀錄，正在啟動 Google 網路搜尋功能進行解讀...
-2026-04-03 19:19:25,074 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-03 19:19:44,189 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-03 19:19:44,197 - [INFO] 已將 Google 搜尋的新錯誤解讀自動學習並寫入 FMCS Error.txt。
-2026-04-03 19:25:35,703 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/04/02 17:46:41的警報點[DCW_S1_AC_DCW_B101_STT_PV](T2A空調_S1_AC_DCW_B101_供水溫度_訊號)數值變更為16(kg/cm?),發生了警報,警報狀態為HI]
-2026-04-03 19:25:35,738 - [INFO] 【模糊比對未命中】最佳標題：「廠區 [T2A]於2026/04/02 17:46:41的警報點[DCW_S1_AC_DCW_B10 警報處置指引」，相似度：58.82%（門檻 70%），進入 API 流程。
-2026-04-03 19:25:35,739 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-03 19:25:41,346 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-03 19:25:41,355 - [INFO] [自動回存] 已將 Gemini自動學習 結果寫入 T2A.txt（標題：廠區 [T2A]於2026/04/02 17:46:41的警報點[DCW_S1_AC_DCW_B10）
 2026-04-05 09:46:11,515 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/04/04 18:51:43的警報點[DRU_3F_TT_PV](T2A_DRU_3F_冷藏倉_冷藏庫溫)數值變更為5.6(℃),發生了警報,警報狀態為HI]
 2026-04-05 09:46:11,561 - [INFO] 【模糊比對未命中】最佳標題：「廠區 [T2A]於2026/03/29 20:45:51的警報點[ASCR_RF_B_PH_PV]( 警報處置指引」，相似度：50.00%（門檻 70%），進入 API 流程。
 2026-04-05 09:46:11,562 - [INFO] AFC is enabled with max remote calls: 10.
@@ -232,3 +217,4 @@ HJ1_F SCADA(VM),	04/03/2026 16:35:17,	1000,	錯誤,	失敗的應用程式名稱:
 2026-04-10 12:24:08,169 - [INFO] 系統啟動成功：AI 模型已連線。
 2026-04-10 12:24:08,204 - [INFO] 已從日誌恢復 0 筆快取。
 2026-04-10 12:24:08,205 - [INFO] 伺服器開始運行 (背景待命狀態)...
+2026-04-11 00:46:43,443 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
