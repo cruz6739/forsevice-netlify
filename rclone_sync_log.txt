@@ -4559,588 +4559,10 @@
 2026/04/07 16:43:44 INFO  : py/myenv/Lib/site-packages/werkzeug/datastructures/__pycache__/range.cpython-313.pyc: Copied (new)
 2026/04/07 16:43:45 INFO  : py/myenv/Lib/site-packages/werkzeug/datastructures/__pycache__/mixins.cpython-313.pyc: Copied (new)
 2026/04/07 16:43:47 INFO  : py/myenv/Lib/site-packages/werkzeug/datastructures/__pycache__/structures.cpython-313.pyc: Copied (new)
-2026/04/07 16:43:48 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/dependency_groups: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:48 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/packaging: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:48 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/distlib: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:48 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/distro: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:48 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/cachecontrol: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:48 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/certifi: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:48 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/msgpack: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:48 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/idna: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:49 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/requests: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:49 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/pygments: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:49 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/pkg_resources: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:49 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/pyproject_hooks: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:49 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/resolvelib: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:49 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/rich: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:49 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/platformdirs: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:49 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/tomli: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:49 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/truststore: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:49 INFO  : py/myenv/Lib/site-packages/google/genai/tests/shared/chats/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:50 INFO  : py/myenv/Lib/site-packages/google/genai/tests/shared/batches/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:50 INFO  : py/myenv/Lib/site-packages/google/genai/tests/shared/caches/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:50 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/tomli_w: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:50 INFO  : py/myenv/Lib/site-packages/google/genai/tests/shared/models/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:50 INFO  : py/myenv/Lib/site-packages/google/genai/tests/shared/files/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:50 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/urllib3: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:50 INFO  : py/myenv/Lib/site-packages/google/genai/tests/shared/tunings/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:50 INFO  : py/myenv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:50 INFO  : py/myenv/Lib/site-packages/pip/_vendor/urllib3/packages/backports/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:51 INFO  : py/myenv/Lib/site-packages/google/auth/aio/transport/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:51 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/backends/openssl/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:51 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:51 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/primitives/kdf/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:51 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:51 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/bindings/openssl/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:51 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/bindings/_rust/openssl: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:51 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/decrepit/ciphers/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:52 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/primitives/serialization/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:52 INFO  : py/myenv/Lib/site-packages/google/genai/tests/afc/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:52 INFO  : py/myenv/Lib/site-packages/docx/templates/default-docx-template/customXml/_rels: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:52 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/primitives/twofactor/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:52 INFO  : py/myenv/Lib/site-packages/docx/templates/default-docx-template/word/_rels: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:52 INFO  : py/myenv/Lib/site-packages/google/genai/_interactions/_utils/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:52 INFO  : py/myenv/Lib/site-packages/google/genai/_interactions/resources/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:52 INFO  : py/myenv/Lib/site-packages/docx/templates/default-docx-template/word/theme: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:53 INFO  : py/myenv/Lib/site-packages/google/genai/tests/batches/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:53 INFO  : py/myenv/Lib/site-packages/google/genai/tests/caches/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:53 INFO  : py/myenv/Lib/site-packages/google/genai/tests/chats/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:53 INFO  : py/myenv/Lib/site-packages/google/genai/tests/documents/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:53 INFO  : py/myenv/Lib/site-packages/google/genai/_interactions/types/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:53 INFO  : py/myenv/Lib/site-packages/google/genai/tests/common/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:53 INFO  : py/myenv/Lib/site-packages/google/genai/tests/client/__pycache__: Set directory modification time (using DirSetModTime)
 2026/04/07 16:43:53 INFO  : py/myenv/Lib/site-packages/google/genai/tests/errors/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:53 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:54 INFO  : py/myenv/Lib/site-packages/google/genai/tests/file_search_stores/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:54 INFO  : py/myenv/Lib/site-packages/google/genai/tests/imports/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:54 INFO  : py/myenv/Lib/site-packages/google/genai/tests/files/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:54 INFO  : py/myenv/Lib/site-packages/google/genai/tests/live/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:54 INFO  : py/myenv/Lib/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:54 INFO  : py/myenv/Lib/site-packages/google/genai/tests/local_tokenizer/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:54 INFO  : py/myenv/Lib/site-packages/google/genai/tests/interactions/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:54 INFO  : py/myenv/Lib/site-packages/google/genai/tests/mcp/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:54 INFO  : py/myenv/Lib/site-packages/google/genai/tests/models/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:54 INFO  : py/myenv/Lib/site-packages/pip/_vendor/cachecontrol/caches/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:54 INFO  : py/myenv/Lib/site-packages/google/genai/tests/shared/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:54 INFO  : py/myenv/Lib/site-packages/google/genai/tests/operations/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:55 INFO  : py/myenv/Lib/site-packages/google/genai/tests/public_samples/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:55 INFO  : py/myenv/Lib/site-packages/google/genai/tests/shared/batches: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:55 INFO  : py/myenv/Lib/site-packages/google/genai/tests/shared/chats: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:55 INFO  : py/myenv/Lib/site-packages/google/genai/tests/shared/files: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:55 INFO  : py/myenv/Lib/site-packages/google/genai/tests/shared/caches: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:55 INFO  : py/myenv/Lib/site-packages/google/genai/tests/shared/models: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:55 INFO  : py/myenv/Lib/site-packages/pip/_internal/metadata/importlib/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:55 INFO  : py/myenv/Lib/site-packages/google/genai/tests/shared/tunings: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:55 INFO  : py/myenv/Lib/site-packages/google/genai/tests/tokens/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:56 INFO  : py/myenv/Lib/site-packages/google/genai/tests/transformers/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:56 INFO  : py/myenv/Lib/site-packages/google/genai/tests/tunings/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:56 INFO  : py/myenv/Lib/site-packages/pip/_internal/operations/build/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:56 INFO  : py/myenv/Lib/site-packages/pip/_vendor/packaging/licenses/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:56 INFO  : py/myenv/Lib/site-packages/google/genai/tests/types/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:56 INFO  : py/myenv/Lib/site-packages/pip/_internal/resolution/legacy/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:56 INFO  : py/myenv/Lib/site-packages/pip/_internal/operations/install/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:57 INFO  : py/myenv/Lib/site-packages/pip/_vendor/pygments/formatters/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:57 INFO  : py/myenv/Lib/site-packages/pip/_vendor/pyproject_hooks/_in_process/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:57 INFO  : py/myenv/Lib/site-packages/pip/_vendor/pygments/filters/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:57 INFO  : py/myenv/Lib/site-packages/pip/_internal/resolution/resolvelib/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:57 INFO  : py/myenv/Lib/site-packages/pip/_vendor/resolvelib/resolvers/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:57 INFO  : py/myenv/Lib/site-packages/pip/_vendor/urllib3/packages/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:57 INFO  : py/myenv/Lib/site-packages/pip/_vendor/pygments/styles/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:57 INFO  : py/myenv/Lib/site-packages/pip/_vendor/pygments/lexers/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:57 INFO  : py/myenv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:57 INFO  : py/myenv/Lib/site-packages/pip/_vendor/urllib3/contrib/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:57 INFO  : py/myenv/Lib/site-packages/pip/_vendor/urllib3/packages/backports: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:58 INFO  : py/myenv/Lib/site-packages/pip/_vendor/urllib3/util/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:58 INFO  : py/myenv/Lib/site-packages/aiohttp-3.13.3.dist-info/licenses/vendor/llhttp: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:58 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/bindings/_rust: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:58 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/backends/openssl: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:58 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/asn1/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:58 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/bindings/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:58 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/decrepit/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:58 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/backends/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:59 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/bindings/openssl: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:59 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/primitives/kdf: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:59 INFO  : py/myenv/Lib/site-packages/google/auth/aio/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:59 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/primitives/ciphers: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:59 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/primitives/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:59 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/primitives/asymmetric: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:59 INFO  : py/myenv/Lib/site-packages/google/auth/aio/transport: Set directory modification time (using DirSetModTime)
-2026/04/07 16:43:59 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/decrepit/ciphers: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:00 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/primitives/serialization: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:00 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/primitives/twofactor: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:00 INFO  : py/myenv/Lib/site-packages/google/auth/compute_engine/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:00 INFO  : py/myenv/Lib/site-packages/google/genai/_interactions/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:00 INFO  : py/myenv/Lib/site-packages/google/auth/crypt/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:00 INFO  : py/myenv/Lib/site-packages/docx/opc/parts/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:00 INFO  : py/myenv/Lib/site-packages/docx/oxml/text/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:00 INFO  : py/myenv/Lib/site-packages/google/genai/_interactions/_utils: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:00 INFO  : py/myenv/Lib/site-packages/google/auth/transport/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:01 INFO  : py/myenv/Lib/site-packages/google/genai/tests/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:01 INFO  : py/myenv/Lib/site-packages/google/genai/_interactions/types: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:01 INFO  : py/myenv/Lib/site-packages/google/genai/tests/afc: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:01 INFO  : py/myenv/Lib/site-packages/google/genai/tests/caches: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:01 INFO  : py/myenv/Lib/site-packages/google/genai/_interactions/resources: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:01 INFO  : py/myenv/Lib/site-packages/google/genai/tests/batches: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:01 INFO  : py/myenv/Lib/site-packages/google/genai/tests/client: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:01 INFO  : py/myenv/Lib/site-packages/google/genai/tests/chats: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:02 INFO  : py/myenv/Lib/site-packages/google/genai/tests/documents: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:02 INFO  : py/myenv/Lib/site-packages/google/genai/tests/file_search_stores: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:02 INFO  : py/myenv/Lib/site-packages/google/genai/tests/files: Set directory modification time (using DirSetModTime)
 2026/04/07 16:44:02 INFO  : py/myenv/Lib/site-packages/google/genai/tests/errors: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:02 INFO  : py/myenv/Lib/site-packages/google/genai/tests/common: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:02 INFO  : py/myenv/Lib/site-packages/google/genai/tests/imports: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:02 INFO  : py/myenv/Lib/site-packages/google/genai/tests/interactions: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:02 INFO  : py/myenv/Lib/site-packages/google/genai/tests/live: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:02 INFO  : py/myenv/Lib/site-packages/google/genai/tests/local_tokenizer: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:02 INFO  : py/myenv/Lib/site-packages/google/genai/tests/mcp: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:02 INFO  : py/myenv/Lib/site-packages/google/genai/tests/models: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:02 INFO  : py/myenv/Lib/site-packages/google/genai/tests/operations: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:02 INFO  : py/myenv/Lib/site-packages/google/genai/tests/public_samples: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:03 INFO  : py/myenv/Lib/site-packages/google/genai/tests/tokens: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:03 INFO  : py/myenv/Lib/site-packages/google/genai/tests/transformers: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:03 INFO  : py/myenv/Lib/site-packages/google/genai/tests/shared: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:03 INFO  : py/myenv/Lib/site-packages/docx/templates/default-docx-template/_rels: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:03 INFO  : py/myenv/Lib/site-packages/docx/templates/default-docx-template/docProps: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:03 INFO  : py/myenv/Lib/site-packages/docx/templates/default-docx-template/customXml: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:03 INFO  : py/myenv/Lib/site-packages/google/genai/tests/tunings: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:03 INFO  : py/myenv/Lib/site-packages/docx/templates/default-docx-template/word: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:03 INFO  : py/myenv/Lib/site-packages/google/genai/tests/types: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:04 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src/pip: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:04 INFO  : py/myenv/Lib/site-packages/pip/_internal/cli/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:04 INFO  : py/myenv/Lib/site-packages/lxml/isoschematron/resources/rng: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:04 INFO  : py/myenv/Lib/site-packages/lxml/isoschematron/resources/xsl: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:04 INFO  : py/myenv/Lib/site-packages/pip/_vendor/cachecontrol/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:04 INFO  : py/myenv/Lib/site-packages/lxml/includes/extlibs/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:04 INFO  : py/myenv/Lib/site-packages/pip/_internal/commands/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:04 INFO  : py/myenv/Lib/site-packages/pip/_vendor/cachecontrol/caches: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:05 INFO  : py/myenv/Lib/site-packages/lxml/includes/libexslt/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:05 INFO  : py/myenv/Lib/site-packages/pip/_internal/distributions/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:05 INFO  : py/myenv/Lib/site-packages/pip/_vendor/certifi/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:05 INFO  : py/myenv/Lib/site-packages/pyasn1/codec/ber/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:05 INFO  : py/myenv/Lib/site-packages/pip/_internal/index/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:05 INFO  : py/myenv/Lib/site-packages/pip/_vendor/dependency_groups/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:05 INFO  : py/myenv/Lib/site-packages/pip/_internal/locations/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:05 INFO  : py/myenv/Lib/site-packages/pyasn1/codec/cer/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:05 INFO  : py/myenv/Lib/site-packages/pyasn1/codec/der/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:05 INFO  : py/myenv/Lib/site-packages/pip/_vendor/distlib/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:05 INFO  : py/myenv/Lib/site-packages/lxml/includes/libxml/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:06 INFO  : py/myenv/Lib/site-packages/lxml/includes/libxslt/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:06 INFO  : py/myenv/Lib/site-packages/pip/_internal/metadata/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:06 INFO  : py/myenv/Lib/site-packages/pip/_internal/metadata/importlib: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:06 INFO  : py/myenv/Lib/site-packages/pyasn1/codec/native/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:06 INFO  : py/myenv/Lib/site-packages/pip/_vendor/idna/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:06 INFO  : py/myenv/Lib/site-packages/pip/_internal/models/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:06 INFO  : py/myenv/Lib/site-packages/pip/_internal/operations/build: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:07 INFO  : py/myenv/Lib/site-packages/pip/_internal/operations/install: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:07 INFO  : py/myenv/Lib/site-packages/pip/_vendor/distro/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:07 INFO  : py/myenv/Lib/site-packages/pip/_vendor/msgpack/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:07 INFO  : py/myenv/Lib/site-packages/pip/_internal/network/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:07 INFO  : py/myenv/Lib/site-packages/pip/_vendor/packaging/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:07 INFO  : py/myenv/Lib/site-packages/pip/_internal/operations/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:07 INFO  : py/myenv/Lib/site-packages/pip/_internal/req/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:08 INFO  : py/myenv/Lib/site-packages/pip/_internal/resolution/legacy: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:08 INFO  : py/myenv/Lib/site-packages/pip/_internal/resolution/resolvelib: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:08 INFO  : py/myenv/Lib/site-packages/pip/_vendor/platformdirs/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:08 INFO  : py/myenv/Lib/site-packages/pip/_internal/utils/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:09 INFO  : py/myenv/Lib/site-packages/pip/_vendor/pygments/lexers: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:09 INFO  : py/myenv/Lib/site-packages/pip/_vendor/pygments/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:09 INFO  : py/myenv/Lib/site-packages/pip/_vendor/pygments/styles: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:09 INFO  : py/myenv/Lib/site-packages/pip/_internal/vcs/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:10 INFO  : py/myenv/Lib/site-packages/pip/_vendor/pyproject_hooks/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:10 INFO  : py/myenv/Lib/site-packages/pip/_vendor/resolvelib/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:10 INFO  : py/myenv/Lib/site-packages/pip/_vendor/requests/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:11 INFO  : py/myenv/Lib/site-packages/pip/_vendor/pygments/filters: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:11 INFO  : py/myenv/Lib/site-packages/pip/_vendor/pkg_resources/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:11 INFO  : py/myenv/Lib/site-packages/pip/_vendor/tomli/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:11 INFO  : py/myenv/Lib/site-packages/pip/_vendor/rich/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:12 INFO  : py/myenv/Lib/site-packages/pip/_vendor/tomli_w/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:12 INFO  : py/myenv/Lib/site-packages/pip/_vendor/packaging/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:12 INFO  : py/myenv/Lib/site-packages/pip/_vendor/pyproject_hooks/_in_process: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:12 INFO  : py/myenv/Lib/site-packages/pip/_vendor/resolvelib/resolvers: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:12 INFO  : py/myenv/Lib/site-packages/pip/_vendor/pygments/formatters: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:13 INFO  : py/myenv/Lib/site-packages/pip/_vendor/urllib3/packages: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:13 INFO  : py/myenv/Lib/site-packages/urllib3/contrib/emscripten/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:14 INFO  : py/myenv/Lib/site-packages/pip/_internal/resolution/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:14 INFO  : py/myenv/Lib/site-packages/pip/_vendor/urllib3/contrib: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:14 INFO  : py/myenv/Lib/site-packages/pip/_vendor/urllib3/util: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:14 INFO  : py/myenv/Lib/site-packages/pip/_vendor/truststore/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:23 INFO  : py/myenv/Lib/site-packages/pip/_vendor/urllib3/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:24 INFO  : py/myenv/Lib/site-packages/anyio/abc/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:24 INFO  : py/myenv/Lib/site-packages/aiohttp-3.13.3.dist-info/licenses/vendor: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:24 INFO  : py/myenv/Lib/site-packages/charset_normalizer/cli/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:24 INFO  : py/myenv/Lib/site-packages/aiohttp/_websocket/.hash: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:24 INFO  : py/myenv/Lib/site-packages/anyio/_core/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:24 INFO  : py/myenv/Lib/site-packages/aiohttp/_websocket/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:25 INFO  : py/myenv/Lib/site-packages/colorama/tests/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:25 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:25 INFO  : py/myenv/Lib/site-packages/PyPDF2/_codecs/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:26 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/bindings: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:26 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/decrepit: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:26 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/primitives: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:26 INFO  : py/myenv/Lib/site-packages/flask/sansio/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:27 INFO  : py/myenv/Lib/site-packages/PyPDF2/generic/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:27 INFO  : py/myenv/Lib/site-packages/docx/dml/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:31 INFO  : py/myenv/Lib/site-packages/anyio/_backends/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:32 INFO  : py/myenv/Lib/site-packages/docx/image/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:33 INFO  : py/myenv/Lib/site-packages/google/auth/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:33 INFO  : py/myenv/Lib/site-packages/docx/drawing/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:33 INFO  : py/myenv/Lib/site-packages/cryptography/x509/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:33 INFO  : py/myenv/Lib/site-packages/anyio/streams/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:33 INFO  : py/myenv/Lib/site-packages/flask/json/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:33 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/asn1: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:34 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat/backends: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:34 INFO  : py/myenv/Lib/site-packages/google/auth/aio: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:34 INFO  : py/myenv/Lib/site-packages/google/auth/crypt: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:34 INFO  : py/myenv/Lib/site-packages/docx/opc/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:34 INFO  : py/myenv/Lib/site-packages/google/auth/compute_engine: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:34 INFO  : py/myenv/Lib/site-packages/google/auth/transport: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:34 INFO  : py/myenv/Lib/site-packages/docx/opc/parts: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:35 INFO  : py/myenv/Lib/site-packages/httpcore/_async/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:35 INFO  : py/myenv/Lib/site-packages/httpcore/_backends/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:35 INFO  : py/myenv/Lib/site-packages/google/genai/tests: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:35 INFO  : py/myenv/Lib/site-packages/google/oauth2/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:35 INFO  : py/myenv/Lib/site-packages/docx/enum/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:35 INFO  : py/myenv/Lib/site-packages/google/genai/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:35 INFO  : py/myenv/Lib/site-packages/httpcore/_sync/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:35 INFO  : py/myenv/Lib/site-packages/docx/oxml/text: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:36 INFO  : py/myenv/Lib/site-packages/docx/templates/default-docx-template: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:36 INFO  : py/myenv/Lib/site-packages/docx/styles/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:36 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses/src: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:36 INFO  : py/myenv/Lib/site-packages/docx/text/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:37 INFO  : py/myenv/Lib/site-packages/lxml/html/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:37 INFO  : py/myenv/Lib/site-packages/lxml/isoschematron/resources: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:38 INFO  : py/myenv/Lib/site-packages/pip/_internal/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:39 INFO  : py/myenv/Lib/site-packages/pip/_internal/cli: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:39 INFO  : py/myenv/Lib/site-packages/lxml/isoschematron/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:39 INFO  : py/myenv/Lib/site-packages/docx/parts/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:39 INFO  : py/myenv/Lib/site-packages/httpx/_transports/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:39 INFO  : py/myenv/Lib/site-packages/google/genai/_interactions: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:39 INFO  : py/myenv/Lib/site-packages/lxml/includes/extlibs: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:39 INFO  : py/myenv/Lib/site-packages/docx/oxml/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:39 INFO  : py/myenv/Lib/site-packages/lxml/includes/libexslt: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:40 INFO  : py/myenv/Lib/site-packages/pip/_internal/distributions: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:40 INFO  : py/myenv/Lib/site-packages/pip/_internal/commands: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:40 INFO  : py/myenv/Lib/site-packages/pip/_internal/index: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:40 INFO  : py/myenv/Lib/site-packages/pip/_internal/metadata: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:40 INFO  : py/myenv/Lib/site-packages/pip/_internal/models: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:40 INFO  : py/myenv/Lib/site-packages/lxml/includes/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:40 INFO  : py/myenv/Lib/site-packages/pip/_internal/locations: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:40 INFO  : py/myenv/Lib/site-packages/pip/_internal/network: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:40 INFO  : py/myenv/Lib/site-packages/pip/_internal/operations: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:41 INFO  : py/myenv/Lib/site-packages/pip/_internal/req: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:41 INFO  : py/myenv/Lib/site-packages/pip/_internal/resolution: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:41 INFO  : py/myenv/Lib/site-packages/pip/_internal/utils: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:41 INFO  : py/myenv/Lib/site-packages/lxml/includes/libxslt: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:41 INFO  : py/myenv/Lib/site-packages/pip/_vendor/distlib: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:42 INFO  : py/myenv/Lib/site-packages/pip/_vendor/dependency_groups: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:42 INFO  : py/myenv/Lib/site-packages/pip/_vendor/distro: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:42 INFO  : py/myenv/Lib/site-packages/pip/_vendor/idna: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:42 INFO  : py/myenv/Lib/site-packages/pip/_vendor/msgpack: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:42 INFO  : py/myenv/Lib/site-packages/pip/_vendor/cachecontrol: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:43 INFO  : py/myenv/Lib/site-packages/pip/_vendor/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:43 INFO  : py/myenv/Lib/site-packages/lxml/includes/libxml: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:43 INFO  : py/myenv/Lib/site-packages/pip/_vendor/packaging: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:43 INFO  : py/myenv/Lib/site-packages/pip/_internal/vcs: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:43 INFO  : py/myenv/Lib/site-packages/pip/_vendor/certifi: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:43 INFO  : py/myenv/Lib/site-packages/pip/_vendor/pkg_resources: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:43 INFO  : py/myenv/Lib/site-packages/pip/_vendor/platformdirs: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:43 INFO  : py/myenv/Lib/site-packages/pip/_vendor/pygments: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:43 INFO  : py/myenv/Lib/site-packages/pip/_vendor/pyproject_hooks: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:43 INFO  : py/myenv/Lib/site-packages/pip/_vendor/rich: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:43 INFO  : py/myenv/Lib/site-packages/pip/_vendor/resolvelib: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:44 INFO  : py/myenv/Lib/site-packages/pip/_vendor/tomli_w: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:44 INFO  : py/myenv/Lib/site-packages/pip/_vendor/urllib3: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:44 INFO  : py/myenv/Lib/site-packages/pip/_vendor/truststore: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:44 INFO  : py/myenv/Lib/site-packages/pyasn1/codec/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:44 INFO  : py/myenv/Lib/site-packages/pyasn1/codec/ber: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:44 INFO  : py/myenv/Lib/site-packages/pip/_vendor/tomli: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:44 INFO  : py/myenv/Lib/site-packages/pyasn1/codec/der: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:45 INFO  : py/myenv/Lib/site-packages/pyasn1/codec/cer: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:45 INFO  : py/myenv/Lib/site-packages/pyasn1/compat/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:45 INFO  : py/myenv/Lib/site-packages/pyasn1/codec/native: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:45 INFO  : py/myenv/Lib/site-packages/pyasn1/type/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:45 INFO  : py/myenv/Lib/site-packages/pydantic/_internal/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:45 INFO  : py/myenv/Lib/site-packages/pydantic/experimental/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:45 INFO  : py/myenv/Lib/site-packages/pydantic/plugin/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:45 INFO  : py/myenv/Lib/site-packages/pydantic/deprecated/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:45 INFO  : py/myenv/Lib/site-packages/pydantic/v1/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:46 INFO  : py/myenv/Lib/site-packages/urllib3/contrib/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:46 INFO  : py/myenv/Lib/site-packages/sniffio/_tests/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:46 INFO  : py/myenv/Lib/site-packages/urllib3/util/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:46 INFO  : py/myenv/Lib/site-packages/tenacity/asyncio/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:46 INFO  : py/myenv/Lib/site-packages/pip/_vendor/requests: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:46 INFO  : py/myenv/Lib/site-packages/websockets/asyncio/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:47 INFO  : py/myenv/Lib/site-packages/websockets/extensions/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:47 INFO  : py/myenv/Lib/site-packages/websockets/legacy/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:47 INFO  : py/myenv/Lib/site-packages/websockets/sync/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:47 INFO  : py/myenv/Lib/site-packages/werkzeug/debug/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:47 INFO  : py/myenv/Lib/site-packages/werkzeug/datastructures/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:47 INFO  : py/myenv/Lib/site-packages/urllib3/contrib/emscripten: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:47 INFO  : py/myenv/Lib/site-packages/urllib3/http2/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:47 INFO  : py/myenv/Lib/site-packages/werkzeug/debug/shared: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:48 INFO  : py/myenv/Lib/site-packages/werkzeug/middleware/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:48 INFO  : py/myenv/Lib/site-packages/werkzeug/wrappers/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:48 INFO  : py/myenv/Lib/site-packages/werkzeug/routing/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:48 INFO  : py/myenv/Lib/site-packages/werkzeug/sansio/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:48 INFO  : py/myenv/Lib/site-packages/attrs/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:48 INFO  : py/myenv/Lib/site-packages/attrs-25.4.0.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:48 INFO  : py/myenv/Lib/site-packages/aiosignal/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:48 INFO  : py/myenv/Lib/site-packages/anyio-4.12.1.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:48 INFO  : py/myenv/Lib/site-packages/annotated_types/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:49 INFO  : py/myenv/Lib/site-packages/aiohappyeyeballs/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:49 INFO  : py/myenv/Lib/site-packages/certifi-2026.1.4.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:49 INFO  : py/myenv/Lib/site-packages/aiohttp/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:49 INFO  : py/myenv/Lib/site-packages/aiohttp/.hash: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:49 INFO  : py/myenv/Lib/site-packages/aiohttp/_websocket: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:49 INFO  : py/myenv/Lib/site-packages/certifi/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:49 INFO  : py/myenv/Lib/site-packages/aiohttp-3.13.3.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:50 INFO  : py/myenv/Lib/site-packages/anyio/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:50 INFO  : py/myenv/Lib/site-packages/annotated_types-0.7.0.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:50 INFO  : py/myenv/Lib/site-packages/anyio/abc: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:50 INFO  : py/myenv/Lib/site-packages/anyio/_backends: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:50 INFO  : py/myenv/Lib/site-packages/attr/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:50 INFO  : py/myenv/Lib/site-packages/anyio/_core: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:50 INFO  : py/myenv/Lib/site-packages/anyio/streams: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:50 INFO  : py/myenv/Lib/site-packages/cffi/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:50 INFO  : py/myenv/Lib/site-packages/charset_normalizer-3.4.4.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:51 INFO  : py/myenv/Lib/site-packages/charset_normalizer/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:51 INFO  : py/myenv/Lib/site-packages/charset_normalizer/cli: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:51 INFO  : py/myenv/Lib/site-packages/aiosignal-1.4.0.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:51 INFO  : py/myenv/Lib/site-packages/blinker/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:51 INFO  : py/myenv/Lib/site-packages/PyPDF2/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:51 INFO  : py/myenv/Lib/site-packages/PyPDF2/_codecs: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:51 INFO  : py/myenv/Lib/site-packages/cffi-2.0.0.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:51 INFO  : py/myenv/Lib/site-packages/click-8.3.1.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:51 INFO  : py/myenv/Lib/site-packages/PyPDF2/generic: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:51 INFO  : py/myenv/Lib/site-packages/colorama/tests: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:51 INFO  : py/myenv/Lib/site-packages/colorama/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:52 INFO  : py/myenv/Lib/site-packages/click/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:52 INFO  : py/myenv/Lib/site-packages/colorama-0.4.6.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:52 INFO  : py/myenv/Lib/site-packages/cryptography-46.0.5.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:52 INFO  : py/myenv/Lib/site-packages/cryptography/hazmat: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:52 INFO  : py/myenv/Lib/site-packages/cryptography/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:52 INFO  : py/myenv/Lib/site-packages/distro/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:52 INFO  : py/myenv/Lib/site-packages/cryptography/x509: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:52 INFO  : py/myenv/Lib/site-packages/docx/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:52 INFO  : py/myenv/Lib/site-packages/docx/dml: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:52 INFO  : py/myenv/Lib/site-packages/docx/drawing: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:53 INFO  : py/myenv/Lib/site-packages/docx/image: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:53 INFO  : py/myenv/Lib/site-packages/docx/enum: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:53 INFO  : py/myenv/Lib/site-packages/docx/parts: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:53 INFO  : py/myenv/Lib/site-packages/docx/styles: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:53 INFO  : py/myenv/Lib/site-packages/docx/opc: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:53 INFO  : py/myenv/Lib/site-packages/docx/oxml: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:53 INFO  : py/myenv/Lib/site-packages/docx/templates: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:53 INFO  : py/myenv/Lib/site-packages/docx/text: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:54 INFO  : py/myenv/Lib/site-packages/flask-3.1.3.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:54 INFO  : py/myenv/Lib/site-packages/flask/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:54 INFO  : py/myenv/Lib/site-packages/flask/sansio: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:54 INFO  : py/myenv/Lib/site-packages/flask/json: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:54 INFO  : py/myenv/Lib/site-packages/frozenlist-1.8.0.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:54 INFO  : py/myenv/Lib/site-packages/google/auth: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:54 INFO  : py/myenv/Lib/site-packages/google/genai: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:54 INFO  : py/myenv/Lib/site-packages/google/oauth2: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:54 INFO  : py/myenv/Lib/site-packages/frozenlist/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:54 INFO  : py/myenv/Lib/site-packages/h11-0.16.0.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:54 INFO  : py/myenv/Lib/site-packages/google_genai-1.64.0.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:54 INFO  : py/myenv/Lib/site-packages/google_auth-2.48.0.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:55 INFO  : py/myenv/Lib/site-packages/h11/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:55 INFO  : py/myenv/Lib/site-packages/httpcore-1.0.9.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:55 INFO  : py/myenv/Lib/site-packages/httpcore/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:55 INFO  : py/myenv/Lib/site-packages/httpcore/_async: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:55 INFO  : py/myenv/Lib/site-packages/httpcore/_backends: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:55 INFO  : py/myenv/Lib/site-packages/httpcore/_sync: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:55 INFO  : py/myenv/Lib/site-packages/httpx/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:55 INFO  : py/myenv/Lib/site-packages/httpx/_transports: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:55 INFO  : py/myenv/Lib/site-packages/httpx-0.28.1.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:55 INFO  : py/myenv/Lib/site-packages/idna-3.11.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:55 INFO  : py/myenv/Lib/site-packages/idna/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:56 INFO  : py/myenv/Lib/site-packages/itsdangerous/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:56 INFO  : py/myenv/Lib/site-packages/jinja2-3.1.6.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:56 INFO  : py/myenv/Lib/site-packages/jinja2/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:56 INFO  : py/myenv/Lib/site-packages/lxml-6.0.2.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:56 INFO  : py/myenv/Lib/site-packages/markupsafe/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:56 INFO  : py/myenv/Lib/site-packages/lxml/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:57 INFO  : py/myenv/Lib/site-packages/multidict-6.7.1.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:57 INFO  : py/myenv/Lib/site-packages/lxml/isoschematron: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:57 INFO  : py/myenv/Lib/site-packages/lxml/includes: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:57 INFO  : py/myenv/Lib/site-packages/lxml/html: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:57 INFO  : py/myenv/Lib/site-packages/multidict/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:57 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:57 INFO  : py/myenv/Lib/site-packages/pip/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:57 INFO  : py/myenv/Lib/site-packages/propcache-0.4.1.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:57 INFO  : py/myenv/Lib/site-packages/pip/_internal: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:57 INFO  : py/myenv/Lib/site-packages/pip/_vendor: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:58 INFO  : py/myenv/Lib/site-packages/pyasn1/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:58 INFO  : py/myenv/Lib/site-packages/pyasn1-0.6.2.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:58 INFO  : py/myenv/Lib/site-packages/pyasn1/codec: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:58 INFO  : py/myenv/Lib/site-packages/markupsafe-3.0.3.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:58 INFO  : py/myenv/Lib/site-packages/pyasn1/compat: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:58 INFO  : py/myenv/Lib/site-packages/pyasn1/type: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:58 INFO  : py/myenv/Lib/site-packages/pyasn1_modules-0.4.2.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:58 INFO  : py/myenv/Lib/site-packages/pycparser/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:58 INFO  : py/myenv/Lib/site-packages/pyasn1_modules/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:58 INFO  : py/myenv/Lib/site-packages/pycparser-3.0.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:59 INFO  : py/myenv/Lib/site-packages/pydantic-2.12.5.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:59 INFO  : py/myenv/Lib/site-packages/pydantic/_internal: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:59 INFO  : py/myenv/Lib/site-packages/pydantic/experimental: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:59 INFO  : py/myenv/Lib/site-packages/pydantic/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:59 INFO  : py/myenv/Lib/site-packages/pydantic/deprecated: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:59 INFO  : py/myenv/Lib/site-packages/pydantic/plugin: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:59 INFO  : py/myenv/Lib/site-packages/pydantic/v1: Set directory modification time (using DirSetModTime)
-2026/04/07 16:44:59 INFO  : py/myenv/Lib/site-packages/pydantic_core-2.41.5.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:00 INFO  : py/myenv/Lib/site-packages/propcache/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:00 INFO  : py/myenv/Lib/site-packages/pydantic_core/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:00 INFO  : py/myenv/Lib/site-packages/python_docx-1.2.0.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:00 INFO  : py/myenv/Lib/site-packages/requests/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:00 INFO  : py/myenv/Lib/site-packages/rsa/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:00 INFO  : py/myenv/Lib/site-packages/requests-2.32.5.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:00 INFO  : py/myenv/Lib/site-packages/sniffio/_tests: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:00 INFO  : py/myenv/Lib/site-packages/tenacity-9.1.4.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:00 INFO  : py/myenv/Lib/site-packages/sniffio/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:00 INFO  : py/myenv/Lib/site-packages/tenacity/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:01 INFO  : py/myenv/Lib/site-packages/tenacity/asyncio: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:01 INFO  : py/myenv/Lib/site-packages/typing_extensions-4.15.0.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:01 INFO  : py/myenv/Lib/site-packages/typing_inspection/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:01 INFO  : py/myenv/Lib/site-packages/urllib3-2.6.3.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:01 INFO  : py/myenv/Lib/site-packages/urllib3/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:01 INFO  : py/myenv/Lib/site-packages/urllib3/http2: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:01 INFO  : py/myenv/Lib/site-packages/urllib3/util: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:02 INFO  : py/myenv/Lib/site-packages/waitress/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:02 INFO  : py/myenv/Lib/site-packages/websockets/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:02 INFO  : py/myenv/Lib/site-packages/werkzeug-3.1.6.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:02 INFO  : py/myenv/Lib/site-packages/typing_inspection-0.4.2.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:02 INFO  : py/myenv/Lib/site-packages/urllib3/contrib: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:02 INFO  : py/myenv/Lib/site-packages/websockets/extensions: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:02 INFO  : py/myenv/Lib/site-packages/websockets/asyncio: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:02 INFO  : py/myenv/Lib/site-packages/websockets/sync: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:02 INFO  : py/myenv/Lib/site-packages/websockets/legacy: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:03 INFO  : py/myenv/Lib/site-packages/yarl/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:03 INFO  : py/myenv/Lib/site-packages/werkzeug/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:03 INFO  : py/myenv/Lib/site-packages/werkzeug/middleware: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:03 INFO  : py/myenv/Lib/site-packages/werkzeug/debug: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:03 INFO  : py/myenv/Lib/site-packages/werkzeug/datastructures: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:03 INFO  : py/myenv/Lib/site-packages/werkzeug/sansio: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:03 INFO  : py/myenv/Lib/site-packages/werkzeug/routing: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:03 INFO  : py/myenv/Lib/site-packages/yarl-1.22.0.dist-info/licenses: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:03 INFO  : py/myenv/Lib/site-packages/werkzeug/wrappers: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:04 INFO  : py/myenv/Lib/site-packages/aiosignal-1.4.0.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:04 INFO  : py/myenv/Lib/site-packages/aiohappyeyeballs: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:04 INFO  : py/myenv/Lib/site-packages/aiohttp-3.13.3.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:04 INFO  : py/myenv/Lib/site-packages/aiohttp: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:04 INFO  : py/myenv/Lib/site-packages/__pycache__: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:04 INFO  : py/myenv/Lib/site-packages/aiohappyeyeballs-2.6.1.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:05 INFO  : py/myenv/Lib/site-packages/aiosignal: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:05 INFO  : py/myenv/Lib/site-packages/annotated_types-0.7.0.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:05 INFO  : py/myenv/Lib/site-packages/attr: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:05 INFO  : py/myenv/Lib/site-packages/annotated_types: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:05 INFO  : py/myenv/Lib/site-packages/attrs-25.4.0.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:05 INFO  : py/myenv/Lib/site-packages/anyio: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:06 INFO  : py/myenv/Lib/site-packages/anyio-4.12.1.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:06 INFO  : py/myenv/Lib/site-packages/blinker-1.9.0.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:06 INFO  : py/myenv/Lib/site-packages/certifi: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:06 INFO  : py/myenv/Lib/site-packages/blinker: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:06 INFO  : py/myenv/Lib/site-packages/certifi-2026.1.4.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:06 INFO  : py/myenv/Lib/site-packages/attrs: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:06 INFO  : py/myenv/Lib/site-packages/PyPDF2: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:06 INFO  : py/myenv/Lib/site-packages/cffi-2.0.0.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:06 INFO  : py/myenv/Lib/site-packages/click-8.3.1.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:06 INFO  : py/myenv/Lib/site-packages/charset_normalizer-3.4.4.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:07 INFO  : py/myenv/Lib/site-packages/charset_normalizer: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:07 INFO  : py/myenv/Lib/site-packages/cffi: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:07 INFO  : py/myenv/Lib/site-packages/click: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:07 INFO  : py/myenv/Lib/site-packages/cryptography: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:07 INFO  : py/myenv/Lib/site-packages/distro-1.9.0.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:08 INFO  : py/myenv/Lib/site-packages/flask: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:08 INFO  : py/myenv/Lib/site-packages/frozenlist-1.8.0.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:09 INFO  : py/myenv/Lib/site-packages/frozenlist: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:10 INFO  : py/myenv/Lib/site-packages/google_auth-2.48.0.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:12 INFO  : py/myenv/Lib/site-packages/flask-3.1.3.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:22 INFO  : py/myenv/Lib/site-packages/colorama-0.4.6.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:23 INFO  : py/myenv/Lib/site-packages/h11: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:24 INFO  : py/myenv/Lib/site-packages/httpcore-1.0.9.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:24 INFO  : py/myenv/Lib/site-packages/httpcore: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:32 INFO  : py/myenv/Lib/site-packages/cryptography-46.0.5.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:34 INFO  : py/myenv/Lib/site-packages/google_genai-1.64.0.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:35 INFO  : py/myenv/Lib/site-packages/google: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:35 INFO  : py/myenv/Lib/site-packages/colorama: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:35 INFO  : py/myenv/Lib/site-packages/docx: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:35 INFO  : py/myenv/Lib/site-packages/httpx-0.28.1.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:36 INFO  : py/myenv/Lib/site-packages/distro: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:36 INFO  : py/myenv/Lib/site-packages/jinja2-3.1.6.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:36 INFO  : py/myenv/Lib/site-packages/h11-0.16.0.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:37 INFO  : py/myenv/Lib/site-packages/httpx: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:37 INFO  : py/myenv/Lib/site-packages/lxml: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:37 INFO  : py/myenv/Lib/site-packages/idna-3.11.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:37 INFO  : py/myenv/Lib/site-packages/lxml-6.0.2.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:37 INFO  : py/myenv/Lib/site-packages/markupsafe-3.0.3.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:38 INFO  : py/myenv/Lib/site-packages/markupsafe: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:38 INFO  : py/myenv/Lib/site-packages/itsdangerous: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:38 INFO  : py/myenv/Lib/site-packages/multidict-6.7.1.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:38 INFO  : py/myenv/Lib/site-packages/idna: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:38 INFO  : py/myenv/Lib/site-packages/jinja2: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:38 INFO  : py/myenv/Lib/site-packages/propcache-0.4.1.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:39 INFO  : py/myenv/Lib/site-packages/pyasn1-0.6.2.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:39 INFO  : py/myenv/Lib/site-packages/propcache: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:39 INFO  : py/myenv/Lib/site-packages/itsdangerous-2.2.0.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:39 INFO  : py/myenv/Lib/site-packages/pyasn1: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:39 INFO  : py/myenv/Lib/site-packages/pip-25.3.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:39 INFO  : py/myenv/Lib/site-packages/multidict: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:39 INFO  : py/myenv/Lib/site-packages/pip: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:39 INFO  : py/myenv/Lib/site-packages/pyasn1_modules-0.4.2.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:39 INFO  : py/myenv/Lib/site-packages/pyasn1_modules: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:39 INFO  : py/myenv/Lib/site-packages/pycparser: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:40 INFO  : py/myenv/Lib/site-packages/pydantic-2.12.5.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:40 INFO  : py/myenv/Lib/site-packages/pydantic: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:40 INFO  : py/myenv/Lib/site-packages/pydantic_core-2.41.5.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:40 INFO  : py/myenv/Lib/site-packages/pydantic_core: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:40 INFO  : py/myenv/Lib/site-packages/python_docx-1.2.0.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:40 INFO  : py/myenv/Lib/site-packages/pypdf2-3.0.1.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:40 INFO  : py/myenv/Lib/site-packages/requests-2.32.5.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:41 INFO  : py/myenv/Lib/site-packages/rsa-4.9.1.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:41 INFO  : py/myenv/Lib/site-packages/rsa: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:41 INFO  : py/myenv/Lib/site-packages/sniffio-1.3.1.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:41 INFO  : py/myenv/Lib/site-packages/tenacity-9.1.4.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:41 INFO  : py/myenv/Lib/site-packages/sniffio: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:41 INFO  : py/myenv/Lib/site-packages/tenacity: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:41 INFO  : py/myenv/Lib/site-packages/typing_extensions-4.15.0.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:42 INFO  : py/myenv/Lib/site-packages/typing_inspection-0.4.2.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:42 INFO  : py/myenv/Lib/site-packages/requests: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:42 INFO  : py/myenv/Lib/site-packages/urllib3-2.6.3.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:42 INFO  : py/myenv/Lib/site-packages/urllib3: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:42 INFO  : py/myenv/Lib/site-packages/typing_inspection: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:42 INFO  : py/myenv/Lib/site-packages/waitress-3.0.2.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:42 INFO  : py/myenv/Lib/site-packages/waitress: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:42 INFO  : py/myenv/Lib/site-packages/websockets-15.0.1.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:43 INFO  : py/myenv/Lib/site-packages/werkzeug-3.1.6.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:43 INFO  : py/myenv/Lib/site-packages/yarl: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:43 INFO  : py/myenv/Lib/site-packages/werkzeug: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:43 INFO  : py/myenv/Lib/site-packages/yarl-1.22.0.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:43 INFO  : py/myenv/Lib/site-packages/pycparser-3.0.dist-info: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:43 INFO  : py/myenv/Lib/site-packages/websockets: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:44 INFO  : py/myenv/Lib/site-packages: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:45 INFO  : py/myenv/Scripts: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:45 INFO  : P+ID識別AI Agent訓練測試/S2A_P+ID_pic/空污系統: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:45 INFO  : py/myenv/Lib: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:45 INFO  : P+ID識別AI Agent訓練測試/T2A_P+ID_pic: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:45 INFO  : py/myenv: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:46 INFO  : P+ID識別AI Agent訓練測試/S2A_P+ID_pic: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:46 INFO  : py/syngaction_RAG: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:46 INFO  : P+ID識別AI Agent訓練測試/Synology Chat_LOG: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:47 INFO  : .tmp.driveupload: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:47 INFO  : Skill: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:47 INFO  : ForGem: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:47 INFO  : Job: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:48 INFO  : P+ID識別AI Agent訓練測試: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:48 INFO  : py: Set directory modification time (using DirSetModTime)
-2026/04/07 16:45:48 INFO  : 
 Transferred:   	  510.585 MiB / 510.585 MiB, 100%, 15.098 KiB/s, ETA 0s
-Checks:                 0 / 0, -, Listed 5137
 Transferred:         4561 / 4561, 100%
-Elapsed time:   2h19m46.2s
-
-2026/04/07 16:59:53 INFO  : .tmp.driveupload: Set directory modification time (using SetModTime)
-2026/04/07 16:59:54 INFO  : py: Set directory modification time (using SetModTime)
 2026/04/07 16:59:57 INFO  : YPput/AccessCell.xlsx: Copied (new)
 2026/04/07 16:59:58 INFO  : YPput/YPtemp.txt: Copied (new)
 2026/04/07 16:59:58 INFO  : YPput/Thumbs.db: Copied (new)
@@ -5232,38 +4654,16 @@ Elapsed time:   2h19m46.2s
 2026/04/07 17:02:45 INFO  : YPput/py/syngbot_admin.err.log.old: Copied (new)
 2026/04/07 17:02:47 INFO  : YPput/py/syngbot_admin.err.log: Copied (new)
 2026/04/07 17:02:49 INFO  : YPput/py/syngbot_admin.out.log.old: Copied (new)
-[週三 2026/04/08 12:32:50.95] === 任務啟動 === 
-2026/04/08 12:33:00 INFO  : .tmp.drivedownload: Set directory modification time (using SetModTime)
-2026/04/08 12:33:01 INFO  : .tmp.driveupload: Set directory modification time (using SetModTime)
-2026/04/08 12:33:02 INFO  : YPput: Set directory modification time (using SetModTime)
-2026/04/08 12:33:03 INFO  : YPput/.tmp.driveupload: Set directory modification time (using SetModTime)
-2026/04/08 12:33:04 INFO  : py/bot_runtime.log: Copied (replaced existing)
-2026/04/08 12:33:04 INFO  : py/syngaction02.py: Copied (replaced existing)
+[週三 2026/04/08 12:32:50.95] === 任務啟動 ===
 2026/04/08 12:33:05 INFO  : .tmp.driveupload/13098: Copied (new)
-2026/04/08 12:33:39 INFO  : YPput/ForGem: Set directory modification time (using SetModTime)
-2026/04/08 12:33:40 INFO  : YPput/Job: Set directory modification time (using SetModTime)
-2026/04/08 12:33:41 INFO  : YPput/P+ID識別AI Agent訓練測試: Set directory modification time (using SetModTime)
 2026/04/08 12:33:42 INFO  : py/syngaction02 - OLD0407.py: Copied (new)
-2026/04/08 12:33:42 INFO  : YPput/Skill: Set directory modification time (using SetModTime)
-2026/04/08 12:33:43 INFO  : YPput/py: Set directory modification time (using SetModTime)
 2026/04/08 12:33:48 INFO  : YPput/YPput/AccessCell.gsheet: Copied (new)
 2026/04/08 12:33:49 INFO  : YPput/YPput/YPtemp.txt: Copied (new)
 2026/04/08 12:33:49 INFO  : YPput/YPput/Thumbs.db: Copied (new)
-2026/04/08 12:33:49 INFO  : YPput/P+ID識別AI Agent訓練測試/S2A_P+ID_pic: Set directory modification time (using SetModTime)
 2026/04/08 12:33:49 INFO  : YPput/YPput/AccessCell.xlsx: Copied (new)
 2026/04/08 12:33:51 INFO  : YPput/YPput/gas_job_to_forgem: Copied (new)
 2026/04/08 12:33:51 INFO  : YPput/YPput/sync.ffs_db: Copied (new)
-2026/04/08 12:33:52 INFO  : 
-Transferred:   	  556.873 KiB / 270.428 MiB, 0%, 19.299 KiB/s, ETA 3h58m39s
-Checks:               215 / 215, 100%, Listed 5644
 Transferred:           10 / 162, 6%
-Elapsed time:        59.9s
-Transferring:
- * YPput/YPput/subscripti…_claude.ai_monthly.JPG:100% /99.856Ki, 49.928Ki/s, 0s
- *        YPput/YPput/~$RTX4090-LLM-WKS-BOM.xlsx:100% /165, 82/s, 0s
- *     YPput/YPput/Job/20260209_FMCS_重點工作報告.pptx:  0% /6.215Mi, 0/s, -
- *       YPput/YPput/Job/AddressBook20260318.csv:  0% /22.306Ki, 0/s, -
-
 2026/04/08 12:33:52 INFO  : YPput/YPput/~$RTX4090-LLM-WKS-BOM.xlsx: Copied (new)
 2026/04/08 12:33:52 INFO  : YPput/YPput/subscription_claude.ai_monthly.JPG: Copied (new)
 2026/04/08 12:33:55 INFO  : YPput/YPput/Job/AddressBook20260318.csv: Copied (new)
@@ -5304,17 +4704,7 @@ Transferring:
 2026/04/08 12:34:51 INFO  : YPput/.tmp.drivedownload/19292.1775548575236589: Copied (new)
 2026/04/08 12:34:51 INFO  : YPput/.tmp.drivedownload/19293.1775548575234572: Copied (new)
 2026/04/08 12:34:51 INFO  : YPput/.tmp.drivedownload/19294.1775548575232628: Copied (new)
-2026/04/08 12:34:52 INFO  : 
-Transferred:   	   31.812 MiB / 285.782 MiB, 11%, 220.717 KiB/s, ETA 19m38s
-Checks:               215 / 215, 100%, Listed 5644
 Transferred:           50 / 162, 31%
-Elapsed time:      1m59.9s
-Transferring:
- * YPput/.tmp.drivedownlo…21002.1775549896783612:  0% /0, 0/s, -
- * YPput/.tmp.drivedownlo…21003.1775549896778928:  0% /0, 0/s, -
- * YPput/.tmp.drivedownlo…21004.1775549896775733:  0% /0, 0/s, -
- * YPput/.tmp.drivedownlo…22203.1775550856818235:  0% /0, 0/s, -
-
 2026/04/08 12:34:52 INFO  : YPput/.tmp.drivedownload/21002.1775549896783612: Copied (new)
 2026/04/08 12:34:53 INFO  : YPput/.tmp.drivedownload/21004.1775549896775733: Copied (new)
 2026/04/08 12:34:53 INFO  : YPput/.tmp.drivedownload/21003.1775549896778928: Copied (new)
@@ -5343,17 +4733,7 @@ Transferring:
 2026/04/08 12:35:46 INFO  : YPput/YPput/py/ALM+8hr_log.txt: Copied (new)
 2026/04/08 12:35:49 INFO  : YPput/YPput/py/CyberAdmin.html: Copied (new)
 2026/04/08 12:35:51 INFO  : YPput/YPput/py/Githubkey.txt: Copied (new)
-2026/04/08 12:35:52 INFO  : 
-Transferred:   	  116.556 MiB / 285.783 MiB, 41%, 1.407 MiB/s, ETA 2m
-Checks:               215 / 215, 100%, Listed 5644
 Transferred:           78 / 162, 48%
-Elapsed time:      2m59.9s
-Transferring:
- *            YPput/YPput/.tmp.driveupload/13092: 23% /62.796Mi, 201.227Ki/s, 4m4s
- *            YPput/YPput/.tmp.driveupload/13329: 60% /100.294Mi, 848.622Ki/s, 48s
- *                            YPput/py/ngrok.exe: 22% /30.653Mi, 799.500Ki/s, 30s
- *                       YPput/YPput/py/Gkey.txt:  0% /39, 0/s, -
-
 2026/04/08 12:35:53 INFO  : YPput/YPput/py/Gkey.txt: Copied (new)
 2026/04/08 12:35:56 INFO  : YPput/YPput/py/Ngrok link.txt: Copied (new)
 2026/04/08 12:36:28 INFO  : YPput/py/syngbot_admin.exe: Copied (new)
@@ -5366,17 +4746,7 @@ Transferring:
 2026/04/08 12:36:45 INFO  : YPput/YPput/py/check_models.py: Copied (new)
 2026/04/08 12:36:48 INFO  : YPput/YPput/py/readme_syngaction.txt: Copied (new)
 2026/04/08 12:36:50 INFO  : YPput/YPput/py/start_ALM_BOT.bat: Copied (new)
-2026/04/08 12:36:52 INFO  : 
-Transferred:   	  190.121 MiB / 285.783 MiB, 67%, 1.259 MiB/s, ETA 1m15s
-Checks:               215 / 215, 100%, Listed 5644
 Transferred:           90 / 162, 56%
-Elapsed time:      3m59.9s
-Transferring:
- *            YPput/YPput/.tmp.driveupload/13092: 58% /62.796Mi, 536.619Ki/s, 50s
- *            YPput/YPput/.tmp.driveupload/13329: 74% /100.294Mi, 384.180Ki/s, 1m7s
- *                            YPput/py/ngrok.exe: 85% /30.653Mi, 286.912Ki/s, 15s
- *            YPput/py/syngbot_admin.wrapper.log:100% /3.307Ki, 3.307Ki/s, 0s
-
 2026/04/08 12:36:53 INFO  : YPput/py/syngbot_admin.wrapper.log: Copied (new)
 2026/04/08 12:36:55 INFO  : YPput/YPput/py/syngaction02.py: Copied (new)
 2026/04/08 12:36:58 INFO  : YPput/py/syngbot_admin.xml: Copied (new)
@@ -5385,17 +4755,7 @@ Transferring:
 2026/04/08 12:37:28 INFO  : YPput/YPput/py/syngbot_admin.err.log.old: Copied (new)
 2026/04/08 12:37:30 INFO  : YPput/py/syngbot_ngrok.err.log: Copied (new)
 2026/04/08 12:37:33 INFO  : YPput/YPput/py/syngbot_admin.err.log: Copied (new)
-2026/04/08 12:37:52 INFO  : 
-Transferred:   	  254.765 MiB / 285.783 MiB, 89%, 1.030 MiB/s, ETA 30s
-Checks:               215 / 215, 100%, Listed 5644
 Transferred:           98 / 162, 60%
-Elapsed time:      4m59.9s
-Transferring:
- *            YPput/YPput/.tmp.driveupload/13092:100% /62.796Mi, 227.513Ki/s, 0s
- *            YPput/YPput/.tmp.driveupload/13329: 91% /100.294Mi, 217.996Ki/s, 40s
- *                            YPput/py/ngrok.exe:100% /30.653Mi, 15.329Ki/s, 0s
- *                    YPput/py/syngbot_ngrok.exe:100% /17.398Mi, 983.878Ki/s, 0s
-
 2026/04/08 12:37:52 INFO  : YPput/py/syngbot_ngrok.exe: Copied (new)
 2026/04/08 12:37:53 INFO  : YPput/YPput/.tmp.driveupload/13092: Copied (new)
 2026/04/08 12:37:54 INFO  : YPput/YPput/py/syngbot_admin.out.log.old: Copied (new)
@@ -5404,24 +4764,13 @@ Transferring:
 2026/04/08 12:37:57 INFO  : YPput/py/syngbot_ngrok.wrapper.log: Copied (new)
 2026/04/08 12:37:59 INFO  : YPput/py/syngbot_ngrok.xml: Copied (new)
 2026/04/08 12:38:01 INFO  : YPput/YPput/py/syngbot_admin.out.log: Copied (new)
-2026/04/08 12:38:01 INFO  : YPput/py/bot_runtime.log: Copied (replaced existing)
-2026/04/08 12:38:04 INFO  : YPput/py/syngaction02.py: Copied (replaced existing)
 2026/04/08 12:38:37 INFO  : YPput/py/syngaction_RAG/HJ1.txt: Copied (new)
 2026/04/08 12:38:39 INFO  : YPput/py/syngaction_RAG/HJ2.txt: Copied (new)
 2026/04/08 12:38:41 INFO  : YPput/py/syngaction_RAG/LC2-1.txt: Copied (new)
 2026/04/08 12:38:43 INFO  : YPput/py/syngaction_RAG/LC2.txt: Copied (new)
 2026/04/08 12:38:45 INFO  : YPput/py/syngaction_RAG/LC3.txt: Copied (new)
-2026/04/08 12:38:52 INFO  : 
-Transferred:   	  263.402 MiB / 285.796 MiB, 92%, 56.354 KiB/s, ETA 6m46s
-Checks:               215 / 215, 100%, Listed 5644
 Transferred:          113 / 162, 70%
-Elapsed time:      5m59.9s
-Transferring:
- *            YPput/YPput/.tmp.driveupload/13329:100% /100.294Mi, 38.374Ki/s, 0s
- *                            YPput/py/ngrok.exe:100% /30.653Mi, 326/s, 0s
  *        YPput/py/syngaction_RAG/FMCS Error.txt:  0% /6.914Ki, 0/s, -
- *               YPput/py/syngaction_RAG/PCB.txt:  0% /0, 0/s, -
-
 2026/04/08 12:38:56 INFO  : YPput/py/syngaction_RAG/FMCS Error.txt: Copied (new)
 2026/04/08 12:38:57 INFO  : YPput/py/syngaction_RAG/PCB.txt: Copied (new)
 2026/04/08 12:38:59 INFO  : YPput/py/syngaction_RAG/S2A.txt: Copied (new)
@@ -5429,34 +4778,11 @@ Transferring:
 2026/04/08 12:39:01 INFO  : YPput/py/syngaction_RAG/T2A.txt: Copied (new)
 2026/04/08 12:39:03 INFO  : YPput/py/syngaction_RAG/T2C.txt: Copied (new)
 2026/04/08 12:39:36 INFO  : YPput/P+ID識別AI Agent訓練測試/T2A_P+ID_pic/T2A_action_mapping.csv: Copied (new)
-2026/04/08 12:39:46 INFO  : .tmp.drivedownload: Set directory modification time (using SetModTime)
-2026/04/08 12:39:47 INFO  : YPput/.tmp.drivedownload: Set directory modification time (using SetModTime)
-2026/04/08 12:39:48 INFO  : YPput/.tmp.driveupload: Set directory modification time (using SetModTime)
-2026/04/08 12:39:48 INFO  : py/bot_runtime.log: Copied (replaced existing)
-2026/04/08 12:39:49 INFO  : YPput/YPput: Set directory modification time (using SetModTime)
 2026/04/08 12:39:50 INFO  : YPput/P+ID識別AI Agent訓練測試/S2A_P+ID_pic/空污系統/Thumbs.db: Copied (new)
-2026/04/08 12:39:50 INFO  : YPput/py: Set directory modification time (using SetModTime)
-2026/04/08 12:39:51 INFO  : YPput/P+ID識別AI Agent訓練測試/T2A_P+ID_pic: Set directory modification time (using SetModTime)
-2026/04/08 12:39:51 INFO  : YPput/py/syngaction_RAG: Set directory modification time (using SetModTime)
-2026/04/08 12:39:51 INFO  : YPput/YPput/.tmp.driveupload: Set directory modification time (using SetModTime)
-2026/04/08 12:39:52 INFO  : 
-Transferred:   	  283.141 MiB / 316.461 MiB, 89%, 794.342 KiB/s, ETA 42s
-Checks:               215 / 215, 100%, Listed 5644
 Transferred:          121 / 162, 75%
-Elapsed time:      6m59.9s
-Transferring:
- *            YPput/YPput/.tmp.driveupload/13329:100% /100.294Mi, 817/s, 0s
- *                            YPput/py/ngrok.exe: 15% /30.653Mi, 0/s, -
- * YPput/P+ID識別AI Agent訓練…pic/S2A_SCADA_P+ID.pdf: 73% /19.872Mi, 513.767Ki/s, 10s
- * YPput/P+ID識別AI Agent訓練…警報點(S1_S2_PCB_S3).xlsx:  0% /12.759Ki, 0/s, -
-
-2026/04/08 12:39:52 INFO  : YPput/YPput/ForGem: Set directory modification time (using SetModTime)
 2026/04/08 12:39:53 INFO  : YPput/py/syngaction02 - OLD0407.py: Copied (new)
-2026/04/08 12:39:53 INFO  : YPput/YPput/Job: Set directory modification time (using SetModTime)
 2026/04/08 12:39:54 INFO  : YPput/P+ID識別AI Agent訓練測試/T2A_P+ID_pic/T2A_action_mapping.csv: Copied (new)
 2026/04/08 12:39:54 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/260331_警報點(S1_S2_PCB_S3).xlsx: Copied (new)
-2026/04/08 12:39:54 INFO  : YPput/YPput/Skill: Set directory modification time (using SetModTime)
-2026/04/08 12:39:56 INFO  : YPput/YPput/py: Set directory modification time (using SetModTime)
 2026/04/08 12:39:56 INFO  : YPput/P+ID識別AI Agent訓練測試/S2A_P+ID_pic/空污系統/Thumbs.db: Copied (new)
 2026/04/08 12:39:57 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/260331_警報點(S1_S2_PCB_S3).xlsx: Copied (new)
 2026/04/08 12:39:58 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/SynologyChat_警報發報分析報告.pptx: Copied (new)
@@ -5469,17 +4795,7 @@ Transferring:
 2026/04/08 12:40:24 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260228.log: Copied (new)
 2026/04/08 12:40:29 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260303.log: Copied (new)
 2026/04/08 12:40:31 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260304.log: Copied (new)
-2026/04/08 12:40:32 INFO  : 
-Transferred:   	   23.335 MiB / 271.022 MiB, 9%, 525.510 KiB/s, ETA 8m2s
-Checks:               330 / 330, 100%, Listed 5893
 Transferred:           12 / 161, 7%
-Elapsed time:        59.9s
-Transferring:
- *                            YPput/py/ngrok.exe: 35% /30.653Mi, 272.854Ki/s, 1m13s
- * YPput/P+ID識別AI Agent訓練…pic/S2A_SCADA_P+ID.pdf: 51% /19.872Mi, 255.570Ki/s, 38s
- * YPput/P+ID識別AI Agent訓練…Chat Trace20260302.log:100% /101.969Ki, 16.994Ki/s, 0s
- * YPput/P+ID識別AI Agent訓練…Chat Trace20260305.log:  0% /191.013Ki, 0/s, -
-
 2026/04/08 12:40:33 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260302.log: Copied (new)
 2026/04/08 12:40:35 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260306.log: Copied (new)
 2026/04/08 12:40:36 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260305.log: Copied (new)
@@ -5496,17 +4812,7 @@ Transferring:
 2026/04/08 12:40:50 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260313.log: Copied (new)
 2026/04/08 12:40:50 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260314.log: Copied (new)
 2026/04/08 12:40:50 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260304.log: Copied (new)
-2026/04/08 12:40:52 INFO  : 
-Transferred:   	  309.245 MiB / 316.847 MiB, 98%, 360.156 KiB/s, ETA 21s
-Checks:               215 / 215, 100%, Listed 5644
 Transferred:          130 / 162, 80%
-Elapsed time:      7m59.9s
-Transferring:
- *            YPput/YPput/.tmp.driveupload/13329:100% /100.294Mi, 17/s, 0s
- *                            YPput/py/ngrok.exe: 78% /30.653Mi, 339.917Ki/s, 20s
- * YPput/P+ID識別AI Agent訓練…pic/S2A_SCADA_P+ID.pdf:100% /19.872Mi, 30.043Ki/s, 0s
- * YPput/P+ID識別AI Agent訓練…Chat Trace20260305.log:100% /191.013Ki, 191.013Ki/s, 0s
-
 2026/04/08 12:40:53 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260316.log: Copied (new)
 2026/04/08 12:40:54 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260305.log: Copied (new)
 2026/04/08 12:40:54 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260315.log: Copied (new)
@@ -5525,17 +4831,7 @@ Transferring:
 2026/04/08 12:41:30 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260326.log: Copied (new)
 2026/04/08 12:41:30 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260325.log: Copied (new)
 2026/04/08 12:41:31 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260310.log: Copied (new)
-2026/04/08 12:41:32 INFO  : 
-Transferred:   	   48.438 MiB / 271.095 MiB, 18%, 380.018 KiB/s, ETA 9m59s
-Checks:               330 / 330, 100%, Listed 5893
 Transferred:           35 / 161, 22%
-Elapsed time:      1m59.9s
-Transferring:
- *                            YPput/py/ngrok.exe: 82% /30.653Mi, 293.074Ki/s, 18s
- * YPput/P+ID識別AI Agent訓練…pic/S2A_SCADA_P+ID.pdf:100% /19.872Mi, 80.467Ki/s, 0s
- * YPput/P+ID識別AI Agent訓練…Chat Trace20260327.log:100% /63.689Ki, 0/s, -
- * YPput/P+ID識別AI Agent訓練…Chat Trace20260328.log:100% /29.943Ki, 29.943Ki/s, 0s
-
 2026/04/08 12:41:33 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260328.log: Copied (new)
 2026/04/08 12:41:34 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260327.log: Copied (new)
 2026/04/08 12:41:34 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260311.log: Copied (new)
@@ -5555,17 +4851,8 @@ Transferring:
 2026/04/08 12:41:51 INFO  : YPput/YPput/YPput/Thumbs.db: Copied (new)
 2026/04/08 12:41:51 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260318.log: Copied (new)
 2026/04/08 12:41:51 INFO  : YPput/YPput/YPput/AccessCell.xlsx: Copied (new)
-2026/04/08 12:41:52 INFO  : 
 Transferred:   	  316.805 MiB / 317.119 MiB, 100%, 57.669 KiB/s, ETA 5s
-Checks:               215 / 215, 100%, Listed 5644
 Transferred:          145 / 162, 90%
-Elapsed time:      8m59.9s
-Transferring:
- *            YPput/YPput/.tmp.driveupload/13329:100% /100.294Mi, 0/s, 0s
- * YPput/P+ID識別AI Agent訓練…pic/S2A_SCADA_P+ID.pdf:100% /19.872Mi, 640/s, 0s
- * YPput/P+ID識別AI Agent訓練…Chat Trace20260319.log:100% /10.669Ki, 10.668Ki/s, 0s
- * YPput/P+ID識別AI Agent訓練…Chat Trace20260320.log:  0% /13.092Ki, 0/s, -
-
 2026/04/08 12:41:52 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260319.log: Copied (new)
 2026/04/08 12:41:53 INFO  : YPput/YPput/YPput/YPtemp.txt: Copied (new)
 2026/04/08 12:41:54 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260320.log: Copied (new)
@@ -5583,40 +4870,11 @@ Transferring:
 2026/04/08 12:42:01 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260326.log: Copied (new)
 2026/04/08 12:42:02 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260327.log: Copied (new)
 2026/04/08 12:42:04 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260328.log: Copied (new)
-[週三 2026/04/08 12:42:06.71] !!! 失敗，代碼: 1 !!! 
- 
-[週三 2026/04/08 12:42:41.19] === 任務啟動 === 
-2026/04/08 12:42:49 INFO  : .tmp.drivedownload: Set directory modification time (using SetModTime)
-2026/04/08 12:42:50 INFO  : YPput/py: Set directory modification time (using SetModTime)
-2026/04/08 12:42:50 NOTICE: YPput/py/ngrok.exe: Duplicate object found in destination - ignoring
-2026/04/08 12:42:51 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試: Set directory modification time (using SetModTime)
-2026/04/08 12:42:51 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG: Set directory modification time (using SetModTime)
-2026/04/08 12:42:51 NOTICE: YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/SynologyChat_警報發報分析報告.pptx: Duplicate object found in destination - ignoring
-2026/04/08 12:42:51 NOTICE: YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/T2A_AA.xlsx: Duplicate object found in destination - ignoring
-2026/04/08 12:42:51 NOTICE: YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/clear.py: Duplicate object found in destination - ignoring
-2026/04/08 12:42:51 INFO  : YPput/P+ID識別AI Agent訓練測試/S2A_P+ID_pic/空污系統: Set directory modification time (using SetModTime)
-2026/04/08 12:42:52 INFO  : YPput/YPput/YPput: Set directory modification time (using SetModTime)
-2026/04/08 12:42:52 INFO  : YPput/py/bot_runtime.log: Copied (replaced existing)
-2026/04/08 12:42:53 INFO  : YPput/YPput/py: Set directory modification time (using SetModTime)
-2026/04/08 12:43:42 INFO  : 
-Transferred:   	   60.861 MiB / 301.583 MiB, 20%, 949.944 KiB/s, ETA 4m19s
-Checks:               381 / 381, 100%, Listed 6009
+[週三 2026/04/08 12:42:06.71] !!! 失敗，代碼: 1 !!!
+[週三 2026/04/08 12:42:41.19] === 任務啟動 ===
 Transferred:            1 / 164, 1%
-Elapsed time:        59.9s
-Transferring:
- * YPput/P+ID識別AI Agent訓練…pic/S2A_SCADA_P+ID.pdf:100% /19.872Mi, 156.594Ki/s, 0s
- *            YPput/YPput/.tmp.driveupload/13329: 10% /100.294Mi, 240.422Ki/s, 6m21s
- *                  YPput/YPput/py/ngrok (1).exe: 24% /30.653Mi, 220.500Ki/s, 1m46s
- *                      YPput/YPput/py/ngrok.exe: 73% /30.653Mi, 413.899Ki/s, 20s
-
-[週三 2026/04/08 12:44:26.30] === 任務啟動 === 
-[週三 2026/04/08 12:46:27.08] === 任務啟動 === 
-2026/04/08 12:46:35 INFO  : .tmp.drivedownload: Set directory modification time (using SetModTime)
-2026/04/08 12:46:35 NOTICE: YPput/py/ngrok.exe: Duplicate object found in destination - ignoring
-2026/04/08 12:46:35 NOTICE: YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/SynologyChat_警報發報分析報告.pptx: Duplicate object found in destination - ignoring
-2026/04/08 12:46:35 NOTICE: YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/T2A_AA.xlsx: Duplicate object found in destination - ignoring
-2026/04/08 12:46:35 NOTICE: YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/clear.py: Duplicate object found in destination - ignoring
-2026/04/08 12:46:36 INFO  : YPput/YPput/py: Set directory modification time (using SetModTime)
+[週三 2026/04/08 12:44:26.30] === 任務啟動 ===
+[週三 2026/04/08 12:46:27.08] === 任務啟動 ===
 2026/04/08 12:46:40 INFO  : YPput/YPput/.tmp.drivedownload/15588.1775545336414079: Copied (new)
 2026/04/08 12:46:41 INFO  : YPput/YPput/.tmp.drivedownload/15589.1775545336410203: Copied (new)
 2026/04/08 12:46:41 INFO  : YPput/YPput/.tmp.drivedownload/15590.1775545336406185: Copied (new)
@@ -5649,17 +4907,7 @@ Transferring:
 2026/04/08 12:47:03 INFO  : YPput/YPput/.tmp.drivedownload/19294.1775548575232628: Copied (new)
 2026/04/08 12:47:04 INFO  : YPput/YPput/.tmp.drivedownload/21002.1775549896783612: Copied (new)
 2026/04/08 12:47:05 INFO  : YPput/YPput/.tmp.drivedownload/21003.1775549896778928: Copied (new)
-2026/04/08 12:47:27 INFO  : 
-Transferred:   	   76.214 MiB / 301.580 MiB, 25%, 1.453 MiB/s, ETA 2m35s
-Checks:               381 / 381, 100%, Listed 6009
 Transferred:           32 / 163, 20%
-Elapsed time:        59.9s
-Transferring:
- *            YPput/YPput/.tmp.driveupload/13329: 55% /100.294Mi, 1.505Mi/s, 29s
- * YPput/YPput/.tmp.drive…21004.1775549896775733:  0% /0, 0/s, -
- * YPput/YPput/P+ID識別AI A…+ID_pic/空污系統/Thumbs.db:100% /330Ki, 0/s, -
- * YPput/YPput/.tmp.drive…22203.1775550856818235:  0% /0, 0/s, -
-
 2026/04/08 12:47:29 INFO  : YPput/YPput/.tmp.drivedownload/21004.1775549896775733: Copied (new)
 2026/04/08 12:47:29 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試/S2A_P+ID_pic/空污系統/Thumbs.db: Copied (new)
 2026/04/08 12:47:29 INFO  : YPput/YPput/.tmp.drivedownload/22203.1775550856818235: Copied (new)
@@ -5694,17 +4942,7 @@ Transferring:
 2026/04/08 12:48:02 INFO  : YPput/YPput/YPput/ForGem/20260303_FMCS_weekly09_YPedit (1).gslides: Copied (new)
 2026/04/08 12:48:02 INFO  : YPput/YPput/YPput/py/syngbot_admin.out.log.old: Copied (new)
 2026/04/08 12:48:03 INFO  : YPput/YPput/YPput/py/syngbot_admin.out.log: Copied (new)
-2026/04/08 12:48:27 INFO  : 
-Transferred:   	  136.466 MiB / 301.581 MiB, 45%, 406.416 KiB/s, ETA 6m56s
-Checks:               381 / 381, 100%, Listed 6009
 Transferred:           66 / 163, 40%
-Elapsed time:      1m59.9s
-Transferring:
- *            YPput/YPput/.tmp.driveupload/13329:100% /100.294Mi, 358.688Ki/s, 0s
- * YPput/YPput/YPput/ForG…eekly09_YPedit.gslides:100% /192, 11/s, 0s
- * YPput/YPput/YPput/ForG…eekly10_YPedit.gslides:  0% /192, 0/s, -
- * YPput/YPput/YPput/ForG…essBook20260223.gsheet:  0% /192, 0/s, -
-
 2026/04/08 12:48:28 INFO  : YPput/YPput/YPput/ForGem/20260303_FMCS_weekly09_YPedit.gslides: Copied (new)
 2026/04/08 12:48:29 INFO  : YPput/YPput/YPput/ForGem/20260311_FMCS_weekly10_YPedit.gslides: Copied (new)
 2026/04/08 12:48:30 INFO  : YPput/YPput/YPput/ForGem/Form.gslides: Copied (new)
@@ -5731,39 +4969,11 @@ Transferring:
 2026/04/08 12:48:55 INFO  : YPput/YPput/YPput/.tmp.driveupload/11804: Copied (new)
 2026/04/08 12:48:55 INFO  : YPput/YPput/YPput/.tmp.driveupload/11767: Copied (new)
 2026/04/08 12:48:57 INFO  : YPput/YPput/YPput/.tmp.driveupload/13098: Copied (new)
-[週三 2026/04/08 12:48:57.27] !!! 失敗，代碼: 1 !!! 
- 
-[週三 2026/04/08 12:50:45.48] === 任務啟動 === 
-2026/04/08 12:50:54 INFO  : .tmp.drivedownload: Set directory modification time (using SetModTime)
-2026/04/08 12:50:54 NOTICE: YPput/py/ngrok.exe: Duplicate object found in destination - ignoring
-2026/04/08 12:50:54 NOTICE: YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/SynologyChat_警報發報分析報告.pptx: Duplicate object found in destination - ignoring
-2026/04/08 12:50:54 NOTICE: YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/T2A_AA.xlsx: Duplicate object found in destination - ignoring
-2026/04/08 12:50:54 NOTICE: YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/clear.py: Duplicate object found in destination - ignoring
-2026/04/08 12:50:55 INFO  : YPput/YPput/.tmp.drivedownload: Set directory modification time (using SetModTime)
-2026/04/08 12:50:56 INFO  : YPput/YPput/YPput: Set directory modification time (using SetModTime)
-2026/04/08 12:50:57 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試/S2A_P+ID_pic: Set directory modification time (using SetModTime)
-2026/04/08 12:50:57 INFO  : YPput/YPput/YPput/.tmp.driveupload: Set directory modification time (using SetModTime)
-2026/04/08 12:50:57 INFO  : YPput/YPput/py/bot_runtime.log: Copied (replaced existing)
-2026/04/08 12:50:57 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試/T2A_P+ID_pic: Set directory modification time (using SetModTime)
-2026/04/08 12:50:58 INFO  : YPput/YPput/YPput/ForGem: Set directory modification time (using SetModTime)
-2026/04/08 12:50:58 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試/S2A_P+ID_pic/空污系統: Set directory modification time (using SetModTime)
-2026/04/08 12:50:59 INFO  : YPput/YPput/YPput/Job: Set directory modification time (using SetModTime)
-2026/04/08 12:51:00 INFO  : YPput/YPput/YPput/YPput: Set directory modification time (using SetModTime)
+[週三 2026/04/08 12:48:57.27] !!! 失敗，代碼: 1 !!!
+[週三 2026/04/08 12:50:45.48] === 任務啟動 ===
 2026/04/08 12:51:00 INFO  : YPput/YPput/py/syngaction02 - OLD0407.py: Copied (new)
-2026/04/08 12:51:01 INFO  : YPput/YPput/YPput/py: Set directory modification time (using SetModTime)
-2026/04/08 12:51:02 INFO  : YPput/YPput/py/syngaction02.py: Copied (replaced existing)
 2026/04/08 12:51:44 INFO  : YPput/YPput/py/ngrok (1).exe: Copied (new)
-2026/04/08 12:51:46 INFO  : 
-Transferred:   	   82.029 MiB / 301.580 MiB, 27%, 1.565 MiB/s, ETA 2m20s
-Checks:               474 / 474, 100%, Listed 6213
 Transferred:            4 / 163, 2%
-Elapsed time:        59.9s
-Transferring:
- *            YPput/YPput/.tmp.driveupload/13329: 22% /100.294Mi, 279.153Ki/s, 4m46s
- *                      YPput/YPput/py/ngrok.exe: 57% /30.653Mi, 419.478Ki/s, 31s
- *              YPput/YPput/py/syngbot_admin.exe: 66% /17.398Mi, 218.532Ki/s, 27s
- *      YPput/YPput/py/syngbot_admin.wrapper.log:100% /3.307Ki, 1.653Ki/s, 0s
-
 2026/04/08 12:51:46 INFO  : YPput/YPput/py/syngbot_admin.wrapper.log: Copied (new)
 2026/04/08 12:51:48 INFO  : YPput/YPput/py/syngbot_admin.xml: Copied (new)
 2026/04/08 12:51:51 INFO  : YPput/YPput/py/syngbot_ngrok.err.log.old: Copied (new)
@@ -5774,17 +4984,7 @@ Transferring:
 2026/04/08 12:52:37 INFO  : YPput/YPput/py/syngbot_ngrok.wrapper.log: Copied (new)
 2026/04/08 12:52:39 INFO  : YPput/YPput/py/syngbot_ngrok.xml: Copied (new)
 2026/04/08 12:52:43 INFO  : YPput/YPput/py/syngaction_RAG/FMCS Error.txt: Copied (new)
-2026/04/08 12:52:46 INFO  : 
-Transferred:   	  150.339 MiB / 301.580 MiB, 50%, 659.464 KiB/s, ETA 3m54s
-Checks:               474 / 474, 100%, Listed 6213
 Transferred:           14 / 163, 9%
-Elapsed time:      1m59.9s
-Transferring:
- *            YPput/YPput/.tmp.driveupload/13329: 53% /100.294Mi, 466.118Ki/s, 1m41s
- *                      YPput/YPput/py/ngrok.exe:100% /30.653Mi, 76.116Ki/s, 0s
- *              YPput/YPput/py/syngbot_ngrok.exe:100% /17.398Mi, 109.638Ki/s, 0s
- *         YPput/YPput/py/syngaction_RAG/HJ1.txt:  0% /0, 0/s, -
-
 2026/04/08 12:52:49 INFO  : YPput/YPput/py/syngaction_RAG/HJ1.txt: Copied (new)
 2026/04/08 12:52:51 INFO  : YPput/YPput/py/syngaction_RAG/HJ2.txt: Copied (new)
 2026/04/08 12:52:54 INFO  : YPput/YPput/py/syngaction_RAG/LC2-1.txt: Copied (new)
@@ -5801,17 +5001,7 @@ Transferring:
 2026/04/08 12:53:40 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/SynologyChat_警報發報分析報告.pptx: Copied (new)
 2026/04/08 12:53:43 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/T2A_AA (1).xlsx: Copied (new)
 2026/04/08 12:53:46 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/T2A_AA.xlsx: Copied (new)
-2026/04/08 12:53:46 INFO  : 
-Transferred:   	  203.996 MiB / 349.631 MiB, 58%, 1.187 MiB/s, ETA 2m2s
-Checks:               474 / 474, 100%, Listed 6213
 Transferred:           30 / 163, 18%
-Elapsed time:      2m59.9s
-Transferring:
- *            YPput/YPput/.tmp.driveupload/13329: 79% /100.294Mi, 565.143Ki/s, 37s
- *                      YPput/YPput/py/ngrok.exe: 12% /30.653Mi, 443.500Ki/s, 1m2s
- * YPput/YPput/P+ID識別AI A…pic/S2A_SCADA_P+ID.pdf: 29% /19.872Mi, 379.466Ki/s, 37s
- * YPput/YPput/P+ID識別AI A… Chat_LOG/clear (1).py:  0% /4.719Ki, 0/s, -
-
 2026/04/08 12:53:48 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/clear (1).py: Copied (new)
 2026/04/08 12:53:50 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/clear.py: Copied (new)
 2026/04/08 12:53:53 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace.zip: Copied (new)
@@ -5830,17 +5020,7 @@ Transferring:
 2026/04/08 12:54:44 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260312.log: Copied (new)
 2026/04/08 12:54:45 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260309.log: Copied (new)
 2026/04/08 12:54:46 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260313.log: Copied (new)
-2026/04/08 12:54:46 INFO  : 
-Transferred:   	  267.052 MiB / 349.833 MiB, 76%, 459.618 KiB/s, ETA 3m4s
-Checks:               474 / 474, 100%, Listed 6213
 Transferred:           48 / 163, 29%
-Elapsed time:      3m59.9s
-Transferring:
- *                      YPput/YPput/py/ngrok.exe:100% /30.653Mi, 221.411Ki/s, 0s
- * YPput/YPput/P+ID識別AI A…Chat Trace20260314.log:100% /48.978Ki, 48.962Ki/s, 0s
- * YPput/YPput/P+ID識別AI A…Chat Trace20260315.log:  0% /55.982Ki, 0/s, -
- * YPput/YPput/P+ID識別AI A…Chat Trace20260316.log:  0% /39.063Ki, 0/s, -
-
 2026/04/08 12:54:47 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260314.log: Copied (new)
 2026/04/08 12:54:48 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260316.log: Copied (new)
 2026/04/08 12:54:49 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260315.log: Copied (new)
@@ -5861,17 +5041,7 @@ Transferring:
 2026/04/08 12:55:01 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat_successfully統計.xlsx: Copied (new)
 2026/04/08 12:55:01 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/~$260331_警報點(S1_S2_PCB_S3).xlsx: Copied (new)
 2026/04/08 12:55:02 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/~$trFixAlmChat_successfully統計.xlsx: Copied (new)
-2026/04/08 12:55:46 INFO  : 
-Transferred:   	  267.511 MiB / 349.838 MiB, 76%, 10.696 KiB/s, ETA 2h11m21s
-Checks:               474 / 474, 100%, Listed 6213
 Transferred:           68 / 163, 42%
-Elapsed time:      4m59.9s
-Transferring:
- *                      YPput/YPput/py/ngrok.exe:100% /30.653Mi, 4.607Ki/s, 0s
- * YPput/YPput/YPput/P+ID…T2A_action_mapping.csv:  0% /5.932Ki, 0/s, -
- *      YPput/YPput/YPput/.tmp.driveupload/13092:  0% /62.796Mi, 0/s, -
- * YPput/YPput/YPput/P+ID…+ID_pic/空污系統/Thumbs.db:  0% /330Ki, 0/s, -
-
 2026/04/08 12:56:02 INFO  : YPput/YPput/YPput/P+ID識別AI Agent訓練測試/S2A_P+ID_pic/空污系統/Thumbs.db: Copied (new)
 2026/04/08 12:56:03 INFO  : YPput/YPput/YPput/P+ID識別AI Agent訓練測試/T2A_P+ID_pic/T2A_action_mapping.csv: Copied (new)
 2026/04/08 12:56:29 INFO  : YPput/YPput/YPput/Skill/檔名批次修改工具Prefix+T2A_+.ps1: Copied (new)
@@ -5889,17 +5059,7 @@ Transferring:
 2026/04/08 12:56:44 INFO  : YPput/YPput/YPput/.tmp.drivedownload/17312.1775546775726219: Copied (new)
 2026/04/08 12:56:44 INFO  : YPput/YPput/YPput/.tmp.drivedownload/17313.1775546775716527: Copied (new)
 2026/04/08 12:56:46 INFO  : YPput/YPput/YPput/.tmp.driveupload/13092: Copied (new)
-2026/04/08 12:56:46 INFO  : 
-Transferred:   	  330.638 MiB / 349.838 MiB, 95%, 1.265 MiB/s, ETA 15s
-Checks:               474 / 474, 100%, Listed 6213
 Transferred:           85 / 163, 52%
-Elapsed time:      5m59.9s
-Transferring:
- *                      YPput/YPput/py/ngrok.exe:100% /30.653Mi, 98/s, 0s
- * YPput/YPput/YPput/.tmp…17314.1775546775714094:  0% /0, 0/s, -
- * YPput/YPput/YPput/.tmp…17315.1775546775711454:  0% /0, 0/s, -
- * YPput/YPput/YPput/.tmp…17317.1775546775700357:  0% /0, 0/s, -
-
 2026/04/08 12:56:46 INFO  : YPput/YPput/YPput/.tmp.drivedownload/17314.1775546775714094: Copied (new)
 2026/04/08 12:56:46 INFO  : YPput/YPput/YPput/.tmp.drivedownload/17315.1775546775711454: Copied (new)
 2026/04/08 12:56:48 INFO  : YPput/YPput/YPput/.tmp.drivedownload/17317.1775546775700357: Copied (new)
@@ -5942,17 +5102,7 @@ Transferring:
 2026/04/08 12:57:44 INFO  : YPput/YPput/YPput/YPput/py/admin_server.py: Copied (new)
 2026/04/08 12:57:45 INFO  : YPput/YPput/YPput/YPput/py/bot_runtime.log: Copied (new)
 2026/04/08 12:57:45 INFO  : YPput/YPput/YPput/YPput/py/Start_Tunnel.bat: Copied (new)
-2026/04/08 12:57:46 INFO  : 
-Transferred:   	  361.760 MiB / 380.558 MiB, 95%, 129.153 KiB/s, ETA 2m29s
-Checks:               474 / 474, 100%, Listed 6213
 Transferred:          127 / 163, 78%
-Elapsed time:      6m59.9s
-Transferring:
- *                      YPput/YPput/py/ngrok.exe:100% /30.653Mi, 132.695Ki/s, 0s
- *    YPput/YPput/YPput/YPput/py/check_models.py:100% /1.328Ki, 680/s, 0s
- * YPput/YPput/YPput/YPpu…/readme_syngaction.txt:100% /23.734Ki, 0/s, -
- *  YPput/YPput/YPput/YPput/py/start_ALM_BOT.bat:  0% /231, 0/s, -
-
 2026/04/08 12:57:46 INFO  : YPput/YPput/YPput/YPput/py/check_models.py: Copied (new)
 2026/04/08 12:57:48 INFO  : YPput/YPput/YPput/YPput/py/readme_syngaction.txt: Copied (new)
 2026/04/08 12:57:48 INFO  : YPput/YPput/YPput/YPput/py/start_ALM_BOT.bat: Copied (new)
@@ -5976,17 +5126,7 @@ Transferring:
 2026/04/08 12:58:43 INFO  : YPput/YPput/YPput/YPput/ForGem/20260311_FMCS_weekly10_YPedit.gslides: Copied (new)
 2026/04/08 12:58:45 INFO  : YPput/YPput/YPput/YPput/ForGem/AddressBook20260223.gsheet: Copied (new)
 2026/04/08 12:58:46 INFO  : YPput/YPput/YPput/YPput/ForGem/Form.gslides: Copied (new)
-2026/04/08 12:58:46 INFO  : 
-Transferred:   	  399.536 MiB / 425.082 MiB, 94%, 898.390 KiB/s, ETA 29s
-Checks:               474 / 474, 100%, Listed 6213
 Transferred:          150 / 163, 92%
-Elapsed time:      7m59.9s
-Transferring:
- *                      YPput/YPput/py/ngrok.exe: 26% /30.653Mi, 910.274Ki/s, 25s
- * YPput/YPput/YPput/YPpu…eries_UDP_Defense.pptx:100% /7.657Mi, 261.705Ki/s, 0s
- * YPput/YPput/YPput/YPpu…ware) 多廠牌控制器連線設定手冊.pdf:  0% /314.988Ki, 0/s, -
- * YPput/YPput/YPput/YPpu…Tailscale 遠端整合建置手冊.pdf:  0% /347.095Ki, 0/s, -
-
 2026/04/08 12:58:47 INFO  : YPput/YPput/YPput/YPput/Job/Mitsubishi_Q_Series_UDP_Defense.pptx: Copied (new)
 2026/04/08 12:58:48 INFO  : YPput/YPput/YPput/YPput/ForGem/IR 智慧巡檢系統與 Tailscale 遠端整合建置手冊.pdf: Copied (new)
 2026/04/08 12:58:48 INFO  : YPput/YPput/YPput/YPput/ForGem/IGS (Kepware) 多廠牌控制器連線設定手冊.pdf: Copied (new)
@@ -6000,33 +5140,6 @@ Transferring:
 2026/04/08 12:58:54 INFO  : YPput/YPput/YPput/YPput/ForGem/技術手冊_Python 與 Proficy IGS 通訊整合實務.pdf: Copied (new)
 2026/04/08 12:58:55 INFO  : YPput/YPput/YPput/YPput/ForGem/數據可視化看板架設手冊.pdf: Copied (new)
 2026/04/08 12:59:04 INFO  : YPput/YPput/py/ngrok.exe: Copied (new)
-2026/04/08 12:59:23 INFO  : YPput/YPput/YPput/P+ID識別AI Agent訓練測試/S2A_P+ID_pic/空污系統: Set directory modification time (using DirSetModTime)
-2026/04/08 12:59:24 INFO  : YPput/YPput/YPput/P+ID識別AI Agent訓練測試/S2A_P+ID_pic: Set directory modification time (using DirSetModTime)
-2026/04/08 12:59:24 INFO  : YPput/YPput/YPput/YPput/py: Set directory modification time (using DirSetModTime)
-2026/04/08 12:59:25 INFO  : YPput/YPput/YPput/YPput/.tmp.driveupload: Set directory modification time (using DirSetModTime)
-2026/04/08 12:59:25 INFO  : YPput/YPput/YPput/P+ID識別AI Agent訓練測試/T2A_P+ID_pic: Set directory modification time (using DirSetModTime)
-2026/04/08 12:59:25 INFO  : YPput/YPput/YPput/YPput/YPput: Set directory modification time (using DirSetModTime)
-2026/04/08 12:59:40 INFO  : YPput/YPput/YPput/YPput/Job: Set directory modification time (using DirSetModTime)
-2026/04/08 12:59:40 INFO  : YPput/YPput/YPput/YPput/ForGem: Set directory modification time (using DirSetModTime)
-2026/04/08 12:59:41 INFO  : YPput/YPput/YPput/YPput: Set directory modification time (using SetModTime)
-2026/04/08 12:59:41 INFO  : YPput/YPput/YPput/.tmp.driveupload: Set directory modification time (using SetModTime)
-2026/04/08 12:59:41 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試/S2A_P+ID_pic: Set directory modification time (using SetModTime)
-2026/04/08 12:59:41 INFO  : YPput/YPput/YPput/P+ID識別AI Agent訓練測試: Set directory modification time (using DirSetModTime)
-2026/04/08 12:59:41 INFO  : YPput/YPput/YPput/Skill: Set directory modification time (using DirSetModTime)
-2026/04/08 12:59:41 INFO  : YPput/YPput/py/syngaction_RAG: Set directory modification time (using DirSetModTime)
-2026/04/08 12:59:41 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG: Set directory modification time (using DirSetModTime)
-2026/04/08 12:59:41 INFO  : YPput/YPput/YPput/.tmp.drivedownload: Set directory modification time (using DirSetModTime)
-2026/04/08 12:59:41 INFO  : YPput/YPput/YPput: Set directory modification time (using SetModTime)
-2026/04/08 12:59:42 INFO  : YPput/YPput/py: Set directory modification time (using SetModTime)
-2026/04/08 12:59:42 INFO  : YPput/YPput/P+ID識別AI Agent訓練測試: Set directory modification time (using SetModTime)
-2026/04/08 12:59:42 INFO  : YPput/YPput/.tmp.driveupload: Set directory modification time (using SetModTime)
-2026/04/08 12:59:42 INFO  : YPput/YPput: Set directory modification time (using SetModTime)
-2026/04/08 12:59:43 INFO  : YPput: Set directory modification time (using SetModTime)
-2026/04/08 12:59:43 INFO  : 
 Transferred:   	  425.082 MiB / 425.082 MiB, 100%, 1.141 MiB/s, ETA 0s
-Checks:               474 / 474, 100%, Listed 6213
 Transferred:          163 / 163, 100%
-Elapsed time:      8m57.2s
-
-[週三 2026/04/08 12:59:43.62] !!! 失敗，代碼: 9009 !!! 
- 
+[週三 2026/04/08 12:59:43.62] !!! 失敗，代碼: 9009 !!!
