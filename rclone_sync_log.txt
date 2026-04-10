@@ -5294,3 +5294,11 @@ Transferred:            2 / 2, 100%
 [週五 2026/04/10 16:42:16.77] === 任務啟動 ===
 [週五 2026/04/10 16:42:25.73] === 同步成功 ===
 [週五 2026/04/10 16:47:16.79] === 任務啟動 ===
+2026/04/10 16:47:30 INFO  : LC2-1 FMCS圖控系統擴充工程說明0410.pptx: Copied (new)
+2026/04/10 16:47:30 INFO  : 20260414_FMCS_weekly14.pptx: Copied (new)
+2026/04/10 16:47:32 INFO  : LC2-1 Phase-2_FMCS_Bidding_v251230.xlsx: Copied (new)
+Transferred:            3 / 5, 60%
+Transferred:            3 / 5, 60%
+Transferred:            3 / 5, 60%
+Transferred:            3 / 5, 60%
+Transferred:            3 / 5, 60%
