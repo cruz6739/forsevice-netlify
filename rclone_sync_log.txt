@@ -5302,3 +5302,15 @@ Transferred:            3 / 5, 60%
 Transferred:            3 / 5, 60%
 Transferred:            3 / 5, 60%
 Transferred:            3 / 5, 60%
+2026/04/10 16:52:48 INFO  : 2026環保廠務處期中報告0410_Patten_FMCS.pptx: Copied (new)
+Transferred:            4 / 5, 80%
+Transferred:   	  537.473 MiB / 537.473 MiB, 100%, 49.582 KiB/s, ETA 0s
+Transferred:            4 / 5, 80%
+Transferred:            4 / 5, 80%
+Transferred:            4 / 5, 80%
+2026/04/10 16:56:45 INFO  : 2025 FMCS Program.pptx: Copied (new)
+Transferred:   	  654.202 MiB / 654.202 MiB, 100%, 1.519 MiB/s, ETA 0s
+Transferred:            5 / 5, 100%
+[週五 2026/04/10 16:56:45.56] === 同步成功 ===
+[週五 2026/04/10 16:57:16.77] === 任務啟動 ===
+[週五 2026/04/10 16:57:25.50] === 同步成功 ===
