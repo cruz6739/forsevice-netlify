@@ -3360,3 +3360,12 @@ Transferred:            0 / 2, 0%
 Transferred:            0 / 2, 0%
 Transferred:            0 / 2, 0%
 Transferred:            0 / 2, 0%
+2026/04/15 07:47:42 INFO  : .tmp.drivedownload/35950.1776209748912611: Copied (new)
+Transferred:   	      424 MiB / 424 MiB, 100%, 1.385 MiB/s, ETA 0s
+Transferred:            1 / 2, 50%
+Transferred:   	      424 MiB / 424 MiB, 100%, 30.282 KiB/s, ETA 0s
+Transferred:            1 / 2, 50%
+Transferred:            1 / 2, 50%
+Transferred:            1 / 2, 50%
+Transferred:   	      596 MiB / 596 MiB, 100%, 1.304 MiB/s, ETA 0s
+Transferred:            1 / 2, 50%
