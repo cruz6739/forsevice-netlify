@@ -2977,3 +2977,13 @@ Transferred:            1 / 1, 100%
 [週二 2026/04/14 16:59:51.52] === 同步成功 ===
 [週二 2026/04/14 17:02:16.80] === 任務啟動 ===
 Transferred:            0 / 1, 0%
+Transferred:   	      152 MiB / 152 MiB, 100%, 866.986 KiB/s, ETA 0s
+Transferred:            0 / 1, 0%
+Transferred:   	      152 MiB / 152 MiB, 100%, 18.042 KiB/s, ETA 0s
+Transferred:            0 / 1, 0%
+Transferred:            0 / 1, 0%
+Transferred:            0 / 1, 0%
+2026/04/14 17:07:45 INFO  : .tmp.drivedownload/35942.1776157197852406: Copied (new)
+Transferred:   	      304 MiB / 304 MiB, 100%, 1.305 MiB/s, ETA 0s
+Transferred:            1 / 1, 100%
+[週二 2026/04/14 17:07:45.99] === 同步成功 ===
