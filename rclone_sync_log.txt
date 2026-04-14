@@ -3369,3 +3369,12 @@ Transferred:            1 / 2, 50%
 Transferred:            1 / 2, 50%
 Transferred:   	      596 MiB / 596 MiB, 100%, 1.304 MiB/s, ETA 0s
 Transferred:            1 / 2, 50%
+Transferred:   	      596 MiB / 596 MiB, 100%, 28.556 KiB/s, ETA 0s
+Transferred:            1 / 2, 50%
+Transferred:            1 / 2, 50%
+Transferred:            1 / 2, 50%
+2026/04/15 07:55:37 INFO  : .tmp.drivedownload/35949.1776209748918064: Copied (new)
+Transferred:   	      768 MiB / 768 MiB, 100%, 1.684 MiB/s, ETA 0s
+Transferred:            2 / 2, 100%
+[週三 2026/04/15  7:55:38.33] === 同步成功 ===
+[週三 2026/04/15  7:57:16.75] === 任務啟動 ===
