@@ -9,77 +9,11 @@ Transferred:          113 / 162, 70%
  *        YPput/py/syngaction_RAG/FMCS Error.txt:  0% /6.914Ki, 0/s, -
 Transferred:          121 / 162, 75%
 Transferred:           12 / 161, 7%
-2026/04/08 12:40:45 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260308.log: Copied (new)
-2026/04/08 12:40:45 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260302.log: Copied (new)
-2026/04/08 12:40:46 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260310.log: Copied (new)
-2026/04/08 12:40:47 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260311.log: Copied (new)
-2026/04/08 12:40:48 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260303.log: Copied (new)
-2026/04/08 12:40:48 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260312.log: Copied (new)
-2026/04/08 12:40:50 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260313.log: Copied (new)
-2026/04/08 12:40:50 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260314.log: Copied (new)
-2026/04/08 12:40:50 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260304.log: Copied (new)
 Transferred:          130 / 162, 80%
-2026/04/08 12:40:53 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260316.log: Copied (new)
-2026/04/08 12:40:54 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260305.log: Copied (new)
-2026/04/08 12:40:54 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260315.log: Copied (new)
-2026/04/08 12:40:56 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260317.log: Copied (new)
-2026/04/08 12:40:56 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260306.log: Copied (new)
-2026/04/08 12:40:57 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260318.log: Copied (new)
-2026/04/08 12:40:58 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260319.log: Copied (new)
-2026/04/08 12:40:59 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260320.log: Copied (new)
-2026/04/08 12:41:00 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260321.log: Copied (new)
-2026/04/08 12:41:01 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260307.log: Copied (new)
-2026/04/08 12:41:01 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260322.log: Copied (new)
-2026/04/08 12:41:03 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260323.log: Copied (new)
-2026/04/08 12:41:03 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260308.log: Copied (new)
-2026/04/08 12:41:04 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260324.log: Copied (new)
-2026/04/08 12:41:28 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260309.log: Copied (new)
-2026/04/08 12:41:30 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260326.log: Copied (new)
-2026/04/08 12:41:30 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260325.log: Copied (new)
-2026/04/08 12:41:31 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260310.log: Copied (new)
 Transferred:           35 / 161, 22%
-2026/04/08 12:41:33 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260328.log: Copied (new)
-2026/04/08 12:41:34 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260327.log: Copied (new)
-2026/04/08 12:41:34 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260311.log: Copied (new)
-2026/04/08 12:41:37 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260312.log: Copied (new)
-2026/04/08 12:41:38 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260329.log: Copied (new)
-2026/04/08 12:41:38 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260330.log: Copied (new)
-2026/04/08 12:41:40 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260313.log: Copied (new)
-2026/04/08 12:41:40 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat_successfully統計.xlsx: Copied (new)
-2026/04/08 12:41:40 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/~$260331_警報點(S1_S2_PCB_S3).xlsx: Copied (new)
-2026/04/08 12:41:44 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260314.log: Copied (new)
-2026/04/08 12:41:46 INFO  : YPput/py/ngrok.exe: Copied (new)
-2026/04/08 12:41:48 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260315.log: Copied (new)
-2026/04/08 12:41:48 INFO  : YPput/YPput/YPput/AccessCell.gsheet: Copied (new)
-2026/04/08 12:41:48 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/~$trFixAlmChat_successfully統計.xlsx: Copied (new)
-2026/04/08 12:41:49 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260316.log: Copied (new)
-2026/04/08 12:41:50 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260317.log: Copied (new)
-2026/04/08 12:41:51 INFO  : YPput/YPput/YPput/Thumbs.db: Copied (new)
-2026/04/08 12:41:51 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260318.log: Copied (new)
-2026/04/08 12:41:51 INFO  : YPput/YPput/YPput/AccessCell.xlsx: Copied (new)
 Transferred:   	  316.805 MiB / 317.119 MiB, 100%, 57.669 KiB/s, ETA 5s
 Transferred:          145 / 162, 90%
-2026/04/08 12:41:52 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260319.log: Copied (new)
-2026/04/08 12:41:53 INFO  : YPput/YPput/YPput/YPtemp.txt: Copied (new)
-2026/04/08 12:41:54 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260320.log: Copied (new)
-2026/04/08 12:41:54 INFO  : YPput/YPput/YPput/gas_job_to_forgem: Copied (new)
-2026/04/08 12:41:54 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260321.log: Copied (new)
-2026/04/08 12:41:56 INFO  : YPput/YPput/YPput/subscription_claude.ai_monthly.JPG: Copied (new)
-2026/04/08 12:41:56 INFO  : YPput/YPput/YPput/sync.ffs_db: Copied (new)
-2026/04/08 12:41:57 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260323.log: Copied (new)
-2026/04/08 12:41:57 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260322.log: Copied (new)
-2026/04/08 12:41:59 INFO  : YPput/YPput/YPput/~$RTX4090-LLM-WKS-BOM.xlsx: Copied (new)
-2026/04/08 12:41:59 INFO  : YPput/YPput/.tmp.driveupload/13098: Copied (new)
-2026/04/08 12:41:59 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260324.log: Copied (new)
-2026/04/08 12:41:59 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260325.log: Copied (new)
-2026/04/08 12:42:01 INFO  : YPput/py/ngrok.exe: Copied (new)
-2026/04/08 12:42:01 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260326.log: Copied (new)
-2026/04/08 12:42:02 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260327.log: Copied (new)
-2026/04/08 12:42:04 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260328.log: Copied (new)
-[週三 2026/04/08 12:42:06.71] !!! 失敗，代碼: 1 !!!
-[週三 2026/04/08 12:42:41.19] === 任務啟動 ===
 Transferred:            1 / 164, 1%
-[週三 2026/04/08 12:44:26.30] === 任務啟動 ===
 [週三 2026/04/08 12:46:27.08] === 任務啟動 ===
 2026/04/08 12:46:40 INFO  : YPput/YPput/.tmp.drivedownload/15588.1775545336414079: Copied (new)
 2026/04/08 12:46:41 INFO  : YPput/YPput/.tmp.drivedownload/15589.1775545336410203: Copied (new)
@@ -3351,3 +3285,5 @@ Transferred:            2 / 2, 100%
 [週三 2026/04/15 12:32:36.30] === 同步成功 ===
 [週三 2026/04/15 12:37:16.77] === 任務啟動 ===
 [週三 2026/04/15 12:37:34.69] === 同步成功 ===
+[週三 2026/04/15 12:42:16.79] === 任務啟動 ===
+[週三 2026/04/15 12:42:27.82] === 同步成功 ===
