@@ -2,82 +2,13 @@ Transferred:   	  510.585 MiB / 510.585 MiB, 100%, 15.098 KiB/s, ETA 0s
 Transferred:         4561 / 4561, 100%
 Transferred:           10 / 162, 6%
 Transferred:           50 / 162, 31%
-2026/04/08 12:35:41 INFO  : YPput/YPput/ForGem/vSphere叢集異常排除與維護實務手冊.pdf: Copied (new)
-2026/04/08 12:35:42 INFO  : YPput/YPput/ForGem/技術手冊_Python 與 Proficy IGS 通訊整合實務.pdf: Copied (new)
-2026/04/08 12:35:43 INFO  : YPput/YPput/ForGem/數據可視化看板架設手冊.pdf: Copied (new)
-2026/04/08 12:35:46 INFO  : YPput/YPput/py/ALM+8hr_log.txt: Copied (new)
-2026/04/08 12:35:49 INFO  : YPput/YPput/py/CyberAdmin.html: Copied (new)
-2026/04/08 12:35:51 INFO  : YPput/YPput/py/Githubkey.txt: Copied (new)
 Transferred:           78 / 162, 48%
-2026/04/08 12:35:53 INFO  : YPput/YPput/py/Gkey.txt: Copied (new)
-2026/04/08 12:35:56 INFO  : YPput/YPput/py/Ngrok link.txt: Copied (new)
-2026/04/08 12:36:28 INFO  : YPput/py/syngbot_admin.exe: Copied (new)
-2026/04/08 12:36:30 INFO  : YPput/YPput/py/SYBGBOT_hideStart-clare test.vbs: Copied (new)
-2026/04/08 12:36:33 INFO  : YPput/YPput/py/SYBGBOT_hideStart.vbs: Copied (new)
-2026/04/08 12:36:35 INFO  : YPput/YPput/py/SYNGBOT_CTRL.bat: Copied (new)
-2026/04/08 12:36:38 INFO  : YPput/YPput/py/Start_Tunnel.bat: Copied (new)
-2026/04/08 12:36:40 INFO  : YPput/YPput/py/admin_server.py: Copied (new)
-2026/04/08 12:36:42 INFO  : YPput/YPput/py/bot_runtime.log: Copied (new)
-2026/04/08 12:36:45 INFO  : YPput/YPput/py/check_models.py: Copied (new)
-2026/04/08 12:36:48 INFO  : YPput/YPput/py/readme_syngaction.txt: Copied (new)
-2026/04/08 12:36:50 INFO  : YPput/YPput/py/start_ALM_BOT.bat: Copied (new)
 Transferred:           90 / 162, 56%
-2026/04/08 12:36:53 INFO  : YPput/py/syngbot_admin.wrapper.log: Copied (new)
-2026/04/08 12:36:55 INFO  : YPput/YPput/py/syngaction02.py: Copied (new)
-2026/04/08 12:36:58 INFO  : YPput/py/syngbot_admin.xml: Copied (new)
-2026/04/08 12:37:00 INFO  : YPput/YPput/py/syngaction02_log.txt: Copied (new)
-2026/04/08 12:37:03 INFO  : YPput/py/syngbot_ngrok.err.log.old: Copied (new)
-2026/04/08 12:37:28 INFO  : YPput/YPput/py/syngbot_admin.err.log.old: Copied (new)
-2026/04/08 12:37:30 INFO  : YPput/py/syngbot_ngrok.err.log: Copied (new)
-2026/04/08 12:37:33 INFO  : YPput/YPput/py/syngbot_admin.err.log: Copied (new)
 Transferred:           98 / 162, 60%
-2026/04/08 12:37:52 INFO  : YPput/py/syngbot_ngrok.exe: Copied (new)
-2026/04/08 12:37:53 INFO  : YPput/YPput/.tmp.driveupload/13092: Copied (new)
-2026/04/08 12:37:54 INFO  : YPput/YPput/py/syngbot_admin.out.log.old: Copied (new)
-2026/04/08 12:37:55 INFO  : YPput/py/syngbot_ngrok.out.log.old: Copied (new)
-2026/04/08 12:37:56 INFO  : YPput/py/syngbot_ngrok.out.log: Copied (new)
-2026/04/08 12:37:57 INFO  : YPput/py/syngbot_ngrok.wrapper.log: Copied (new)
-2026/04/08 12:37:59 INFO  : YPput/py/syngbot_ngrok.xml: Copied (new)
-2026/04/08 12:38:01 INFO  : YPput/YPput/py/syngbot_admin.out.log: Copied (new)
-2026/04/08 12:38:37 INFO  : YPput/py/syngaction_RAG/HJ1.txt: Copied (new)
-2026/04/08 12:38:39 INFO  : YPput/py/syngaction_RAG/HJ2.txt: Copied (new)
-2026/04/08 12:38:41 INFO  : YPput/py/syngaction_RAG/LC2-1.txt: Copied (new)
-2026/04/08 12:38:43 INFO  : YPput/py/syngaction_RAG/LC2.txt: Copied (new)
-2026/04/08 12:38:45 INFO  : YPput/py/syngaction_RAG/LC3.txt: Copied (new)
 Transferred:          113 / 162, 70%
  *        YPput/py/syngaction_RAG/FMCS Error.txt:  0% /6.914Ki, 0/s, -
-2026/04/08 12:38:56 INFO  : YPput/py/syngaction_RAG/FMCS Error.txt: Copied (new)
-2026/04/08 12:38:57 INFO  : YPput/py/syngaction_RAG/PCB.txt: Copied (new)
-2026/04/08 12:38:59 INFO  : YPput/py/syngaction_RAG/S2A.txt: Copied (new)
-2026/04/08 12:39:00 INFO  : YPput/py/syngaction_RAG/S3.txt: Copied (new)
-2026/04/08 12:39:01 INFO  : YPput/py/syngaction_RAG/T2A.txt: Copied (new)
-2026/04/08 12:39:03 INFO  : YPput/py/syngaction_RAG/T2C.txt: Copied (new)
-2026/04/08 12:39:36 INFO  : YPput/P+ID識別AI Agent訓練測試/T2A_P+ID_pic/T2A_action_mapping.csv: Copied (new)
-2026/04/08 12:39:50 INFO  : YPput/P+ID識別AI Agent訓練測試/S2A_P+ID_pic/空污系統/Thumbs.db: Copied (new)
 Transferred:          121 / 162, 75%
-2026/04/08 12:39:53 INFO  : YPput/py/syngaction02 - OLD0407.py: Copied (new)
-2026/04/08 12:39:54 INFO  : YPput/P+ID識別AI Agent訓練測試/T2A_P+ID_pic/T2A_action_mapping.csv: Copied (new)
-2026/04/08 12:39:54 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/260331_警報點(S1_S2_PCB_S3).xlsx: Copied (new)
-2026/04/08 12:39:56 INFO  : YPput/P+ID識別AI Agent訓練測試/S2A_P+ID_pic/空污系統/Thumbs.db: Copied (new)
-2026/04/08 12:39:57 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/260331_警報點(S1_S2_PCB_S3).xlsx: Copied (new)
-2026/04/08 12:39:58 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/SynologyChat_警報發報分析報告.pptx: Copied (new)
-2026/04/08 12:39:59 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/SynologyChat_警報發報分析報告.pptx: Copied (new)
-2026/04/08 12:39:59 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/T2A_AA.xlsx: Copied (new)
-2026/04/08 12:40:00 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/T2A_AA.xlsx: Copied (new)
-2026/04/08 12:40:01 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/clear.py: Copied (new)
-2026/04/08 12:40:02 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace.zip: Copied (new)
-2026/04/08 12:40:02 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/clear.py: Copied (new)
-2026/04/08 12:40:24 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260228.log: Copied (new)
-2026/04/08 12:40:29 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260303.log: Copied (new)
-2026/04/08 12:40:31 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260304.log: Copied (new)
 Transferred:           12 / 161, 7%
-2026/04/08 12:40:33 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260302.log: Copied (new)
-2026/04/08 12:40:35 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260306.log: Copied (new)
-2026/04/08 12:40:36 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260305.log: Copied (new)
-2026/04/08 12:40:38 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace.zip: Copied (new)
-2026/04/08 12:40:38 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260307.log: Copied (new)
-2026/04/08 12:40:40 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260228.log: Copied (new)
-2026/04/08 12:40:42 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260309.log: Copied (new)
 2026/04/08 12:40:45 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260308.log: Copied (new)
 2026/04/08 12:40:45 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260302.log: Copied (new)
 2026/04/08 12:40:46 INFO  : YPput/P+ID識別AI Agent訓練測試/Synology Chat_LOG/trFixAlmChat Trace20260310.log: Copied (new)
@@ -3418,3 +3349,5 @@ Transferred:            2 / 2, 100%
 [週三 2026/04/15 12:27:27.14] === 同步成功 ===
 [週三 2026/04/15 12:32:16.76] === 任務啟動 ===
 [週三 2026/04/15 12:32:36.30] === 同步成功 ===
+[週三 2026/04/15 12:37:16.77] === 任務啟動 ===
+[週三 2026/04/15 12:37:34.69] === 同步成功 ===
