@@ -3710,3 +3710,11 @@ Transferred:            0 / 1, 0%
 Transferred:   	      180 MiB / 180 MiB, 100%, 21.942 KiB/s, ETA 0s
 Transferred:            0 / 1, 0%
 Transferred:            0 / 1, 0%
+Transferred:            0 / 1, 0%
+Transferred:            0 / 1, 0%
+2026/04/16 13:44:42 INFO  : .tmp.drivedownload/35988.1776317614799652: Copied (new)
+Transferred:   	      360 MiB / 360 MiB, 100%, 886.332 KiB/s, ETA 0s
+Transferred:            1 / 1, 100%
+[週四 2026/04/16 13:44:43.83] === 同步成功 ===
+[週四 2026/04/16 13:47:16.77] === 任務啟動 ===
+[週四 2026/04/16 13:47:28.27] === 同步成功 ===
