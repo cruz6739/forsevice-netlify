@@ -3604,3 +3604,11 @@ Transferred:            0 / 2, 0%
 Transferred:            0 / 2, 0%
 Transferred:            0 / 2, 0%
 2026/04/16 10:45:33 INFO  : .tmp.driveupload/35979: Copied (new)
+Transferred:            1 / 2, 50%
+Transferred:            1 / 2, 50%
+Transferred:            1 / 2, 50%
+Transferred:            1 / 2, 50%
+2026/04/16 10:49:47 INFO  : 2026環保廠務處期中報告0416_Patten_FMCS_(for finish).pptx: Copied (new)
+Transferred:   	  838.073 MiB / 838.073 MiB, 100%, 452.638 KiB/s, ETA 0s
+Transferred:            2 / 2, 100%
+[週四 2026/04/16 10:49:48.01] === 同步成功 ===
