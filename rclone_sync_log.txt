@@ -3703,3 +3703,10 @@ Transferred:   	  514.290 MiB / 514.290 MiB, 100%, 1.117 MiB/s, ETA 0s
 Transferred:            1 / 1, 100%
 [週四 2026/04/16 13:33:30.88] === 同步成功 ===
 [週四 2026/04/16 13:37:16.76] === 任務啟動 ===
+Transferred:            0 / 1, 0%
+Transferred:            0 / 1, 0%
+Transferred:   	      180 MiB / 180 MiB, 100%, 1.030 MiB/s, ETA 0s
+Transferred:            0 / 1, 0%
+Transferred:   	      180 MiB / 180 MiB, 100%, 21.942 KiB/s, ETA 0s
+Transferred:            0 / 1, 0%
+Transferred:            0 / 1, 0%
