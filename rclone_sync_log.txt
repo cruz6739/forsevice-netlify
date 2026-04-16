@@ -4346,3 +4346,15 @@ Transferred:            0 / 6, 0%
 2026/04/17 00:54:31 INFO  : 2026環保廠務處期中報告04151529_Patten_FMCS (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).pptx: Copied (new)
 Transferred:            2 / 6, 33%
 Transferred:            2 / 6, 33%
+Transferred:            2 / 6, 33%
+2026/04/17 00:57:24 INFO  : .tmp.drivedownload/36202.1776357718359896: Copied (new)
+2026/04/17 00:57:41 INFO  : .tmp.drivedownload/36208.1776358086810961: Copied (new)
+2026/04/17 00:57:46 INFO  : 2026環保廠務處期中報告0415_Patten_FMCS (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).pptx: Copied (new)
+Transferred:            5 / 6, 83%
+Transferred:   	    1.181 GiB / 1.181 GiB, 100%, 88.688 KiB/s, ETA 0s
+Transferred:            5 / 6, 83%
+Transferred:            5 / 6, 83%
+2026/04/17 01:00:56 INFO  : 2026環保廠務處期中報告0416_Patten_FMCS (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).pptx: Copied (new)
+Transferred:   	    1.373 GiB / 1.373 GiB, 100%, 3.246 MiB/s, ETA 0s
+Transferred:            6 / 6, 100%
+[週五 2026/04/17  1:00:57.90] === 同步成功 ===
