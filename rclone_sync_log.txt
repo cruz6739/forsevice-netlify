@@ -4162,3 +4162,16 @@ Transferred:            6 / 7, 86%
 Transferred:            6 / 7, 86%
 Transferred:   	    1.516 GiB / 1.516 GiB, 100%, 1.459 MiB/s, ETA 0s
 Transferred:            6 / 7, 86%
+Transferred:   	    1.516 GiB / 1.516 GiB, 100%, 31.081 KiB/s, ETA 0s
+Transferred:            6 / 7, 86%
+Transferred:            6 / 7, 86%
+2026/04/16 23:07:03 INFO  : 2026環保廠務處期中報告0415_Patten_FMCS (1) (1) (1) (1) (1) (1) (1).pptx: Copied (new)
+Transferred:   	    1.720 GiB / 1.720 GiB, 100%, 2.595 MiB/s, ETA 0s
+Transferred:            7 / 7, 100%
+[週四 2026/04/16 23:07:04.61] === 同步成功 ===
+[週四 2026/04/16 23:07:16.78] === 任務啟動 ===
+2026/04/16 23:07:31 INFO  : .tmp.drivedownload/36117.1776351255838348: Copied (new)
+Transferred:            1 / 6, 17%
+Transferred:            1 / 6, 17%
+2026/04/16 23:09:33 INFO  : .tmp.drivedownload/36123.1776351486902269: Copied (new)
+2026/04/16 23:09:33 ERROR : .tmp.drivedownload/36129.1776352031224398: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36129.1776352031224398: The system cannot find the file specified.
