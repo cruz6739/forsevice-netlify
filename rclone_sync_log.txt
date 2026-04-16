@@ -3521,3 +3521,12 @@ Transferred:            2 / 5, 40%
 2026/04/16 08:12:49 INFO  : .tmp.drivedownload/35940.1776156951049092: Copied (new)
 Transferred:            3 / 5, 60%
 Transferred:            3 / 5, 60%
+2026/04/16 08:14:32 INFO  : .tmp.driveupload/35936: Copied (new)
+Transferred:            4 / 5, 80%
+Transferred:   	  901.685 MiB / 901.685 MiB, 100%, 187.816 KiB/s, ETA 0s
+Transferred:            4 / 5, 80%
+Transferred:            4 / 5, 80%
+2026/04/16 08:17:40 INFO  : .tmp.drivedownload/35950.1776209748912611: Copied (new)
+Transferred:   	  981.685 MiB / 981.685 MiB, 100%, 1.623 MiB/s, ETA 0s
+Transferred:            5 / 5, 100%
+[週四 2026/04/16  8:17:42.00] === 同步成功 ===
