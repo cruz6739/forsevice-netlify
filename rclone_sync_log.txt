@@ -4154,3 +4154,11 @@ Transferred:            4 / 7, 57%
 Transferred:            4 / 7, 57%
 2026/04/16 22:59:33 INFO  : .tmp.drivedownload/36111.1776350877337038: Copied (new)
 2026/04/16 22:59:41 INFO  : .tmp.drivedownload/36107.1776350772847109: Copied (new)
+Transferred:            6 / 7, 86%
+Transferred:   	    1.311 GiB / 1.311 GiB, 100%, 1.396 MiB/s, ETA 0s
+Transferred:            6 / 7, 86%
+Transferred:   	    1.311 GiB / 1.311 GiB, 100%, 29.749 KiB/s, ETA 0s
+Transferred:            6 / 7, 86%
+Transferred:            6 / 7, 86%
+Transferred:   	    1.516 GiB / 1.516 GiB, 100%, 1.459 MiB/s, ETA 0s
+Transferred:            6 / 7, 86%
