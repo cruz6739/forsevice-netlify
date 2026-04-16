@@ -4072,3 +4072,16 @@ Transferred:            3 / 4, 75%
 Transferred:   	    1.743 GiB / 1.743 GiB, 100%, 63.289 KiB/s, ETA 0s
 Errors:                 1 (retrying may help)
 Transferred:            3 / 4, 75%
+Errors:                 1 (retrying may help)
+Transferred:            3 / 4, 75%
+Transferred:   	    1.935 GiB / 1.935 GiB, 100%, 2.249 MiB/s, ETA 0s
+Errors:                 1 (retrying may help)
+Transferred:            3 / 4, 75%
+Transferred:   	    1.935 GiB / 1.935 GiB, 100%, 47.916 KiB/s, ETA 0s
+Errors:                 1 (retrying may help)
+Transferred:            3 / 4, 75%
+Errors:                 1 (retrying may help)
+Transferred:            3 / 4, 75%
+Transferred:   	    2.128 GiB / 2.128 GiB, 100%, 1.998 MiB/s, ETA 0s
+Errors:                 1 (retrying may help)
+Transferred:            3 / 4, 75%
