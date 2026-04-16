@@ -3574,3 +3574,13 @@ Transferred:            5 / 5, 100%
 Transferred:            0 / 1, 0%
 Transferred:            0 / 1, 0%
 Transferred:            0 / 1, 0%
+2026/04/16 10:06:00 ERROR : .tmp.driveupload/35973: Failed to calculate src hash: hash: failed to open: The system cannot find the file specified.
+2026/04/16 10:06:00 ERROR : .tmp.driveupload/35973: corrupted on transfer: md5 hashes differ src(Local file system at //?/C:/Users/U01572/Documents/YPput/Job) "" vs dst(Google drive root '') "f92ee17d8ce2d3f2bacfb8f90c56f533"
+2026/04/16 10:06:00 INFO  : .tmp.driveupload/35973: Removing failed copy
+2026/04/16 10:06:02 ERROR : Attempt 1/3 failed with 2 errors and: corrupted on transfer: md5 hashes differ src(Local file system at //?/C:/Users/U01572/Documents/YPput/Job) "" vs dst(Google drive root '') "f92ee17d8ce2d3f2bacfb8f90c56f533"
+Transferred:   	  209.518 MiB / 209.518 MiB, 100%, 1.559 MiB/s, ETA 0s
+2026/04/16 10:06:52 ERROR : Attempt 2/3 succeeded
+Transferred:   	  209.518 MiB / 209.518 MiB, 100%, 1.559 MiB/s, ETA 0s
+[週四 2026/04/16 10:06:52.25] === 同步成功 ===
+[週四 2026/04/16 10:07:16.79] === 任務啟動 ===
+[週四 2026/04/16 10:07:26.59] === 同步成功 ===
