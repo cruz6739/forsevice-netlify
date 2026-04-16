@@ -3933,3 +3933,15 @@ Transferred:           13 / 19, 68%
 Transferred:           13 / 19, 68%
 2026/04/16 21:13:00 INFO  : .tmp.drivedownload/36014.1776343800981976: Copied (new)
 Transferred:           14 / 19, 74%
+2026/04/16 21:13:43 INFO  : 2026環保廠務處期中報告0416_Patten_FMCS (1).pptx: Copied (new)
+2026/04/16 21:13:51 INFO  : .tmp.drivedownload/36027.1776344527513317: Copied (new)
+2026/04/16 21:13:53 INFO  : .tmp.drivedownload/36016.1776344051889079: Copied (new)
+Transferred:           17 / 19, 89%
+2026/04/16 21:14:30 INFO  : .tmp.driveupload/36001: Copied (new)
+2026/04/16 21:14:53 INFO  : .tmp.drivedownload/36018.1776344153276761: Copied (new)
+2026/04/16 21:14:54 ERROR : Attempt 2/3 succeeded
+Transferred:   	    3.714 GiB / 3.714 GiB, 100%, 2.071 MiB/s, ETA 0s
+Transferred:           19 / 19, 100%
+[週四 2026/04/16 21:14:54.15] === 同步成功 ===
+[週四 2026/04/16 21:17:16.78] === 任務啟動 ===
+Transferred:            0 / 6, 0%
