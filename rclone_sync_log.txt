@@ -4905,3 +4905,11 @@ Transferred:   	    1.149 GiB / 1.149 GiB, 100%, 1.781 MiB/s, ETA 0s
 Transferred:            5 / 6, 83%
 Transferred:   	    1.149 GiB / 1.149 GiB, 100%, 37.956 KiB/s, ETA 0s
 Transferred:            5 / 6, 83%
+Transferred:            5 / 6, 83%
+Transferred:   	    1.239 GiB / 1.239 GiB, 100%, 80.170 KiB/s, ETA 0s
+Transferred:            5 / 6, 83%
+Transferred:            5 / 6, 83%
+2026/04/17 06:23:33 INFO  : .tmp.drivedownload/36516.1776377408160814: Copied (new)
+Transferred:   	    1.329 GiB / 1.329 GiB, 100%, 2.489 MiB/s, ETA 0s
+Transferred:            6 / 6, 100%
+[週五 2026/04/17  6:23:34.29] === 同步成功 ===
