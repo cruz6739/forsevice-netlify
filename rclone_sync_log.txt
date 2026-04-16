@@ -5017,3 +5017,9 @@ Transferred:   	    1.228 GiB / 1.228 GiB, 100%, 2.463 MiB/s, ETA 0s
 Transferred:            7 / 7, 100%
 [週五 2026/04/17  7:35:00.82] === 同步成功 ===
 [週五 2026/04/17  7:37:16.81] === 任務啟動 ===
+Transferred:            0 / 7, 0%
+Transferred:            0 / 7, 0%
+Transferred:            0 / 7, 0%
+Transferred:            0 / 7, 0%
+Transferred:            0 / 7, 0%
+Transferred:            0 / 7, 0%
