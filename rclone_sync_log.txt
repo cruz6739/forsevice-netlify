@@ -3513,3 +3513,11 @@ Transferred:            1 / 1, 100%
 [週四 2026/04/16  8:02:34.67] === 同步成功 ===
 [週四 2026/04/16  8:07:50.15] === 任務啟動 ===
 Transferred:            0 / 5, 0%
+Transferred:            0 / 5, 0%
+2026/04/16 08:10:29 INFO  : .tmp.drivedownload/35949.1776209748918064: Copied (new)
+2026/04/16 08:10:46 INFO  : .tmp.drivedownload/35942.1776157197852406: Copied (new)
+Transferred:            2 / 5, 40%
+Transferred:            2 / 5, 40%
+2026/04/16 08:12:49 INFO  : .tmp.drivedownload/35940.1776156951049092: Copied (new)
+Transferred:            3 / 5, 60%
+Transferred:            3 / 5, 60%
