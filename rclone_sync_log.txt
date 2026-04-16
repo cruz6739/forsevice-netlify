@@ -4965,3 +4965,19 @@ Transferred:            4 / 4, 100%
 [週五 2026/04/17  7:06:34.69] === 同步成功 ===
 [週五 2026/04/17  7:07:16.77] === 任務啟動 ===
 2026/04/17 07:07:44 ERROR : .tmp.drivedownload/36541.1776380801003122: Failed to copy: Post "https://www.googleapis.com/upload/drive/v3/files?alt=json&fields=id%2Cname%2Csize%2Cmd5Checksum%2Csha1Checksum%2Csha256Checksum%2Ctrashed%2CexplicitlyTrashed%2CmodifiedTime%2CcreatedTime%2CmimeType%2Cparents%2CwebViewLink%2CshortcutDetails%2CexportLinks%2CresourceKey&supportsAllDrives=true&uploadType=resumable&upload_id=AMNfjG3owxudlXKoiNEM5lFfRhpkB6h_kmkkZaypPgDBbJd1zyNPBxlupX6q1Rsjf06po_mbFuugKukA9uiN7tvihrNmq1xIo4z8hQCAky3wlYM&session_crd=AHSoBRXRV2Jsf1byUGmwx31VbkCF8tnWmOIaVzHzvDFsD9rTQG04z1p5dTKhQLuYXG5EAn2qhDuAFMrwM1U": can't copy - source file is being updated (size changed from 100703543 to 109096333)
+2026/04/17 07:07:49 ERROR : .tmp.drivedownload/36540.1776380801532381: Failed to copy: Post "https://www.googleapis.com/upload/drive/v3/files?alt=json&fields=id%2Cname%2Csize%2Cmd5Checksum%2Csha1Checksum%2Csha256Checksum%2Ctrashed%2CexplicitlyTrashed%2CmodifiedTime%2CcreatedTime%2CmimeType%2Cparents%2CwebViewLink%2CshortcutDetails%2CexportLinks%2CresourceKey&supportsAllDrives=true&uploadType=resumable&upload_id=AMNfjG0yM19xT4qjUug8-jb2I5w3A1LDY_OAMZqXS57Pg5AHuzVEGYRbqD4Kft_sqq_k3YyW4EaP0v6ZCINY-QcqPIBJp0r5KcrT7KyRMOU6gO4&session_crd=AHSoBRW97Qi0olr0CpQPeW-Kq26-bVGCm2AF2m7LmPxtVohrIOg99UEYf4C3BH-f65MjuJ6SFraiKvQAC7M": can't copy - source file is being updated (size changed from 192989103 to 206617974)
+Errors:                 2 (retrying may help)
+Transferred:            0 / 1, 0%
+2026/04/17 07:08:55 INFO  : 2026環保廠務處期中報告0415_Patten_FMCS (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).pptx: Copied (new)
+2026/04/17 07:08:56 ERROR : Attempt 1/3 failed with 2 errors and: Post "https://www.googleapis.com/upload/drive/v3/files?alt=json&fields=id%2Cname%2Csize%2Cmd5Checksum%2Csha1Checksum%2Csha256Checksum%2Ctrashed%2CexplicitlyTrashed%2CmodifiedTime%2CcreatedTime%2CmimeType%2Cparents%2CwebViewLink%2CshortcutDetails%2CexportLinks%2CresourceKey&supportsAllDrives=true&uploadType=resumable&upload_id=AMNfjG0yM19xT4qjUug8-jb2I5w3A1LDY_OAMZqXS57Pg5AHuzVEGYRbqD4Kft_sqq_k3YyW4EaP0v6ZCINY-QcqPIBJp0r5KcrT7KyRMOU6gO4&session_crd=AHSoBRW97Qi0olr0CpQPeW-Kq26-bVGCm2AF2m7LmPxtVohrIOg99UEYf4C3BH-f65MjuJ6SFraiKvQAC7M": can't copy - source file is being updated (size changed from 192989103 to 206617974)
+Transferred:            1 / 4, 25%
+Transferred:            1 / 4, 25%
+Transferred:            1 / 4, 25%
+2026/04/17 07:11:31 INFO  : 2026環保廠務處期中報告04151529_Patten_FMCS (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) ~ (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).pptx: Copied (new)
+2026/04/17 07:11:58 INFO  : 2026環保廠務處期中報告0416_Patten_FMCS (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).pptx: Copied (new)
+Transferred:            3 / 4, 75%
+2026/04/17 07:12:42 INFO  : 2026環保廠務處期中報告0410_Patten_FMCS (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).pptx: Copied (new)
+2026/04/17 07:12:42 ERROR : Attempt 2/3 succeeded
+Transferred:   	  842.901 MiB / 842.901 MiB, 100%, 2.400 MiB/s, ETA 0s
+Transferred:            4 / 4, 100%
+[週五 2026/04/17  7:12:42.79] === 同步成功 ===
