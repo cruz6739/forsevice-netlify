@@ -3989,3 +3989,10 @@ Transferred:            7 / 7, 100%
 [週四 2026/04/16 21:41:31.09] === 同步成功 ===
 [週四 2026/04/16 21:42:16.69] === 任務啟動 ===
 Transferred:            0 / 5, 0%
+Transferred:            0 / 5, 0%
+Transferred:            0 / 5, 0%
+2026/04/16 21:45:43 INFO  : .tmp.drivedownload/36065.1776346781871919: Copied (new)
+Transferred:            1 / 5, 20%
+2026/04/16 21:46:28 INFO  : 2026環保廠務處期中報告0410_Patten_FMCS (1) (1) (1) (1).pptx: Copied (new)
+Transferred:            2 / 5, 40%
+Transferred:            2 / 5, 40%
