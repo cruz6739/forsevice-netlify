@@ -4618,3 +4618,10 @@ Transferred:           10 / 11, 91%
 Transferred:   	    3.550 GiB / 3.550 GiB, 100%, 43.485 KiB/s, ETA 0s
 Transferred:           10 / 11, 91%
 Transferred:           10 / 11, 91%
+2026/04/17 03:23:49 INFO  : 2026環保廠務處期中報告04151529_Patten_FMCS (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).pptx: Copied (new)
+2026/04/17 03:23:49 ERROR : Attempt 3/3 succeeded
+Transferred:   	    3.754 GiB / 3.754 GiB, 100%, 3.177 MiB/s, ETA 0s
+Transferred:           11 / 11, 100%
+[週五 2026/04/17  3:23:49.64] === 同步成功 ===
+[週五 2026/04/17  3:27:16.77] === 任務啟動 ===
+Transferred:            0 / 5, 0%
