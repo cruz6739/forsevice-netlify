@@ -49,158 +49,6 @@ New Log Contents (Mapped):
 
 ## System/App Error Log ##
 HJ1_F SCADA(VM),	04/03/2026 16:35:17,	1000,	錯誤,	失敗的應用程式名稱: MsMpEng.exe，版本: 4.18.25030.2，時間戳記: 0xc18e5150]
-2026-04-07 19:50:54,056 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-07 20:20:58,437 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-07 20:51:02,432 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-07 21:21:06,753 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-07 21:51:10,909 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-07 22:21:15,702 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-07 22:51:20,239 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-07 23:21:24,353 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-07 23:51:28,252 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 00:21:32,021 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 00:51:36,004 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 01:21:40,344 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 01:51:44,186 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 02:21:47,507 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 02:51:51,628 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 03:21:55,753 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 03:51:59,826 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 04:22:04,388 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 04:52:08,219 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 05:22:12,664 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 05:52:16,213 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 06:22:19,867 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 06:52:24,208 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 07:22:28,050 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 07:52:31,872 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 08:22:35,978 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 08:52:39,988 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 09:22:44,667 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 09:52:48,498 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 10:22:52,593 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 10:52:56,711 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 11:23:00,297 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 11:53:04,396 - [INFO] rclone log 已成功同步至 GitHub。
-2026-04-08 12:20:39,450 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
-2026-04-08 12:34:27,713 - [INFO] 系統啟動成功：AI 模型已連線。
-2026-04-08 12:34:27,752 - [INFO] 已從日誌恢復 0 筆快取。
-2026-04-08 12:34:27,753 - [INFO] rclone log 定時同步排程已啟動（每 30 分鐘）。
-2026-04-08 12:34:27,753 - [INFO] 伺服器開始運行 (背景待命狀態)...
-2026-04-08 12:34:30,789 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 13:04:34,891 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 13:34:38,887 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 14:04:43,037 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 14:34:46,931 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 15:04:51,210 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 15:34:55,171 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 16:04:59,162 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 16:35:03,259 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 17:05:06,661 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 17:35:12,068 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 18:05:16,030 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 18:35:19,547 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 19:05:23,428 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 19:35:27,211 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 20:05:31,509 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 20:35:35,698 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 21:05:39,895 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 21:35:43,885 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 22:05:47,829 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 22:35:52,465 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 23:05:56,653 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-08 23:36:00,889 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 00:06:04,947 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 00:36:09,645 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 01:06:13,213 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 01:36:17,538 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 02:06:21,712 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 02:36:25,890 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 03:06:30,109 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 03:36:34,216 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 04:06:37,716 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 04:36:41,865 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 05:06:45,936 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 05:36:50,105 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 06:06:53,909 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 06:36:57,315 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 07:07:01,437 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 07:37:05,620 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 08:07:10,620 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 08:37:15,741 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 09:07:19,902 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 09:19:18,330 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/04/08 12:02:32的警報點[ASCR_RF_D_DIFFERENTIAL_PV](T2A排氣_7F  75HP酸排A201洗滌塔塔身壓差)數值變更為12(mmAq),發生了警報,警報狀態為HI]
-2026-04-09 09:19:18,342 - [INFO] 【模糊比對未命中】最佳標題：「廠區 [T2A]於2026/04/04 18:51:43的警報點[DRU_3F_TT_PV](T2A 警報處置指引」，相似度：49.70%（門檻 70%），進入 API 流程。
-2026-04-09 09:19:18,343 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-09 09:19:30,321 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-09 09:19:30,329 - [INFO] [自動回存] 已將 Gemini自動學習 結果寫入 T2A.txt（標題：廠區 [T2A]於2026/04/08 12:02:32的警報點[ASCR_RF_D_DIFFERE）
-2026-04-09 09:37:24,930 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 10:07:28,924 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 10:37:33,197 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 11:07:37,164 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 11:37:41,168 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 12:07:45,547 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 12:37:49,599 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 13:07:53,788 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 13:37:57,619 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 14:08:01,784 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 14:38:06,391 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 15:08:10,513 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 15:38:14,163 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 16:08:18,114 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 16:38:22,053 - [ERROR] rclone log 上傳失敗: {"message":"is at 961858d2d8e33e3c161532719c03cd5208825608 but expected 3e0cdd245da462085bb5bd54586d2580de1eec86","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"409"}
-2026-04-09 17:08:26,770 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 17:38:30,994 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 18:08:34,919 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 18:38:39,113 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 19:08:43,268 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 19:38:47,508 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 20:08:52,028 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 20:38:56,221 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 21:09:00,215 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 21:39:04,673 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 22:09:08,980 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 22:39:13,508 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 23:09:17,991 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-09 23:39:22,632 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-10 00:09:26,846 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-10 00:39:31,220 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-10 01:09:35,188 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-10 01:39:39,928 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-10 02:09:43,893 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-10 02:39:48,365 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-10 03:09:52,479 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-10 03:39:56,218 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-10 04:09:59,960 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-10 04:40:04,304 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-10 05:10:08,112 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-10 05:40:11,516 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-10 06:10:15,733 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-10 06:40:19,550 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-10 07:10:23,625 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-10 07:40:27,611 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-10 08:10:31,218 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-10 08:40:35,343 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-10 09:03:39,414 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
-2026-04-10 10:14:43,051 - [INFO] 系統啟動成功：AI 模型已連線。
-2026-04-10 10:14:43,123 - [INFO] 已從日誌恢復 0 筆快取。
-2026-04-10 10:14:43,124 - [INFO] rclone log 定時同步排程已啟動（每 30 分鐘）。
-2026-04-10 10:14:43,124 - [INFO] 伺服器開始運行 (背景待命狀態)...
-2026-04-10 10:14:47,989 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-10 10:16:57,253 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
-2026-04-10 10:17:41,485 - [INFO] 系統啟動成功：AI 模型已連線。
-2026-04-10 10:17:41,505 - [INFO] 已從日誌恢復 0 筆快取。
-2026-04-10 10:17:41,506 - [INFO] rclone log 定時同步排程已啟動（每 30 分鐘）。
-2026-04-10 10:17:41,506 - [INFO] 伺服器開始運行 (背景待命狀態)...
-2026-04-10 10:17:45,682 - [INFO] rclone_sync_log.txt 已成功同步至 GitHub。
-2026-04-10 10:18:04,212 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
-2026-04-10 10:44:06,651 - [INFO] 系統啟動成功：AI 模型已連線。
-2026-04-10 10:44:06,679 - [INFO] 已從日誌恢復 0 筆快取。
-2026-04-10 10:44:06,679 - [INFO] 伺服器開始運行 (背景待命狀態)...
-2026-04-10 12:23:58,938 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
-2026-04-10 12:24:08,169 - [INFO] 系統啟動成功：AI 模型已連線。
-2026-04-10 12:24:08,204 - [INFO] 已從日誌恢復 0 筆快取。
-2026-04-10 12:24:08,205 - [INFO] 伺服器開始運行 (背景待命狀態)...
 2026-04-11 00:46:43,443 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
 2026-04-11 00:47:00,050 - [INFO] 系統啟動成功：AI 模型已連線。
 2026-04-11 00:47:00,072 - [INFO] 已從日誌恢復 0 筆快取。
@@ -223,3 +71,21 @@ HJ1_F SCADA(VM),	04/03/2026 16:35:17,	1000,	錯誤,	失敗的應用程式名稱:
 2026-04-14 19:44:01,639 - [INFO] 系統啟動成功：AI 模型已連線。
 2026-04-14 19:44:01,680 - [INFO] 已從日誌恢復 0 筆快取。
 2026-04-14 19:44:01,680 - [INFO] 伺服器開始運行 (背景待命狀態)...
+2026-04-17 19:18:18,964 - [INFO] 接收到訊息來源 [fmcs]，內容為: [SCADA RUNTIME MONITORING ALERT_1 NEW Anomalies Detected
+
+Runtime monitoring detected 1 records.
+
+=================================
+New Log Contents (Mapped):
+=================================
+
+## System/App Error Log ##
+HJ2_F SCADA(VM),	04/17/2026 13:06:37,	7000,	錯誤,	aksfridge 服務無法啟動，因為下列錯誤:]
+2026-04-17 19:18:18,967 - [INFO] 偵測到系統錯誤日誌，進入 FMCS Error 專屬 RAG 流程...
+2026-04-17 19:18:18,989 - [INFO] AFC is enabled with max remote calls: 10.
+2026-04-17 19:18:20,896 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-04-17 19:18:20,897 - [ERROR] 比對錯誤資料庫異常: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-04-17 19:18:20,898 - [INFO] 本地無此錯誤紀錄，正在啟動 Google 網路搜尋功能進行解讀...
+2026-04-17 19:18:20,899 - [INFO] AFC is enabled with max remote calls: 10.
+2026-04-17 19:18:27,876 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-04-17 19:18:27,888 - [INFO] 已將 Google 搜尋的新錯誤解讀自動學習並寫入 FMCS Error.txt。
