@@ -30,8 +30,6 @@ Transferred:   	   31.177 MiB / 31.177 MiB, 100%, 504.374 KiB/s, ETA 0s
 Transferred:            8 / 8, 100%
 Transferred:   	      182 KiB / 182 KiB, 100%, 60.666 KiB/s, ETA 0s
 Transferred:            2 / 2, 100%
-[週五 2026/04/10 16:42:16.77] === 任務啟動 ===
-[週五 2026/04/10 16:42:25.73] === 同步成功 ===
 [週五 2026/04/10 16:47:16.79] === 任務啟動 ===
 2026/04/10 16:47:30 INFO  : LC2-1 FMCS圖控系統擴充工程說明0410.pptx: Copied (new)
 2026/04/10 16:47:30 INFO  : 20260414_FMCS_weekly14.pptx: Copied (new)
@@ -5218,3 +5216,14 @@ Transferred:            0 / 76, 0%
 Transferred:            1 / 76, 1%
 2026/04/17 16:39:36 INFO  : .tmp.drivedownload/35940.1776156951049092: Copied (new)
 Transferred:            2 / 76, 3%
+Transferred:            2 / 76, 3%
+2026/04/17 16:41:39 INFO  : .tmp.drivedownload/35949.1776209748918064: Copied (new)
+2026/04/17 16:41:59 INFO  : .tmp.drivedownload/35980.1776307540325864: Copied (new)
+Transferred:            4 / 76, 5%
+2026/04/17 16:42:52 INFO  : .tmp.drivedownload/36014.1776343800981976: Copied (new)
+Transferred:            5 / 76, 7%
+2026/04/17 16:43:46 INFO  : .tmp.drivedownload/35982.1776308406084513: Copied (new)
+2026/04/17 16:44:02 INFO  : .tmp.drivedownload/36016.1776344051889079: Copied (new)
+2026/04/17 16:44:02 INFO  : .tmp.drivedownload/35950.1776209748912611: Copied (new)
+Transferred:            8 / 76, 11%
+Transferred:            8 / 76, 11%
