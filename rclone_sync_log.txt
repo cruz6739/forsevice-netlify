@@ -5095,3 +5095,16 @@ Transferred:           10 / 16, 63%
 Transferred:           10 / 16, 63%
 2026/04/17 09:04:40 ERROR : .tmp.driveupload/36603: Failed to copy: Post "https://www.googleapis.com/upload/drive/v3/files?alt=json&fields=id%2Cname%2Csize%2Cmd5Checksum%2Csha1Checksum%2Csha256Checksum%2Ctrashed%2CexplicitlyTrashed%2CmodifiedTime%2CcreatedTime%2CmimeType%2Cparents%2CwebViewLink%2CshortcutDetails%2CexportLinks%2CresourceKey&supportsAllDrives=true&uploadType=resumable&upload_id=AMNfjG1a4GBbKYdrBXtksyNxOEgDzuxXfF8zcN6AH1ToljgJsjRphhYxX8wEYvpMvh44Zmp6qw3ToWRQ7-atr0_M8K0zQLs2Dd65EKL8XK1mUw&session_crd=AHSoBRXKsP2Qns1Ahnu_C7Ln8BdSlur-iqLDh3MerfpUFni5UGrNxRnyFX7L6GB6diULusSTXk8wmWtFx64": dial tcp: lookup www.googleapis.com: no such host
 2026/04/17 09:04:40 ERROR : .tmp.driveupload/36599: Failed to copy: Post "https://www.googleapis.com/upload/drive/v3/files?alt=json&fields=id%2Cname%2Csize%2Cmd5Checksum%2Csha1Checksum%2Csha256Checksum%2Ctrashed%2CexplicitlyTrashed%2CmodifiedTime%2CcreatedTime%2CmimeType%2Cparents%2CwebViewLink%2CshortcutDetails%2CexportLinks%2CresourceKey&supportsAllDrives=true&uploadType=resumable&upload_id=AMNfjG1lHa5876_mQgjZW913x7vEL4CRH3zXvmIviEY_L3EFPbX9TW2Ub0ZL9MkXYn61iOk8zLqX8H9Ajuf7B8rMquKAr9X0555l-ODSqtuxejk&session_crd=AHSoBRXAghMzqkSg1Cf0BA6-VfJwtTlHJyvMOzgxWoZIljtoa6-Bm8U9X6wlriuIAZXtVVqQy60hqqiTo70": dial tcp: lookup www.googleapis.com: no such host
+Errors:                 2 (retrying may help)
+Transferred:           10 / 14, 71%
+Errors:                 2 (retrying may help)
+Transferred:           10 / 14, 71%
+Errors:                 2 (retrying may help)
+Transferred:           10 / 14, 71%
+2026/04/17 09:07:34 INFO  : .tmp.driveupload/36607: Copied (new)
+Errors:                 2 (retrying may help)
+Transferred:           11 / 14, 79%
+2026/04/17 09:08:32 INFO  : .tmp.driveupload/36605: Copied (new)
+2026/04/17 09:09:05 INFO  : .tmp.driveupload/36597: Copied (new)
+Errors:                 2 (retrying may help)
+Transferred:           13 / 14, 93%
