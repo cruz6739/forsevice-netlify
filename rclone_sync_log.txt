@@ -30,8 +30,6 @@ Transferred:   	   31.177 MiB / 31.177 MiB, 100%, 504.374 KiB/s, ETA 0s
 Transferred:            8 / 8, 100%
 Transferred:   	      182 KiB / 182 KiB, 100%, 60.666 KiB/s, ETA 0s
 Transferred:            2 / 2, 100%
-[週五 2026/04/10 16:17:16.79] === 任務啟動 ===
-[週五 2026/04/10 16:17:26.41] === 同步成功 ===
 [週五 2026/04/10 16:22:16.78] === 任務啟動 ===
 [週五 2026/04/10 16:22:26.57] === 同步成功 ===
 [週五 2026/04/10 16:27:16.77] === 任務啟動 ===
@@ -5178,3 +5176,19 @@ Transferred:            0 / 7, 0%
 Transferred:            0 / 7, 0%
 Transferred:            1 / 7, 14%
 Transferred:            1 / 7, 14%
+Transferred:            1 / 7, 14%
+2026/04/17 16:15:40 ERROR : 2026環保廠務處期中報告0416_Patten_FMCS_(for finish) (1).pptx: Failed to calculate src hash: hash: failed to open: The system cannot find the file specified.
+2026/04/17 16:15:40 ERROR : 2026環保廠務處期中報告0416_Patten_FMCS_(for finish) (1).pptx: corrupted on transfer: md5 hashes differ src(Local file system at //?/C:/Users/U01572/Documents/YPput/Job) "" vs dst(Google drive root '') "e5bed90f63020f4956460366f4dca23a"
+2026/04/17 16:15:40 INFO  : 2026環保廠務處期中報告0416_Patten_FMCS_(for finish) (1).pptx: Removing failed copy
+Errors:                 2 (retrying may help)
+Transferred:            1 / 6, 17%
+Errors:                 2 (retrying may help)
+Transferred:            1 / 6, 17%
+2026/04/17 16:17:30 INFO  : .tmp.driveupload/36643: Copied (new)
+2026/04/17 16:17:57 INFO  : .tmp.driveupload/36630: Copied (new)
+Errors:                 2 (retrying may help)
+Transferred:            3 / 6, 50%
+Errors:                 2 (retrying may help)
+Transferred:            3 / 6, 50%
+2026/04/17 16:19:49 INFO  : .tmp.drivedownload/36619.1776413128502211: Copied (new)
+2026/04/17 16:19:52 INFO  : .tmp.driveupload/36639: Copied (new)
