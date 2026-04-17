@@ -30,8 +30,6 @@ Transferred:   	   31.177 MiB / 31.177 MiB, 100%, 504.374 KiB/s, ETA 0s
 Transferred:            8 / 8, 100%
 Transferred:   	      182 KiB / 182 KiB, 100%, 60.666 KiB/s, ETA 0s
 Transferred:            2 / 2, 100%
-[週五 2026/04/10 16:32:16.73] === 任務啟動 ===
-[週五 2026/04/10 16:32:26.43] === 同步成功 ===
 [週五 2026/04/10 16:37:16.76] === 任務啟動 ===
 [週五 2026/04/10 16:37:26.41] === 同步成功 ===
 [週五 2026/04/10 16:42:16.77] === 任務啟動 ===
@@ -5205,3 +5203,13 @@ Transferred:   	    1.316 GiB / 1.316 GiB, 100%, 11.676 KiB/s, ETA 0s
 Transferred:            6 / 7, 86%
 Transferred:            6 / 7, 86%
 Transferred:            6 / 7, 86%
+Transferred:            6 / 7, 86%
+Transferred:            6 / 7, 86%
+2026/04/17 16:32:33 ERROR : .tmp.driveupload/36652: Failed to calculate src hash: hash: failed to open: The system cannot find the file specified.
+2026/04/17 16:32:33 ERROR : .tmp.driveupload/36652: corrupted on transfer: md5 hashes differ src(Local file system at //?/C:/Users/U01572/Documents/YPput/Job) "" vs dst(Google drive root '') "6e3942a171af331e24aa166ff4e9fe82"
+2026/04/17 16:32:33 INFO  : .tmp.driveupload/36652: Removing failed copy
+2026/04/17 16:32:35 ERROR : Attempt 2/3 failed with 2 errors and: corrupted on transfer: md5 hashes differ src(Local file system at //?/C:/Users/U01572/Documents/YPput/Job) "" vs dst(Google drive root '') "6e3942a171af331e24aa166ff4e9fe82"
+Transferred:            6 / 82, 7%
+[週五 2026/04/17 16:34:10.60] === 任務啟動 ===
+[週五 2026/04/17 16:34:10.62] !!! 失敗，代碼: 1 !!!
+Transferred:            0 / 76, 0%
