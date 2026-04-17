@@ -5059,3 +5059,7 @@ Transferred:            1 / 2, 50%
 Transferred:   	      160 MiB / 160 MiB, 100%, 1.112 MiB/s, ETA 0s
 Transferred:            2 / 2, 100%
 [週五 2026/04/17  8:38:35.00] === 同步成功 ===
+[週五 2026/04/17  8:42:16.87] === 任務啟動 ===
+2026/04/17 08:42:38 INFO  : test.txt: Updated modification time in destination
+Transferred:            0 / 16, 0%
+Transferred:            0 / 16, 0%
