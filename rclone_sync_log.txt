@@ -30,10 +30,6 @@ Transferred:   	   31.177 MiB / 31.177 MiB, 100%, 504.374 KiB/s, ETA 0s
 Transferred:            8 / 8, 100%
 Transferred:   	      182 KiB / 182 KiB, 100%, 60.666 KiB/s, ETA 0s
 Transferred:            2 / 2, 100%
-[週五 2026/04/10 16:47:16.79] === 任務啟動 ===
-2026/04/10 16:47:30 INFO  : LC2-1 FMCS圖控系統擴充工程說明0410.pptx: Copied (new)
-2026/04/10 16:47:30 INFO  : 20260414_FMCS_weekly14.pptx: Copied (new)
-2026/04/10 16:47:32 INFO  : LC2-1 Phase-2_FMCS_Bidding_v251230.xlsx: Copied (new)
 Transferred:            3 / 5, 60%
 Transferred:            3 / 5, 60%
 Transferred:            3 / 5, 60%
@@ -5227,3 +5223,80 @@ Transferred:            5 / 76, 7%
 2026/04/17 16:44:02 INFO  : .tmp.drivedownload/35950.1776209748912611: Copied (new)
 Transferred:            8 / 76, 11%
 Transferred:            8 / 76, 11%
+2026/04/17 16:46:05 INFO  : .tmp.drivedownload/36025.1776344499253854: Copied (new)
+Transferred:            9 / 76, 12%
+Transferred:            9 / 76, 12%
+2026/04/17 16:47:45 INFO  : .tmp.drivedownload/36041.1776345230690466: Copied (new)
+Transferred:           10 / 76, 13%
+2026/04/17 16:48:42 INFO  : .tmp.drivedownload/36027.1776344527513317: Copied (new)
+2026/04/17 16:48:53 INFO  : .tmp.drivedownload/36057.1776346212403309: Copied (new)
+2026/04/17 16:49:03 ERROR : .tmp.drivedownload/36018.1776344153276761: Failed to calculate src hash: hash: failed to open: The system cannot find the file specified.
+2026/04/17 16:49:03 ERROR : .tmp.drivedownload/36018.1776344153276761: corrupted on transfer: md5 hashes differ src(Local file system at //?/C:/Users/U01572/Documents/YPput/Job) "" vs dst(Google drive root '') "7b5ae2d454a39869b9657d2c602522fc"
+2026/04/17 16:49:03 INFO  : .tmp.drivedownload/36018.1776344153276761: Removing failed copy
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36065.1776346781871919: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36065.1776346781871919: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36067.1776346787684127: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36067.1776346787684127: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36073.1776346897350950: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36073.1776346897350950: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36089.1776348106991958: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36089.1776348106991958: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36095.1776350158898808: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36095.1776350158898808: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36099.1776350270242341: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36099.1776350270242341: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36101.1776350276444350: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36101.1776350276444350: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36103.1776350637861758: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36103.1776350637861758: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36107.1776350772847109: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36107.1776350772847109: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36111.1776350877337038: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36111.1776350877337038: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36117.1776351255838348: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36117.1776351255838348: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36123.1776351486902269: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36123.1776351486902269: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36150.1776353530944474: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36150.1776353530944474: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36152.1776353891381966: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36152.1776353891381966: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36162.1776354601002365: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36162.1776354601002365: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36164.1776354607215555: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36164.1776354607215555: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36170.1776355084110813: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36170.1776355084110813: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36172.1776355092613256: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36172.1776355092613256: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36174.1776355446131941: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36174.1776355446131941: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36188.1776356272169206: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36188.1776356272169206: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36202.1776357718359896: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36202.1776357718359896: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36208.1776358086810961: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36208.1776358086810961: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36226.1776359166650312: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36226.1776359166650312: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36240.1776360363058557: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36240.1776360363058557: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36244.1776360485829946: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36244.1776360485829946: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36258.1776361212903639: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36258.1776361212903639: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36262.1776361561613255: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36262.1776361561613255: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36264.1776361569930206: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36264.1776361569930206: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36270.1776361814117829: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36270.1776361814117829: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36292.1776363609934594: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36292.1776363609934594: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36314.1776364926507544: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36314.1776364926507544: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36322.1776365514465267: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36322.1776365514465267: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36336.1776366245922406: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36336.1776366245922406: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36346.1776366970064114: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36346.1776366970064114: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36354.1776367808619569: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36354.1776367808619569: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36355.1776367808058206: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36355.1776367808058206: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36358.1776367928617891: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36358.1776367928617891: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36367.1776368767788979: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36367.1776368767788979: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36368.1776368767189028: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36368.1776368767189028: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36378.1776369365401526: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36378.1776369365401526: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36440.1776373212704378: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36440.1776373212704378: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36448.1776373813144260: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36448.1776373813144260: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36450.1776373911799325: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36450.1776373911799325: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36458.1776374410766657: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36458.1776374410766657: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36465.1776374507277556: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36465.1776374507277556: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36482.1776375956827705: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36482.1776375956827705: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36484.1776375968737045: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36484.1776375968737045: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36486.1776376083303536: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36486.1776376083303536: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36487.1776376082835657: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36487.1776376082835657: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36496.1776376694159628: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36496.1776376694159628: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36504.1776376810883336: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36504.1776376810883336: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36514.1776377396343325: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36514.1776377396343325: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36516.1776377408160814: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36516.1776377408160814: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36550.1776381125773459: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36550.1776381125773459: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36554.1776381608685275: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36554.1776381608685275: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36556.1776381720651430: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36556.1776381720651430: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36558.1776381729846916: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36558.1776381729846916: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36562.1776381961037244: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36562.1776381961037244: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36564.1776382203803103: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36564.1776382203803103: The system cannot find the file specified.
+2026/04/17 16:49:04 ERROR : .tmp.drivedownload/36619.1776413128502211: Failed to copy: failed to open source object: GetFileAttributesEx \\?\C:\Users\U01572\Documents\YPput\Job\.tmp.drivedownload\36619.1776413128502211: The system cannot find the file specified.
+Errors:                62 (retrying may help)
+Transferred:           12 / 15, 80%
+Errors:                62 (retrying may help)
+Transferred:           12 / 15, 80%
+2026/04/17 16:50:38 ERROR : .tmp.drivedownload/36055.1776346073647614: Failed to calculate src hash: hash: failed to open: The system cannot find the file specified.
+2026/04/17 16:50:38 ERROR : .tmp.drivedownload/36055.1776346073647614: corrupted on transfer: md5 hashes differ src(Local file system at //?/C:/Users/U01572/Documents/YPput/Job) "" vs dst(Google drive root '') "17cd02de38fab5a0c1c4a947f2fea7c9"
+2026/04/17 16:50:38 INFO  : .tmp.drivedownload/36055.1776346073647614: Removing failed copy
