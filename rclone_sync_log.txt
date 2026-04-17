@@ -5063,3 +5063,8 @@ Transferred:            2 / 2, 100%
 2026/04/17 08:42:38 INFO  : test.txt: Updated modification time in destination
 Transferred:            0 / 16, 0%
 Transferred:            0 / 16, 0%
+Transferred:            0 / 16, 0%
+Transferred:            0 / 16, 0%
+Transferred:            0 / 16, 0%
+Transferred:            0 / 16, 0%
+Transferred:            0 / 16, 0%
