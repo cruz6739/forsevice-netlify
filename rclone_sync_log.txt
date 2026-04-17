@@ -5075,3 +5075,14 @@ Transferred:            1 / 16, 6%
 2026/04/17 08:52:58 INFO  : 2026環保廠務處期中報告0416-3_Patten_FMCS.pptx: Copied (new)
 Transferred:            2 / 16, 13%
 Transferred:            2 / 16, 13%
+Transferred:            2 / 16, 13%
+2026/04/17 08:55:41 INFO  : 2026環保廠務處期中報告0410_Patten_FMCS.pptx: Copied (new)
+2026/04/17 08:55:43 INFO  : Mitsubishi PLC-Q serials_Session BFM_Solution.docx: Copied (new)
+2026/04/17 08:55:54 INFO  : Mitsubishi_Q_Series_UDP_Defense.pptx: Copied (new)
+2026/04/17 08:55:57 INFO  : ~$20260326_品質月專案(期中)報告_FMCS0800.pptx: Copied (new)
+2026/04/17 08:56:00 INFO  : 填寫檔_專案2_監控警報智慧行動指引_林育平0415.pptx: Copied (new)
+Transferred:            7 / 16, 44%
+Transferred:            7 / 16, 44%
+Transferred:            7 / 16, 44%
+2026/04/17 08:58:51 INFO  : 2026環保廠務處期中報告0416_Patten_FMCS_(for finish).pptx: Copied (new)
+Transferred:            8 / 16, 50%
