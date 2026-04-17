@@ -5068,3 +5068,10 @@ Transferred:            0 / 16, 0%
 Transferred:            0 / 16, 0%
 Transferred:            0 / 16, 0%
 Transferred:            0 / 16, 0%
+2026/04/17 08:49:36 INFO  : 2026環保廠務處期中報告0416-1_Patten_FMCS.pptx: Copied (new)
+Transferred:            1 / 16, 6%
+Transferred:            1 / 16, 6%
+Transferred:            1 / 16, 6%
+2026/04/17 08:52:58 INFO  : 2026環保廠務處期中報告0416-3_Patten_FMCS.pptx: Copied (new)
+Transferred:            2 / 16, 13%
+Transferred:            2 / 16, 13%
