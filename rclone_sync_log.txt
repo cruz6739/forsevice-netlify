@@ -5126,3 +5126,13 @@ Transferred:           14 / 16, 88%
 Transferred:           14 / 16, 88%
 Transferred:           14 / 16, 88%
 Transferred:           14 / 16, 88%
+Transferred:           14 / 16, 88%
+Transferred:   	    3.399 GiB / 3.413 GiB, 100%, 1.863 MiB/s, ETA 8s
+Transferred:           14 / 16, 88%
+2026/04/17 09:21:29 INFO  : .tmp.driveupload/36603: Copied (new)
+Transferred:           15 / 16, 94%
+2026/04/17 09:22:59 INFO  : .tmp.driveupload/36599: Copied (new)
+2026/04/17 09:23:00 ERROR : Attempt 2/3 succeeded
+Transferred:   	    3.618 GiB / 3.618 GiB, 100%, 2.075 MiB/s, ETA 0s
+Transferred:           16 / 16, 100%
+[週五 2026/04/17  9:23:00.15] === 同步成功 ===
