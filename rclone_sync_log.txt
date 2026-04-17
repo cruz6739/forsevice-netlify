@@ -5047,3 +5047,15 @@ Transferred:            6 / 7, 86%
 Transferred:   	    1.298 GiB / 1.298 GiB, 100%, 777.454 KiB/s, ETA 0s
 Transferred:            7 / 7, 100%
 [週五 2026/04/17  7:58:03.88] === 同步成功 ===
+[週五 2026/04/17  8:34:22.35] === 任務啟動 ===
+Transferred:            0 / 2, 0%
+2026/04/17 08:35:45 INFO  : .tmp.drivedownload/36586.1776383770719191: Copied (new)
+Transferred:   	      108 MiB / 108 MiB, 100%, 433.626 KiB/s, ETA 0s
+Transferred:            1 / 2, 50%
+Transferred:   	      108 MiB / 108 MiB, 100%, 9.023 KiB/s, ETA 0s
+Transferred:            1 / 2, 50%
+Transferred:            1 / 2, 50%
+2026/04/17 08:38:34 INFO  : .tmp.drivedownload/36590.1776383889921032: Copied (new)
+Transferred:   	      160 MiB / 160 MiB, 100%, 1.112 MiB/s, ETA 0s
+Transferred:            2 / 2, 100%
+[週五 2026/04/17  8:38:35.00] === 同步成功 ===
