@@ -99,3 +99,6 @@ HJ2_F SCADA(VM),	04/17/2026 15:16:12,	1000,	錯誤,	失敗的應用程式名稱:
 2026-04-17 19:19:18,539 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
 2026-04-17 19:19:18,541 - [ERROR] 執行錯誤日誌 Google 搜尋時異常: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
 2026-04-20 10:52:44,504 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
+2026-04-20 11:12:24,320 - [INFO] 系統啟動成功：AI 模型已連線。
+2026-04-20 11:12:24,383 - [INFO] 已從日誌恢復 0 筆快取。
+2026-04-20 11:12:24,384 - [INFO] 伺服器開始運行 (背景待命狀態)...
