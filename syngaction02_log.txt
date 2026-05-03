@@ -49,7 +49,6 @@ New Log Contents (Mapped):
 
 ## System/App Error Log ##
 HJ1_F SCADA(VM),	04/03/2026 16:35:17,	1000,	錯誤,	失敗的應用程式名稱: MsMpEng.exe，版本: 4.18.25030.2，時間戳記: 0xc18e5150]
-2026-04-17 19:18:18,964 - [INFO] 接收到訊息來源 [fmcs]，內容為: [SCADA RUNTIME MONITORING ALERT_1 NEW Anomalies Detected
 
 Runtime monitoring detected 1 records.
 
@@ -59,15 +58,6 @@ New Log Contents (Mapped):
 
 ## System/App Error Log ##
 HJ2_F SCADA(VM),	04/17/2026 13:06:37,	7000,	錯誤,	aksfridge 服務無法啟動，因為下列錯誤:]
-2026-04-17 19:18:18,967 - [INFO] 偵測到系統錯誤日誌，進入 FMCS Error 專屬 RAG 流程...
-2026-04-17 19:18:18,989 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-17 19:18:20,896 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
-2026-04-17 19:18:20,897 - [ERROR] 比對錯誤資料庫異常: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-2026-04-17 19:18:20,898 - [INFO] 本地無此錯誤紀錄，正在啟動 Google 網路搜尋功能進行解讀...
-2026-04-17 19:18:20,899 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-17 19:18:27,876 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-17 19:18:27,888 - [INFO] 已將 Google 搜尋的新錯誤解讀自動學習並寫入 FMCS Error.txt。
-2026-04-17 19:19:10,698 - [INFO] 接收到訊息來源 [fmcs]，內容為: [SCADA RUNTIME MONITORING ALERT_1 NEW Anomalies Detected
 
 Runtime monitoring detected 1 records.
 
@@ -77,18 +67,6 @@ New Log Contents (Mapped):
 
 ## System/App Error Log ##
 HJ2_F SCADA(VM),	04/17/2026 15:16:12,	1000,	錯誤,	失敗的應用程式名稱: WORKSPACE.EXE，版本: 6.8.12063.0，時間戳記: 0x61d3c81a]
-2026-04-17 19:19:10,700 - [INFO] 偵測到系統錯誤日誌，進入 FMCS Error 專屬 RAG 流程...
-2026-04-17 19:19:10,701 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-17 19:19:15,334 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-17 19:19:15,337 - [INFO] 本地無此錯誤紀錄，正在啟動 Google 網路搜尋功能進行解讀...
-2026-04-17 19:19:15,338 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-17 19:19:18,539 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
-2026-04-17 19:19:18,541 - [ERROR] 執行錯誤日誌 Google 搜尋時異常: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-2026-04-20 10:52:44,504 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
-2026-04-20 11:12:24,320 - [INFO] 系統啟動成功：AI 模型已連線。
-2026-04-20 11:12:24,383 - [INFO] 已從日誌恢復 0 筆快取。
-2026-04-20 11:12:24,384 - [INFO] 伺服器開始運行 (背景待命狀態)...
-2026-04-20 11:14:05,499 - [INFO] 接收到訊息來源 [fmcs]，內容為: [SCADA RUNTIME MONITORING ALERT_2 NEW Anomalies Detected
 
 Runtime monitoring detected 2 records.
 
@@ -99,13 +77,6 @@ New Log Contents (Mapped):
 ## System/App Error Log ##
 HJ1_F SCADA(VM),	04/18/2026 15:37:45,	1000,	錯誤,	失敗的應用程式名稱: NGenTask.exe，版本: 4.8.4084.0，時間戳記: 0x5dda3ccf
 HJ1_F SCADA(VM),	04/18/2026 15:37:45,	1026,	錯誤,	應用程式: NGenTask.exe]
-2026-04-20 11:14:05,503 - [INFO] 偵測到系統錯誤日誌，進入 FMCS Error 專屬 RAG 流程...
-2026-04-20 11:14:05,505 - [INFO] FMCS 直接比對 → Event IDs: [], EXE Names: ['NGenTask.exe', 'NGenTask.exe']
-2026-04-20 11:14:05,506 - [INFO] 本地無此錯誤紀錄，正在啟動 Google 網路搜尋功能進行解讀...
-2026-04-20 11:14:05,507 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-20 11:14:05,702 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
-2026-04-20 11:14:05,705 - [ERROR] 執行錯誤日誌 Google 搜尋時異常: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 54.311458743s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}
-2026-04-20 11:14:47,027 - [INFO] 接收到訊息來源 [fmcs]，內容為: [SCADA RUNTIME MONITORING ALERT_1 NEW Anomalies Detected
 
 Runtime monitoring detected 1 records.
 
@@ -115,17 +86,6 @@ New Log Contents (Mapped):
 
 ## System/App Error Log ##
 HJ1_F SCADA(VM),	04/20/2026 09:45:29,	225,	警告,	應用程式 System (處理程序識別碼為 4) 已停止移除裝置 USB\VID_0781&PID_5581\4C531123371202100420 的退出。,]
-2026-04-20 11:14:47,030 - [INFO] 偵測到系統錯誤日誌，進入 FMCS Error 專屬 RAG 流程...
-2026-04-20 11:14:47,031 - [INFO] FMCS 直接比對 → Event IDs: [], EXE Names: []
-2026-04-20 11:14:47,031 - [INFO] 本地無此錯誤紀錄，正在啟動 Google 網路搜尋功能進行解讀...
-2026-04-20 11:14:47,032 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-20 11:14:47,220 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
-2026-04-20 11:14:47,223 - [ERROR] 執行錯誤日誌 Google 搜尋時異常: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 12.801396116s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '12s'}]}}
-2026-04-20 11:20:33,903 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
-2026-04-20 11:21:45,732 - [INFO] 系統啟動成功：AI 模型已連線。
-2026-04-20 11:21:45,777 - [INFO] 已從日誌恢復 2 筆快取。
-2026-04-20 11:21:45,778 - [INFO] 伺服器開始運行 (背景待命狀態)...
-2026-04-20 11:22:12,871 - [INFO] 接收到訊息來源 [fmcs]，內容為: [SCADA RUNTIME MONITORING ALERT_1 NEW Anomalies Detected
 
 Runtime monitoring detected 1 records.
 
@@ -135,13 +95,6 @@ New Log Contents (Mapped):
 
 ## System/App Error Log ##
 HJ1_F SCADA(VM),	04/20/2026 09:45:29,	225,	警告,	應用程式 System (處理程序識別碼為 4) 已停止移除裝置 USB\VID_0781&PID_5581\4C531123371202100420 的退出。,]
-2026-04-20 11:22:12,873 - [INFO] [INFO] 攔截到重複警報 (HJ1)，進入冷卻期略過處理。
-2026-04-23 08:50:07,907 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [T2A]於2026/04/22 14:13:08的警報點[DRU_3F_TT_PV](T2A_DRU_3F_冷藏倉_冷藏庫溫)數值變更為6.1(℃),發生了警報,警報狀態為HI]
-2026-04-23 08:50:07,940 - [INFO] 【模糊比對未命中】最佳標題：「廠區 [T2A]於2026/04/04 18:51:43的警報點[DRU_3F_TT_PV](T2A 警報處置指引」，相似度：58.33%（門檻 70%），進入 API 流程。
-2026-04-23 08:50:07,941 - [INFO] AFC is enabled with max remote calls: 10.
-2026-04-23 08:50:12,913 - [INFO] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2026-04-23 08:50:12,922 - [INFO] [自動回存] 已將 Gemini自動學習 結果寫入 T2A.txt（標題：廠區 [T2A]於2026/04/22 14:13:08的警報點[DRU_3F_TT_PV](T2A）
-2026-04-24 12:13:56,493 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
-2026-04-24 12:15:29,947 - [INFO] 系統啟動成功：AI 模型已連線。
-2026-04-24 12:15:29,988 - [INFO] 已從日誌恢復 0 筆快取。
-2026-04-24 12:15:29,989 - [INFO] 伺服器開始運行 (背景待命狀態)...
+2026-05-03 15:40:51,992 - [INFO] 系統啟動成功：AI 模型已連線。
+2026-05-03 15:40:52,069 - [INFO] 已從日誌恢復 0 筆快取。
+2026-05-03 15:40:52,070 - [INFO] 伺服器開始運行 (背景待命狀態)...
