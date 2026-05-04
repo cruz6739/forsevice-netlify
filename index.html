@@ -1,4 +1,4 @@
-<!-- =================2603031520======================== -->
+<!-- =================2605041347======================== -->
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
@@ -247,12 +247,10 @@
 
     <script>
         const LOG_SOURCES = [
-            // 1. GAS 平衡作業明細（原有，不動）
-            { name: '平衡明細', url: 'https://cruz6739.github.io/forsevice-netlify/ypSYNCypput_log.txt' },
-            // 2. ★ GDVJF平衡：改為讀取 rclone 同步紀錄（獨立檔名，不影響平衡明細）
-            { name: 'GDVJF平衡', url: 'https://cruz6739.github.io/forsevice-netlify/rclone_sync_log.txt' },
-            // 3. SYNGBOT（原有，不動）
-            { name: 'SYNGBOT', url: 'https://cruz6739.github.io/forsevice-netlify/syngaction02_log.txt' } 
+            // 1. GDFsync：讀取 GDriveSync sync.log
+            { name: 'GDFsync', url: 'https://raw.githubusercontent.com/cruz6739/GDriveSync-log/main/sync.log' },
+            // 2. SYNGBOT（原有，不動）
+            { name: 'SYNGBOT', url: 'https://cruz6739.github.io/forsevice-netlify/syngaction02_log.txt' }
         ];
 
         const ERROR_KEYWORDS = ['錯誤', 'error', '停止', '警告', 'warning'];
