@@ -1,4 +1,4 @@
-<!-- =================2605041347======================== -->
+<!-- =================2605050949======================== -->
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
@@ -353,26 +353,40 @@
             const now = Date.now();
             const TWENTY_FOUR_HOURS_MS = 24 * 60 * 60 * 1000;
 
+            // 判斷是否為結構化 log（含 [INFO]/[WARNING]/[ERROR] 標籤，如 sync.log）
+            const isStructuredLog = lines.some(l => /\[(INFO|WARNING|ERROR)\]/.test(l));
+
             for (let i = lines.length - 1; i >= 0; i--) {
                 const currentLine = lines[i].trim();
-                if (!currentLine) continue; 
-                
+                if (!currentLine) continue;
+
                 const dateMatch = currentLine.match(/\b(20\d{2}[-/\.]\d{1,2}[-/\.]\d{1,2}(?:[\sT]\d{1,2}:\d{2}(?::\d{2})?)?)\b/);
                 if (dateMatch) {
                     const logDate = new Date(dateMatch[1]).getTime();
-                    if (!isNaN(logDate) && (now - logDate > TWENTY_FOUR_HOURS_MS)) break; 
+                    if (!isNaN(logDate) && (now - logDate > TWENTY_FOUR_HOURS_MS)) break;
                 }
 
                 const lowerLine = currentLine.toLowerCase();
                 const isSafe = lowerSafeKeywords.some(safeKeyword => lowerLine.includes(safeKeyword));
-                if (isSafe) continue; 
+                if (isSafe) continue;
 
-                const hasError = lowerKeywords.some(keyword => lowerLine.includes(keyword));
-                if (hasError) {
-                    const startIdx = Math.max(0, i - 1);
-                    const endIdx = Math.min(lines.length - 1, i + 1);
-                    const snippet = lines.slice(startIdx, endIdx + 1).join('\n');
-                    return { source: sourceName, status: 'error', message: snippet };
+                if (isStructuredLog) {
+                    // 結構化 log：只有明確 [ERROR] 或 [WARNING] 才算異常，[INFO] 一律忽略
+                    if (/\[ERROR\]/.test(currentLine) || /\[WARNING\]/.test(currentLine)) {
+                        const startIdx = Math.max(0, i - 1);
+                        const endIdx = Math.min(lines.length - 1, i + 1);
+                        const snippet = lines.slice(startIdx, endIdx + 1).join('\n');
+                        return { source: sourceName, status: 'error', message: snippet };
+                    }
+                } else {
+                    // 非結構化 log（SYNGBOT 等）：維持關鍵字掃描邏輯
+                    const hasError = lowerKeywords.some(keyword => lowerLine.includes(keyword));
+                    if (hasError) {
+                        const startIdx = Math.max(0, i - 1);
+                        const endIdx = Math.min(lines.length - 1, i + 1);
+                        const snippet = lines.slice(startIdx, endIdx + 1).join('\n');
+                        return { source: sourceName, status: 'error', message: snippet };
+                    }
                 }
             }
 
