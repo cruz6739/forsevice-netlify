@@ -1,4 +1,4 @@
-<!-- =================2605050949======================== -->
+<!-- =================2605061526======================== -->
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
@@ -221,9 +221,243 @@
             .message, #rawLogView { font-size: 11px; }
             h1 { font-size: 13px; }
         }
+
+        /* ── 平衡原則 ICON ── */
+        #balanceIconBtn {
+            position: fixed;
+            top: 18px;
+            right: 18px;
+            z-index: 999;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            border: 1px solid #00aaee;
+            background: rgba(0, 20, 40, 0.85);
+            color: #00e5ff;
+            font-size: 22px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 12px rgba(0, 180, 255, 0.5), inset 0 0 8px rgba(0, 180, 255, 0.1);
+            transition: all 0.25s ease;
+            backdrop-filter: blur(4px);
+        }
+        #balanceIconBtn:hover {
+            background: rgba(0, 170, 238, 0.25);
+            box-shadow: 0 0 22px rgba(0, 229, 255, 0.8), inset 0 0 14px rgba(0, 200, 255, 0.2);
+            transform: scale(1.1) rotate(-8deg);
+        }
+        #balanceIconBtn .tooltip-text {
+            visibility: hidden;
+            opacity: 0;
+            background: rgba(0, 20, 40, 0.95);
+            color: #7dd8ff;
+            font-size: 11px;
+            letter-spacing: 1px;
+            border: 1px solid #00aaee;
+            border-radius: 4px;
+            padding: 5px 10px;
+            position: absolute;
+            right: 52px;
+            top: 50%;
+            transform: translateY(-50%);
+            white-space: nowrap;
+            transition: opacity 0.2s;
+            box-shadow: 0 0 8px rgba(0,180,255,0.3);
+            pointer-events: none;
+        }
+        #balanceIconBtn:hover .tooltip-text {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        /* ── Modal 遮罩 ── */
+        #balanceModal {
+            display: none;
+            position: fixed;
+            inset: 0;
+            z-index: 1000;
+            background: rgba(0, 5, 15, 0.85);
+            backdrop-filter: blur(6px);
+            align-items: center;
+            justify-content: center;
+        }
+        #balanceModal.open {
+            display: flex;
+            animation: fadeInModal 0.25s ease-out;
+        }
+        @keyframes fadeInModal {
+            from { opacity: 0; transform: scale(0.95); }
+            to   { opacity: 1; transform: scale(1); }
+        }
+
+        /* ── Modal 卡片 ── */
+        #balanceModalCard {
+            background: linear-gradient(145deg, rgba(0, 18, 35, 0.98), rgba(0, 30, 55, 0.95));
+            border: 1px solid #00aaee;
+            border-radius: 8px;
+            padding: 32px 30px 28px;
+            max-width: 560px;
+            width: 92%;
+            box-shadow: 0 0 40px rgba(0, 180, 255, 0.35), inset 0 0 30px rgba(0, 100, 180, 0.06);
+            position: relative;
+            max-height: 88vh;
+            overflow-y: auto;
+        }
+        #balanceModalCard h3 {
+            font-size: 16px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #00e5ff;
+            text-shadow: 0 0 10px #00c8ff, 0 0 20px #0088cc;
+            margin: 0 0 6px 0;
+        }
+        #balanceModalCard .modal-subtitle {
+            font-size: 11px;
+            color: #3a7aaa;
+            letter-spacing: 1px;
+            margin-bottom: 22px;
+            border-bottom: 1px solid rgba(0,170,238,0.3);
+            padding-bottom: 12px;
+        }
+        .principle-item {
+            display: flex;
+            gap: 14px;
+            margin-bottom: 18px;
+            align-items: flex-start;
+            animation: fadeInLED 0.4s ease-out;
+        }
+        .principle-icon {
+            font-size: 22px;
+            min-width: 32px;
+            text-align: center;
+            margin-top: 1px;
+            filter: drop-shadow(0 0 6px #00aaee);
+        }
+        .principle-body .principle-title {
+            font-size: 13px;
+            color: #00e5ff;
+            letter-spacing: 1px;
+            margin-bottom: 4px;
+            text-shadow: 0 0 6px rgba(0,200,255,0.5);
+        }
+        .principle-body .principle-desc {
+            font-size: 12px;
+            color: #7bb8d8;
+            line-height: 1.65;
+        }
+        .principle-body .principle-desc code {
+            background: rgba(0,180,255,0.1);
+            border: 1px solid rgba(0,150,220,0.3);
+            border-radius: 3px;
+            padding: 1px 5px;
+            font-size: 11px;
+            color: #a8e0ff;
+        }
+        #balanceModalClose {
+            position: absolute;
+            top: 14px;
+            right: 16px;
+            background: transparent;
+            border: none;
+            color: #3a7aaa;
+            font-size: 20px;
+            cursor: pointer;
+            font-family: inherit;
+            transition: color 0.2s, text-shadow 0.2s;
+            line-height: 1;
+        }
+        #balanceModalClose:hover {
+            color: #00e5ff;
+            text-shadow: 0 0 10px #00c8ff;
+        }
+        .modal-footer {
+            font-size: 10px;
+            color: #2a5a7a;
+            text-align: center;
+            letter-spacing: 1px;
+            margin-top: 18px;
+            padding-top: 14px;
+            border-top: 1px solid rgba(0,170,238,0.15);
+        }
     </style>
 </head>
 <body>
+
+    <!-- ── 平衡原則 ICON 按鈕 ── -->
+    <button id="balanceIconBtn" onclick="openBalanceModal()" title="同步平衡原則">
+        ⚖️
+        <span class="tooltip-text">同步平衡原則</span>
+    </button>
+
+    <!-- ── 平衡原則 Modal ── -->
+    <div id="balanceModal" onclick="handleModalOverlayClick(event)">
+        <div id="balanceModalCard">
+            <button id="balanceModalClose" onclick="closeBalanceModal()">✕</button>
+            <h3>⚖️ 資料同步平衡原則</h3>
+            <div class="modal-subtitle">GDriveSync ── 本地 / Google Drive / NAS 三方同步規則</div>
+
+            <div class="principle-item">
+                <div class="principle-icon">🕐</div>
+                <div class="principle-body">
+                    <div class="principle-title">原則一：最新版本優先（mtime 勝出）</div>
+                    <div class="principle-desc">
+                        當多方同時修改同一檔案時，以 <code>修改時間 (mtime)</code> 最新的版本為權威來源，
+                        並自動覆蓋所有落後端點。時間精度依賴 Google Drive UTC 時間戳與本地/NAS 系統時鐘同步。
+                    </div>
+                </div>
+            </div>
+
+            <div class="principle-item">
+                <div class="principle-icon">🗑️</div>
+                <div class="principle-body">
+                    <div class="principle-title">原則二：刪除優先（三方全刪）</div>
+                    <div class="principle-desc">
+                        任一方（本地、Drive 或 NAS）執行刪除操作，即觸發三方同步刪除。
+                        即使另一方同時修改了該檔案，<code>刪除仍優先</code>，以確保空間一致性與版本整潔性。
+                    </div>
+                </div>
+            </div>
+
+            <div class="principle-item">
+                <div class="principle-icon">🌐</div>
+                <div class="principle-body">
+                    <div class="principle-title">原則三：NAS 離線降級（雙方繼續）</div>
+                    <div class="principle-desc">
+                        當 NAS（<code>192.168.120.31</code>）無法連線時，系統不中斷，
+                        自動降級為本地 ↔ Google Drive 雙向同步模式，並於日誌寫入 <code>[WARNING]</code> 標記。
+                        NAS 恢復後，下次同步將自動補齊缺漏資料。
+                    </div>
+                </div>
+            </div>
+
+            <div class="principle-item">
+                <div class="principle-icon">🔐</div>
+                <div class="principle-body">
+                    <div class="principle-title">原則四：MD5 完整性驗證（避免假同步）</div>
+                    <div class="principle-desc">
+                        每次同步前以 <code>MD5 雜湊值</code> 比對各端檔案內容，
+                        若 MD5 相同則跳過傳輸，避免因時間戳差異導致的無效覆寫，節省頻寬與 API 配額。
+                    </div>
+                </div>
+            </div>
+
+            <div class="principle-item">
+                <div class="principle-icon">📋</div>
+                <div class="principle-body">
+                    <div class="principle-title">原則五：日誌透明（24 小時滾動保留）</div>
+                    <div class="principle-desc">
+                        所有同步動作（新增、更新、刪除、衝突解決、錯誤）均寫入 <code>sync.log</code>，
+                        並透過 GitHub Actions 自動推送至雲端。日誌保留最近 <code>24 小時</code>的紀錄，
+                        超過者自動清除，確保儲存空間不膨脹。本儀表板即時呈現此日誌狀態。
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">GDriveSync &nbsp;|&nbsp; 本地 ↔ Google Drive ↔ NAS &nbsp;|&nbsp; 三方雙向同步系統</div>
+        </div>
+    </div>
 
     <h1>[ SYSTEM MONITOR DASHBOARD ]</h1>
     <div id="last-updated">[ 系統初始化中... ]</div>
@@ -461,6 +695,24 @@
             viewer.textContent = text;
             viewer.scrollTop = viewer.scrollHeight; 
         }
+
+        /* ── 平衡原則 Modal 控制 ── */
+        function openBalanceModal() {
+            document.getElementById('balanceModal').classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeBalanceModal() {
+            document.getElementById('balanceModal').classList.remove('open');
+            document.body.style.overflow = '';
+        }
+        function handleModalOverlayClick(e) {
+            if (e.target === document.getElementById('balanceModal')) {
+                closeBalanceModal();
+            }
+        }
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeBalanceModal();
+        });
     </script>
 </body>
 </html>
