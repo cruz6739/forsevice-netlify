@@ -1,4 +1,4 @@
-<!-- =================2605061534======================== -->
+<!-- =================2605061950======================== -->
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
@@ -74,13 +74,21 @@
 
         #navMenu {
             display: flex;
-            gap: 15px;
+            gap: 10px;
             margin-bottom: 30px;
             z-index: 1;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
             justify-content: center;
             max-width: 90%;
             width: 100%;
+        }
+        #navMenu .nav-btn {
+            flex: 1;
+            min-width: 0;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .nav-btn {
@@ -199,13 +207,14 @@
             h1 { font-size: 15px; letter-spacing: 1px; }
             #last-updated { font-size: 10px; margin-bottom: 15px; letter-spacing: 0; }
             #navMenu { 
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                gap: 8px; margin-bottom: 15px; width: 96%; 
+                display: flex;
+                flex-wrap: nowrap;
+                gap: 6px; margin-bottom: 15px; width: 96%; 
             }
             .nav-btn { 
+                flex: 1; min-width: 0;
                 padding: 10px 4px; font-size: 11px; letter-spacing: 0; 
-                width: 100%; text-align: center; white-space: nowrap; 
+                text-align: center; white-space: nowrap; 
                 overflow: hidden; text-overflow: ellipsis; 
             }
             #mainContainer { width: 96%; }
@@ -464,7 +473,6 @@
 
     <div id="navMenu">
         <button class="nav-btn active" id="btn-dashboard" onclick="showView('dashboard')">[ 總覽警報 ]</button>
-        <button class="nav-btn" id="btn-principle" onclick="showView('principle')">[ 同步原則 ]</button>
     </div>
 
     <div id="mainContainer">
@@ -478,32 +486,7 @@
             <h2 id="detailTitle">>> Log Content</h2>
             <div id="rawLogView">載入中...</div>
         </div>
-        <div id="view-principle" style="display: none;">
-            <h2>>> 同步原則說明</h2>
-            <div id="principleContent">
-                <div class="principle-card">
-                    <div class="principle-title">⚡ 原則一：最新版本優先（mtime 勝出）</div>
-                    <div class="principle-body">當多方同時修改同一檔案時，以 <span class="highlight">修改時間 (mtime)</span> 最新的版本為權威來源，並自動覆蓋所有落後端點。時間精度依賴 Google Drive UTC 時間戳與本地 / NAS 系統時鐘同步。</div>
-                </div>
-                <div class="principle-card">
-                    <div class="principle-title">🗑️ 原則二：刪除優先（三方全刪）</div>
-                    <div class="principle-body">任一方（本地、Drive 或 NAS）執行刪除操作，即觸發三方同步刪除。即使另一方同時修改了該檔案，<span class="highlight">刪除仍優先</span>，以確保空間一致性與版本整潔性。</div>
-                </div>
-                <div class="principle-card">
-                    <div class="principle-title">🌐 原則三：NAS 離線降級（雙方繼續）</div>
-                    <div class="principle-body">當 NAS（<span class="highlight">192.168.120.31</span>）無法連線時，系統不中斷，自動降級為本地 ↔ Google Drive 雙向同步模式，並於日誌寫入 <span class="highlight">[WARNING]</span> 標記。NAS 恢復後，下次同步將自動補齊缺漏資料。</div>
-                </div>
-                <div class="principle-card">
-                    <div class="principle-title">🔐 原則四：MD5 完整性驗證（避免假同步）</div>
-                    <div class="principle-body">每次同步前以 <span class="highlight">MD5 雜湊值</span> 比對各端檔案內容，若 MD5 相同則跳過傳輸，避免因時間戳差異導致的無效覆寫，節省頻寬與 API 配額。</div>
-                </div>
-                <div class="principle-card">
-                    <div class="principle-title">📋 原則五：日誌透明（24 小時滾動保留）</div>
-                    <div class="principle-body">所有同步動作（新增、更新、刪除、衝突解決、錯誤）均寫入 <span class="highlight">sync.log</span>，並透過 GitHub 自動推送至雲端。日誌保留最近 <span class="highlight">24 小時</span>的紀錄，超過者自動清除，確保儲存空間不膨脹。本儀表板即時呈現此日誌狀態。</div>
-                </div>
-                <div class="principle-footer">GDriveSync &nbsp;|&nbsp; 本地 ↔ Google Drive ↔ NAS &nbsp;|&nbsp; 三方雙向同步系統</div>
-            </div>
-        </div>
+
     </div>
 
     <script>
@@ -694,13 +677,7 @@
                 document.getElementById('btn-dashboard').classList.add('active');
                 document.getElementById('view-dashboard').style.display = 'block';
                 document.getElementById('view-detail').style.display = 'none';
-                document.getElementById('view-principle').style.display = 'none';
                 scanAllLogs();
-            } else if (viewName === 'principle') {
-                document.getElementById('btn-principle').classList.add('active');
-                document.getElementById('view-dashboard').style.display = 'none';
-                document.getElementById('view-detail').style.display = 'none';
-                document.getElementById('view-principle').style.display = 'block';
             }
         }
 
