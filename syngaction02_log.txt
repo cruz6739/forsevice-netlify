@@ -103,21 +103,6 @@ New Log Contents (Mapped):
 =================================
 
 ## Network Comm Test Log ##
-2026-05-13 16:24:19,452 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
-2026-05-13 16:24:33,317 - [INFO] 系統啟動成功：NVIDIA NIM Llama 3 模型已連線。
-2026-05-13 16:24:33,414 - [INFO] 已從日誌恢復 1 筆快取。
-2026-05-13 16:24:33,414 - [INFO] 伺服器開始運行 (背景待命狀態)...
-2026-05-13 16:30:06,384 - [INFO] 接收到訊息來源 [fmcs]，內容為: [廠區 [SY_T2C_E]於2026/05/13 09:45:13的警報點[T2C_WWT_R1_1F_CMS_T0131_PH_PV](T2C廢水_R1_1F_化混_T01-31 慢混槽(一)PH值)數值變更為0.85(M),發生了警報,警報狀態為LOLO]
-2026-05-13 16:30:06,408 - [INFO] 【模糊比對未命中】最佳標題：「廠區 [SY_T2C_E]於2026/05/13 09:52:52的警報點[T2C_WWT_R2_1 警報處置指引」，相似度：51.11%（門檻 70%），進入 API 流程。
-2026-05-13 16:30:06,408 - [INFO] 本地知識庫不足或 API 異常，自動啟動 DuckDuckGo + Llama 3 網路搜尋生成行動指引...
-2026-05-13 16:30:06,409 - [INFO] 啟動 DDGS 網路搜尋: 廠區 [SY_T2C_E]於2026/05/13 09:45...
-2026-05-13 16:30:07,113 - [INFO] response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E5%BB%A0%E5%8D%80%20%5BSY_T2C_E%5D%E6%96%BC2026/05/13%2009%3A45%3A13%E7%9A%84%E8%AD%A6%E5%A0%B1%E9%BB%9E%5BT2C_WWT_R1_1F_CMS_T0131_PH_PV%5D%28T2C%E5%BB%A2%E6%B0%B4_R1_1F_%E5%8C%96%E6%B7%B7_T01-31%20%E6%85%A2%E6%B7%B7%E6%A7%BD%28%E4%B8%80%29PH%E5%80%BC%29%E6%95%B8%E5%80%BC%E8%AE%8A%E6%9B%B4%E7%82%BA0.85%28M%29%2C%E7%99%BC%E7%94%9F%E4%BA%86%E8%AD%A6%E5%A0%B1%2C%E8%AD%A6%E5%A0%B1%E7%8B%80%E6%85%8B%E7%82%BALOLO 200
-2026-05-13 16:30:07,640 - [INFO] response: https://grokipedia.com/api/typeahead?query=%E5%BB%A0%E5%8D%80+%5BSY_T2C_E%5D%E6%96%BC2026%2F05%2F13+09%3A45%3A13%E7%9A%84%E8%AD%A6%E5%A0%B1%E9%BB%9E%5BT2C_WWT_R1_1F_CMS_T0131_PH_PV%5D%28T2C%E5%BB%A2%E6%B0%B4_R1_1F_%E5%8C%96%E6%B7%B7_T01-31+%E6%85%A2%E6%B7%B7%E6%A7%BD%28%E4%B8%80%29PH%E5%80%BC%29%E6%95%B8%E5%80%BC%E8%AE%8A%E6%9B%B4%E7%82%BA0.85%28M%29%2C%E7%99%BC%E7%94%9F%E4%BA%86%E8%AD%A6%E5%A0%B1%2C%E8%AD%A6%E5%A0%B1%E7%8B%80%E6%85%8B%E7%82%BALOLO&limit=1 200
-2026-05-13 16:30:08,138 - [INFO] response: https://search.yahoo.com/search;_ylt=to8Jxzg9uMIraKYPsJl4Jp3-;_ylu=1uMZ5HODWMVG652-0-EO1k4QoNT7hKdT2hVw4RlxbiFkc1Q?p=%E5%BB%A0%E5%8D%80+%5BSY_T2C_E%5D%E6%96%BC2026%2F05%2F13+09%3A45%3A13%E7%9A%84%E8%AD%A6%E5%A0%B1%E9%BB%9E%5BT2C_WWT_R1_1F_CMS_T0131_PH_PV%5D%28T2C%E5%BB%A2%E6%B0%B4_R1_1F_%E5%8C%96%E6%B7%B7_T01-31+%E6%85%A2%E6%B7%B7%E6%A7%BD%28%E4%B8%80%29PH%E5%80%BC%29%E6%95%B8%E5%80%BC%E8%AE%8A%E6%9B%B4%E7%82%BA0.85%28M%29%2C%E7%99%BC%E7%94%9F%E4%BA%86%E8%AD%A6%E5%A0%B1%2C%E8%AD%A6%E5%A0%B1%E7%8B%80%E6%85%8B%E7%82%BALOLO 200
-2026-05-13 16:30:10,135 - [INFO] response: https://yandex.com/search/site/?text=%E5%BB%A0%E5%8D%80+%5BSY_T2C_E%5D%E6%96%BC2026%2F05%2F13+09%3A45%3A13%E7%9A%84%E8%AD%A6%E5%A0%B1%E9%BB%9E%5BT2C_WWT_R1_1F_CMS_T0131_PH_PV%5D%28T2C%E5%BB%A2%E6%B0%B4_R1_1F_%E5%8C%96%E6%B7%B7_T01-31+%E6%85%A2%E6%B7%B7%E6%A7%BD%28%E4%B8%80%29PH%E5%80%BC%29%E6%95%B8%E5%80%BC%E8%AE%8A%E6%9B%B4%E7%82%BA0.85%28M%29%2C%E7%99%BC%E7%94%9F%E4%BA%86%E8%AD%A6%E5%A0%B1%2C%E8%AD%A6%E5%A0%B1%E7%8B%80%E6%85%8B%E7%82%BALOLO&web=1&searchid=7313278 200
-2026-05-13 16:30:30,807 - [INFO] HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-05-13 16:30:30,836 - [INFO] Llama 3 非同步行動指引生成成功，正在推播...
-2026-05-13 16:30:30,837 - [INFO] [自動回存] 已將 Llama3_Fallback自動學習 結果寫入 T2C.txt（標題：廠區 [SY_T2C_E]於2026/05/13 09:45:13的警報點[T2C_WWT_R1_1）
 2026-05-20 15:50:45,105 - [INFO] 接收到訊息來源 [fmcs]，內容為: [SCADA RUNTIME MONITORING ALERT_1 NEW Anomalies Detected on FR-S1
 
 Runtime monitoring detected 1 records.
@@ -141,3 +126,10 @@ HJ2_F SCADA(VM),	05/20/2026 13:45:03,	1000,	錯誤,	失敗的應用程式名稱:
 2026-05-20 16:19:17,588 - [INFO] 接收到訊息來源 [fmcs]，內容為: [BOT 什麼是ntdll.dll？]
 2026-05-20 16:19:17,592 - [INFO] 本地知識庫不足或 API 異常，自動啟動 DuckDuckGo + Llama 3 網路搜尋生成行動指引...
 2026-05-20 16:19:17,593 - [INFO] 啟動 DDGS 網路搜尋: BOT 什麼是ntdll.dll？...
+2026-05-20 16:19:18,429 - [INFO] response: https://grokipedia.com/api/typeahead?query=BOT+%E4%BB%80%E9%BA%BC%E6%98%AFntdll.dll%EF%BC%9F&limit=1 200
+2026-05-20 16:19:18,880 - [INFO] response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=BOT%20%E4%BB%80%E9%BA%BC%E6%98%AFntdll.dll%EF%BC%9F 200
+2026-05-20 16:19:20,865 - [INFO] response: https://www.mojeek.com/search?q=BOT+%E4%BB%80%E9%BA%BC%E6%98%AFntdll.dll%EF%BC%9F 200
+2026-05-20 16:19:46,794 - [INFO] HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-20 16:19:46,797 - [INFO] Llama 3 非同步行動指引生成成功，正在推播...
+2026-05-20 16:19:46,798 - [WARNING] [自動回存] 廠區未知，略過回存。來源：Llama3_Fallback自動學習
+2026-05-21 15:50:22,925 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
