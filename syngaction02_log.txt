@@ -242,3 +242,7 @@ ERROR: Quota exceeded. Check your plan and billing details.
 ERROR: Quota exceeded. Check your plan and billing details.
 
 2026-06-23 15:27:45,073 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
+2026-06-23 15:27:51,414 - [INFO] 系統啟動成功：NVIDIA NIM Llama 3 模型已連線。
+2026-06-23 15:27:51,733 - [INFO] 系統啟動成功：Codex/OpenAI API 已連線。
+2026-06-23 15:27:52,007 - [INFO] 已從日誌恢復 0 筆快取。
+2026-06-23 15:27:52,007 - [INFO] 伺服器開始運行 (背景待命狀態)...
