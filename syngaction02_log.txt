@@ -257,3 +257,7 @@ ERROR: Quota exceeded. Check your plan and billing details.
 2026-07-09 15:33:32,350 - [INFO] [Codex] finished x/ task sender=林育平 returncode=0 stdout_len=184 stderr_len=12021 final_len=183
 2026-07-09 15:33:32,809 - [WARNING] [ChatWebhook] failed to send via C:\Users\U01572\Documents\YPput\py\CodexResultWebhook.txt: HTTPSConnectionPool(host='123.252.118.20', port=19785): Max retries exceeded with url: /webapi/entry.cgi?api=SYNO.Chat.External&method=incoming&version=2&token=%22TKRRkSCiwiBOeCioHyEw9FiIITHyZ4XDYiuNDM7CYvt8fP4wFUtzum6gXECVEwhw%22 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '123.252.118.20'. (_ssl.c:1032)")))
 2026-07-09 15:38:56,775 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
+2026-07-09 15:39:08,479 - [INFO] 系統啟動成功：NVIDIA NIM Llama 3 模型已連線。
+2026-07-09 15:39:08,795 - [INFO] 系統啟動成功：Codex/OpenAI API 已連線。
+2026-07-09 15:39:08,900 - [INFO] 已從日誌恢復 0 筆快取。
+2026-07-09 15:39:08,900 - [INFO] 伺服器開始運行 (背景待命狀態)...
