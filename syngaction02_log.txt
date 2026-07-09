@@ -220,3 +220,5 @@ ERROR: Quota exceeded. Check your plan and billing details.
 2026-07-09 14:10:48,476 - [INFO] 系統啟動成功：Codex/OpenAI API 已連線。
 2026-07-09 14:10:48,591 - [INFO] 已從日誌恢復 0 筆快取。
 2026-07-09 14:10:48,591 - [INFO] 伺服器開始運行 (背景待命狀態)...
+2026-07-09 14:15:31,404 - [INFO] 接收到訊息來源 [__codex_probe__]，內容為: [x/ status check]
+2026-07-09 14:15:31,404 - [WARNING] [Codex] rejected x/ task from unauthorized sender=__codex_probe__ text=x/ status check
