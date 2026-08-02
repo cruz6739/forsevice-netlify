@@ -338,3 +338,7 @@ Usage: codex exec [OPTIONS] [PROMPT]
 For more information, try '--help'.
 
 2026-08-02 17:22:29,682 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
+2026-08-02 17:22:38,315 - [INFO] 系統啟動成功：NVIDIA NIM Llama 3 模型已連線。
+2026-08-02 17:22:38,315 - [INFO] Codex CLI 已設定使用 ChatGPT 訂閱登入：C:\Users\U01572\.codex
+2026-08-02 17:22:38,394 - [INFO] 已從日誌恢復 0 筆快取。
+2026-08-02 17:22:38,394 - [INFO] 伺服器開始運行 (背景待命狀態)...
