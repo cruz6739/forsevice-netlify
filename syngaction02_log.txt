@@ -326,3 +326,15 @@ HJ2_F SCADA(VM),	07/24/2026 15:17:18,	1000,	錯誤,	失敗的應用程式名稱:
 2026-08-02 17:21:50,452 - [INFO] 伺服器開始運行 (背景待命狀態)...
 2026-08-02 17:22:01,051 - [INFO] 接收到訊息來源 [林育平]，內容為: [x/ 這是核准流程測試，不執行任何命令或變更。請直接以「WINDOWS_APPROVAL_REQUIRED: 測試 Documents 範圍外 Windows 功能的單次核准機制」作為最後一行。]
 2026-08-02 17:22:01,060 - [INFO] [Codex] accepted x/ task sender=林育平 host=FMCSFREE text=x/ 這是核准流程測試，不執行任何命令或變更。請直接以「WINDOWS_APPROVAL_REQUIRED: 測試 Documents 範圍外 Windows 功能的單次核准機制」作為最後一行。
+2026-08-02 17:22:01,072 - [INFO] [Codex] start x/ task auth=chatgpt-subscription access=documents-only sender=林育平 host=FMCSFREE user=U01572 cwd=C:\Users\U01572\Documents\YPput\py codex=C:\Users\U01572\AppData\Roaming\npm\codex.cmd task=這是核准流程測試，不執行任何命令或變更。請直接以「WINDOWS_APPROVAL_REQUIRED: 測試 Documents 範圍外 Windows 功能的單次核准機制」作為最後一行。
+2026-08-02 17:22:03,717 - [INFO] [Codex] finished x/ task sender=林育平 returncode=2 stdout_len=0 stderr_len=251 final_len=250
+2026-08-02 17:22:03,717 - [ERROR] [Codex] non-zero returncode=2 stderr=error: unexpected argument '--ask-for-approval' found
+
+  tip: to pass '--ask-for-approval' as a value, use '-- --ask-for-approval'
+
+Usage: codex exec [OPTIONS] [PROMPT]
+       codex exec [OPTIONS] <COMMAND> [ARGS]
+
+For more information, try '--help'.
+
+2026-08-02 17:22:29,682 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
