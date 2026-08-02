@@ -289,3 +289,7 @@ HJ2_F SCADA(VM),	07/24/2026 15:17:18,	1000,	錯誤,	失敗的應用程式名稱:
 2026-08-02 16:39:14,320 - [INFO] [Codex] start x/ task auth=chatgpt-subscription sender=林育平 host=FMCSFREE user=U01572 cwd=C:\Users\U01572\Documents\YPput\py codex=C:\Users\U01572\AppData\Roaming\npm\codex.cmd task=這是設定完成後的唯讀驗證。請實際執行 whoami 與 Get-Location，只回覆兩個命令的結果，不要修改任何檔案。
 2026-08-02 16:39:28,940 - [INFO] [Codex] finished x/ task sender=林育平 returncode=0 stdout_len=150 stderr_len=668 final_len=149
 2026-08-02 16:40:13,779 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
+2026-08-02 16:40:22,298 - [INFO] 系統啟動成功：NVIDIA NIM Llama 3 模型已連線。
+2026-08-02 16:40:22,298 - [INFO] Codex CLI 已設定使用 ChatGPT 訂閱登入：C:\Users\U01572\.codex
+2026-08-02 16:40:22,387 - [INFO] 已從日誌恢復 0 筆快取。
+2026-08-02 16:40:22,387 - [INFO] 伺服器開始運行 (背景待命狀態)...
