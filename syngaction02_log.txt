@@ -344,3 +344,35 @@ For more information, try '--help'.
 2026-08-02 17:22:38,394 - [INFO] 伺服器開始運行 (背景待命狀態)...
 2026-08-02 17:22:51,527 - [INFO] 接收到訊息來源 [林育平]，內容為: [x/ 核准流程唯讀測試：不要執行命令或變更；最後一行輸出 WINDOWS_APPROVAL_REQUIRED: 測試 Documents 範圍外 Windows 功能的單次核准機制]
 2026-08-02 17:22:51,532 - [INFO] [Codex] accepted x/ task sender=林育平 host=FMCSFREE text=x/ 核准流程唯讀測試：不要執行命令或變更；最後一行輸出 WINDOWS_APPROVAL_REQUIRED: 測試 Documents 範圍外 Windows 功能的單次核准機制
+2026-08-02 17:22:51,544 - [INFO] [Codex] start x/ task auth=chatgpt-subscription access=documents-only sender=林育平 host=FMCSFREE user=U01572 cwd=C:\Users\U01572\Documents\YPput\py codex=C:\Users\U01572\AppData\Roaming\npm\codex.cmd task=核准流程唯讀測試：不要執行命令或變更；最後一行輸出 WINDOWS_APPROVAL_REQUIRED: 測試 Documents 範圍外 Windows 功能的單次核准機制
+2026-08-02 17:23:02,802 - [INFO] [Codex] finished x/ task sender=林育平 returncode=0 stdout_len=91 stderr_len=5530 final_len=90
+2026-08-02 17:23:02,805 - [INFO] [CodexApproval] created code=AE6F7E1B sender=林育平 task=核准流程唯讀測試：不要執行命令或變更；最後一行輸出 WINDOWS_APPROVAL_REQUIRED: 測試 Documents 範圍外 Windows 功能的單次核准機制
+2026-08-03 12:07:05,692 - [INFO] 接收到訊息來源 [林育平]，內容為: [x/ 剛剛收到LineBOT通報如下：
+
+⚠️【服務異常與自動修復回報】
+巡檢時間：2026-08-03 11:49:31
+
+偵測到以下服務異常，已啟動自動修復程序：
+
+🔴 服務：ESHmanager 21 廠巡查與排程
+     ├─ 異常問題：巡查未執行但暫存表仍有 141 筆：{'waste_plan_sections': 90, 'waste_plan_versions': 30, 'waste_plan_comparisons': 21}
+     └─ 修復結果：⚠️ 無修復策略
+     └─ 提醒：無對應的自動修復策略，需人工處理！
+
+🔴 服務：ESHmanager 巡查錯誤增量
+     ├─ 異常問題：新增 1 筆：2026-08-03T10:50:47+08:00 run=9 plant=山鶯一廠 stage=database_replace error=AttributeError: 'Connection' object has no attribute 'executemany'
+     └─ 修復結果：⚠️ 無修復策略
+     └─ 提醒：無對應的自動修復策略，需人工處理！
+
+⚠️ 請相關人員注意！對於修復失敗之服務，請儘速登入伺服器進行人工排查。
+
+當時我有在ESHmanager專案中修改程式與更新發布，請你確認是否已恢復正常]
+2026-08-03 12:07:05,698 - [INFO] [Codex] accepted x/ task sender=林育平 host=FMCSFREE text=x/ 剛剛收到LineBOT通報如下：
+
+⚠️【服務異常與自動修復回報】
+巡檢時間：2026-08-03 11:49:31
+
+偵測到以下服務異常，已啟動自動修復程序：
+
+🔴 服務：ESHmanager 21 廠巡查與排程
+     ├─ 異常問題：巡查未執行但暫存表仍有 141 筆：{'waste_plan_sections': 90, 'waste_plan_versions': 30, 'wa
