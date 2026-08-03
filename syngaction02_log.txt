@@ -392,3 +392,7 @@ For more information, try '--help'.
 2026-08-03 12:11:40,373 - [INFO] [Codex] finished x/ task sender=林育平 returncode=0 stdout_len=227 stderr_len=6446 final_len=226
 2026-08-03 12:11:40,375 - [INFO] [CodexApproval] created code=4EA5D7F3 sender=林育平 task=修正使用powershell失敗問題
 2026-08-03 12:21:40,465 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
+2026-08-03 12:21:49,878 - [INFO] 系統啟動成功：NVIDIA NIM Llama 3 模型已連線。
+2026-08-03 12:21:49,878 - [INFO] Codex CLI 已設定使用 ChatGPT 訂閱登入：C:\Users\U01572\.codex
+2026-08-03 12:21:50,078 - [INFO] 已從日誌恢復 0 筆快取。
+2026-08-03 12:21:50,078 - [INFO] 伺服器開始運行 (背景待命狀態)...
