@@ -411,3 +411,8 @@ For more information, try '--help'.
 2026-08-03 12:23:57,499 - [INFO] 接收到訊息來源 [林育平]，內容為: [x/]
 2026-08-03 12:24:08,377 - [INFO] 接收到訊息來源 [林育平]，內容為: [x/ 回覆通道最終測試：不要執行工具，只回覆 X_DELIVERY_OK]
 2026-08-03 12:24:08,382 - [INFO] [Codex] accepted x/ task sender=林育平 host=FMCSFREE text=x/ 回覆通道最終測試：不要執行工具，只回覆 X_DELIVERY_OK
+2026-08-06 09:49:43,764 - [INFO] 系統啟動成功：NVIDIA NIM Llama 3 模型已連線。
+2026-08-06 09:49:43,768 - [INFO] Codex CLI 已設定使用 ChatGPT 訂閱登入：C:\Users\U01572\.codex
+2026-08-06 09:49:43,929 - [INFO] 已從日誌恢復 0 筆快取。
+2026-08-06 09:49:43,929 - [INFO] 伺服器開始運行 (背景待命狀態)...
+2026-08-06 09:49:43,978 - [INFO] [ChatWebhook] delivered status=200 via=ChatWebhook.txt
