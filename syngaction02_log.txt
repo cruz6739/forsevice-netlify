@@ -438,3 +438,30 @@ For more information, try '--help'.
 2026-08-08 08:04:43,337 - [INFO] [ChatWebhook] delivered status=200 via=CodexResultWebhook.txt
 2026-08-08 08:08:15,924 - [INFO] 接收到訊息來源 [林育平]，內容為: [x/ 進入EFplant專案讀取md及SOP，盤查近期專案修改後的port，再回頭進入LineBOT專案修正檢查標的]
 2026-08-08 08:08:15,935 - [INFO] [Codex] accepted x/ task sender=林育平 host=FMCSFREE text=x/ 進入EFplant專案讀取md及SOP，盤查近期專案修改後的port，再回頭進入LineBOT專案修正檢查標的
+2026-08-08 08:08:15,949 - [INFO] [Codex] start x/ task auth=chatgpt-subscription access=preauthorized-full-tools sender=林育平 host=FMCSFREE user=U01572 cwd=C:\Users\U01572\Documents\YPput\py codex=C:\Users\U01572\AppData\Roaming\npm\codex.cmd task=進入EFplant專案讀取md及SOP，盤查近期專案修改後的port，再回頭進入LineBOT專案修正檢查標的
+2026-08-08 08:11:40,186 - [INFO] [Codex] finished x/ task sender=林育平 returncode=0 stdout_len=341 stderr_len=1244813 final_len=340
+2026-08-08 08:11:41,508 - [INFO] [ChatWebhook] delivered status=200 via=CodexResultWebhook.txt
+2026-08-08 09:38:23,786 - [INFO] 接收到訊息來源 [林育平]，內容為: [x/ 不是修正LineBOT了嗎？為何我還是收到下面的Line通知？
+
+⚠️【服務異常與自動修復回報】
+巡檢時間：2026-08-08 09:04:08
+
+偵測到以下服務異常，已啟動自動修復程序：
+
+🔴 服務：EFplant 排程服務 (Port 47312/47313)
+     ├─ 異常問題：Port 47312/47313 均無回應，main.py 未運行（排程狀態：就緒）。
+     └─ 修復結果：❌ 修復失敗
+     ├─ 動作：main.py 已啟動但 Port 仍無回應（等待 45s）
+     └─ 提醒：需人工介入排查！
+
+⚠️ 請相關人員注意！對於修復失敗之服務，請儘速登入伺服器進行人工排查。]
+2026-08-08 09:38:23,796 - [INFO] [Codex] accepted x/ task sender=林育平 host=FMCSFREE text=x/ 不是修正LineBOT了嗎？為何我還是收到下面的Line通知？
+
+⚠️【服務異常與自動修復回報】
+巡檢時間：2026-08-08 09:04:08
+
+偵測到以下服務異常，已啟動自動修復程序：
+
+🔴 服務：EFplant 排程服務 (Port 47312/47313)
+     ├─ 異常問題：Port 47312/47313 均無回應，main.py 未運行（排程狀態：就緒）。
+     └
