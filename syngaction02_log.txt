@@ -355,3 +355,8 @@ For more information, try '--help'.
 2026-08-25 12:11:15,741 - [WARNING] [ChatWebhook] failed to send via C:\Users\U01572\Documents\YPput\py\ChatWebhook.txt: HTTPSConnectionPool(host='192.168.120.109', port=5001): Max retries exceeded with url: /webapi/entry.cgi?api=SYNO.Chat.External&method=incoming&version=2&token=%22CEr1iXlBj3f9CMAGwKSNttC6uglafME4xpMsYQSrC63yhydU6iD4JxJA0kIC9Tri%22 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '192.168.120.109'. (_ssl.c:1032)")))
 2026-08-25 13:22:44,112 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
 2026-08-25 13:22:44,448 - [WARNING] [ChatWebhook] failed to send via C:\Users\U01572\Documents\YPput\py\ChatWebhook.txt: HTTPSConnectionPool(host='192.168.120.109', port=5001): Max retries exceeded with url: /webapi/entry.cgi?api=SYNO.Chat.External&method=incoming&version=2&token=%22CEr1iXlBj3f9CMAGwKSNttC6uglafME4xpMsYQSrC63yhydU6iD4JxJA0kIC9Tri%22 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '192.168.120.109'. (_ssl.c:1032)")))
+2026-08-25 13:22:53,692 - [INFO] 系統啟動成功：NVIDIA NIM Llama 3 模型已連線。
+2026-08-25 13:22:53,692 - [INFO] Codex CLI 已設定使用 ChatGPT 訂閱登入：C:\Users\U01572\.codex
+2026-08-25 13:22:53,778 - [INFO] 已從日誌恢復 0 筆快取。
+2026-08-25 13:22:53,778 - [INFO] 伺服器開始運行 (背景待命狀態)...
+2026-08-25 13:22:53,882 - [INFO] [ChatWebhook] delivered status=200 via=ChatWebhook.txt attempt=1 tls_verify=False
