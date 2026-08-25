@@ -336,10 +336,15 @@ For more information, try '--help'.
 🔴 服務：EFplant 排程服務 (Port 47312/47313)
      ├─ 異常問題：Port 47312/47313 均無回應，main.py 未運行（排程狀態：就緒）。
      └─ 修
-2026-08-09 13:20:36,012 - [INFO] [Codex] start x/ task auth=chatgpt-subscription access=preauthorized-full-tools sender=林育平 host=FMCSFREE user=U01572 cwd=C:\Users\U01572\Documents\YPput\py codex=C:\Users\U01572\AppData\Roaming\npm\codex.cmd task=進入LineBOT專案，先暫停對ESHmanager專案的巡查與通報，該專案完善後我會再叫你啟動這個巡查
-2026-08-09 13:22:18,035 - [INFO] [Codex] finished x/ task sender=林育平 returncode=0 stdout_len=347 stderr_len=178580 final_len=346
-2026-08-09 13:22:18,278 - [INFO] [ChatWebhook] delivered status=200 via=CodexResultWebhook.txt
 2026-08-25 11:51:04,265 - [INFO] 接收到訊息來源 [林育平]，內容為: [x/ 進入EFplant專案，依照md及SOP執行任務，如有問題先與我確認後再繼續進行
 1.確認09283,黃仁德、U00863,黃尹庭，這兩個瀏覽者帳號是否存在，若不存在請建立]
 2026-08-25 11:51:04,273 - [INFO] [Codex] accepted x/ task sender=林育平 host=FMCSFREE text=x/ 進入EFplant專案，依照md及SOP執行任務，如有問題先與我確認後再繼續進行
 1.確認09283,黃仁德、U00863,黃尹庭，這兩個瀏覽者帳號是否存在，若不存在請建立
+2026-08-25 11:51:04,335 - [INFO] [Codex] start x/ task auth=chatgpt-subscription access=preauthorized-full-tools sender=林育平 host=FMCSFREE user=U01572 cwd=C:\Users\U01572\Documents\YPput\py codex=C:\Users\U01572\AppData\Roaming\npm\codex.cmd task=進入EFplant專案，依照md及SOP執行任務，如有問題先與我確認後再繼續進行
+1.確認09283,黃仁德、U00863,黃尹庭，這兩個瀏覽者帳號是否存在，若不存在請建立
+2026-08-25 11:53:01,492 - [INFO] [Codex] finished x/ task sender=林育平 returncode=0 stdout_len=142 stderr_len=86874 final_len=141
+2026-08-25 11:53:01,978 - [WARNING] [ChatWebhook] failed to send via C:\Users\U01572\Documents\YPput\py\CodexResultWebhook.txt: HTTPSConnectionPool(host='123.252.118.20', port=19785): Max retries exceeded with url: /webapi/entry.cgi?api=SYNO.Chat.External&method=incoming&version=2&token=%22TKRRkSCiwiBOeCioHyEw9FiIITHyZ4XDYiuNDM7CYvt8fP4wFUtzum6gXECVEwhw%22 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+2026-08-25 11:53:01,978 - [WARNING] [ChatWebhook] Codex result channel failed; trying primary Chat webhook.
+2026-08-25 11:53:02,338 - [WARNING] [ChatWebhook] failed to send via C:\Users\U01572\Documents\YPput\py\ChatWebhook.txt: HTTPSConnectionPool(host='192.168.120.109', port=5001): Max retries exceeded with url: /webapi/entry.cgi?api=SYNO.Chat.External&method=incoming&version=2&token=%22CEr1iXlBj3f9CMAGwKSNttC6uglafME4xpMsYQSrC63yhydU6iD4JxJA0kIC9Tri%22 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '192.168.120.109'. (_ssl.c:1032)")))
+2026-08-25 12:10:59,338 - [INFO] 接收到訊息來源 [林育平]，內容為: [x/ 進行到哪裡了？]
+2026-08-25 12:10:59,349 - [INFO] [Codex] accepted x/ task sender=林育平 host=FMCSFREE text=x/ 進行到哪裡了？
