@@ -336,27 +336,8 @@ For more information, try '--help'.
 🔴 服務：EFplant 排程服務 (Port 47312/47313)
      ├─ 異常問題：Port 47312/47313 均無回應，main.py 未運行（排程狀態：就緒）。
      └─ 修
-2026-08-25 11:51:04,265 - [INFO] 接收到訊息來源 [林育平]，內容為: [x/ 進入EFplant專案，依照md及SOP執行任務，如有問題先與我確認後再繼續進行
 1.確認09283,黃仁德、U00863,黃尹庭，這兩個瀏覽者帳號是否存在，若不存在請建立]
-2026-08-25 11:51:04,273 - [INFO] [Codex] accepted x/ task sender=林育平 host=FMCSFREE text=x/ 進入EFplant專案，依照md及SOP執行任務，如有問題先與我確認後再繼續進行
 1.確認09283,黃仁德、U00863,黃尹庭，這兩個瀏覽者帳號是否存在，若不存在請建立
-2026-08-25 11:51:04,335 - [INFO] [Codex] start x/ task auth=chatgpt-subscription access=preauthorized-full-tools sender=林育平 host=FMCSFREE user=U01572 cwd=C:\Users\U01572\Documents\YPput\py codex=C:\Users\U01572\AppData\Roaming\npm\codex.cmd task=進入EFplant專案，依照md及SOP執行任務，如有問題先與我確認後再繼續進行
 1.確認09283,黃仁德、U00863,黃尹庭，這兩個瀏覽者帳號是否存在，若不存在請建立
-2026-08-25 11:53:01,492 - [INFO] [Codex] finished x/ task sender=林育平 returncode=0 stdout_len=142 stderr_len=86874 final_len=141
-2026-08-25 11:53:01,978 - [WARNING] [ChatWebhook] failed to send via C:\Users\U01572\Documents\YPput\py\CodexResultWebhook.txt: HTTPSConnectionPool(host='123.252.118.20', port=19785): Max retries exceeded with url: /webapi/entry.cgi?api=SYNO.Chat.External&method=incoming&version=2&token=%22TKRRkSCiwiBOeCioHyEw9FiIITHyZ4XDYiuNDM7CYvt8fP4wFUtzum6gXECVEwhw%22 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
-2026-08-25 11:53:01,978 - [WARNING] [ChatWebhook] Codex result channel failed; trying primary Chat webhook.
-2026-08-25 11:53:02,338 - [WARNING] [ChatWebhook] failed to send via C:\Users\U01572\Documents\YPput\py\ChatWebhook.txt: HTTPSConnectionPool(host='192.168.120.109', port=5001): Max retries exceeded with url: /webapi/entry.cgi?api=SYNO.Chat.External&method=incoming&version=2&token=%22CEr1iXlBj3f9CMAGwKSNttC6uglafME4xpMsYQSrC63yhydU6iD4JxJA0kIC9Tri%22 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '192.168.120.109'. (_ssl.c:1032)")))
-2026-08-25 12:10:59,338 - [INFO] 接收到訊息來源 [林育平]，內容為: [x/ 進行到哪裡了？]
-2026-08-25 12:10:59,349 - [INFO] [Codex] accepted x/ task sender=林育平 host=FMCSFREE text=x/ 進行到哪裡了？
-2026-08-25 12:10:59,359 - [INFO] [Codex] start x/ task auth=chatgpt-subscription access=preauthorized-full-tools sender=林育平 host=FMCSFREE user=U01572 cwd=C:\Users\U01572\Documents\YPput\py codex=C:\Users\U01572\AppData\Roaming\npm\codex.cmd task=進行到哪裡了？
-2026-08-25 12:11:14,841 - [INFO] [Codex] finished x/ task sender=林育平 returncode=0 stdout_len=68 stderr_len=5440 final_len=67
-2026-08-25 12:11:15,387 - [WARNING] [ChatWebhook] failed to send via C:\Users\U01572\Documents\YPput\py\CodexResultWebhook.txt: HTTPSConnectionPool(host='123.252.118.20', port=19785): Max retries exceeded with url: /webapi/entry.cgi?api=SYNO.Chat.External&method=incoming&version=2&token=%22TKRRkSCiwiBOeCioHyEw9FiIITHyZ4XDYiuNDM7CYvt8fP4wFUtzum6gXECVEwhw%22 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
-2026-08-25 12:11:15,388 - [WARNING] [ChatWebhook] Codex result channel failed; trying primary Chat webhook.
-2026-08-25 12:11:15,741 - [WARNING] [ChatWebhook] failed to send via C:\Users\U01572\Documents\YPput\py\ChatWebhook.txt: HTTPSConnectionPool(host='192.168.120.109', port=5001): Max retries exceeded with url: /webapi/entry.cgi?api=SYNO.Chat.External&method=incoming&version=2&token=%22CEr1iXlBj3f9CMAGwKSNttC6uglafME4xpMsYQSrC63yhydU6iD4JxJA0kIC9Tri%22 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '192.168.120.109'. (_ssl.c:1032)")))
-2026-08-25 13:22:44,112 - [INFO] 【系統狀態】伺服器已由控制中樞強制關閉下線。
-2026-08-25 13:22:44,448 - [WARNING] [ChatWebhook] failed to send via C:\Users\U01572\Documents\YPput\py\ChatWebhook.txt: HTTPSConnectionPool(host='192.168.120.109', port=5001): Max retries exceeded with url: /webapi/entry.cgi?api=SYNO.Chat.External&method=incoming&version=2&token=%22CEr1iXlBj3f9CMAGwKSNttC6uglafME4xpMsYQSrC63yhydU6iD4JxJA0kIC9Tri%22 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '192.168.120.109'. (_ssl.c:1032)")))
-2026-08-25 13:22:53,692 - [INFO] 系統啟動成功：NVIDIA NIM Llama 3 模型已連線。
-2026-08-25 13:22:53,692 - [INFO] Codex CLI 已設定使用 ChatGPT 訂閱登入：C:\Users\U01572\.codex
-2026-08-25 13:22:53,778 - [INFO] 已從日誌恢復 0 筆快取。
-2026-08-25 13:22:53,778 - [INFO] 伺服器開始運行 (背景待命狀態)...
-2026-08-25 13:22:53,882 - [INFO] [ChatWebhook] delivered status=200 via=ChatWebhook.txt attempt=1 tls_verify=False
+2026-09-20 14:17:10,715 - [INFO] 接收到訊息來源 [診斷測試]，內容為: [x/ diagnosis-no-run]
+2026-09-20 14:17:10,715 - [WARNING] [Codex] rejected x/ task from unauthorized sender=診斷測試 text=x/ diagnosis-no-run
