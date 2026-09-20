@@ -343,3 +343,5 @@ For more information, try '--help'.
 2026-09-20 14:17:10,715 - [WARNING] [Codex] rejected x/ task from unauthorized sender=診斷測試 text=x/ diagnosis-no-run
 2026-09-20 14:17:25,064 - [INFO] 接收到訊息來源 [診斷測試]，內容為: [x/ diagnosis-no-run]
 2026-09-20 14:17:25,064 - [WARNING] [Codex] rejected x/ task from unauthorized sender=診斷測試 text=x/ diagnosis-no-run
+2026-09-20 14:35:29,235 - [INFO] 接收到訊息來源 [diagnostic]，內容為: [x/ diagnostic-no-run]
+2026-09-20 14:35:29,235 - [WARNING] [Codex] rejected x/ task from unauthorized sender=diagnostic text=x/ diagnostic-no-run
