@@ -349,3 +349,8 @@ For more information, try '--help'.
 2026-09-20 14:37:21,344 - [INFO] Codex CLI 已設定使用 ChatGPT 訂閱登入：C:\Users\U01572\.codex
 2026-09-20 14:37:21,388 - [INFO] 接收到訊息來源 [林育平]，內容為: [x/ 僅驗證完整 x/ 路由：請不要修改、建立或刪除任何檔案，不要啟動服務；完成後只回覆 X_ROUTE_TEST_OK。]
 2026-09-20 14:37:21,399 - [INFO] [Codex] accepted x/ task sender=林育平 host=FMCSFREE text=x/ 僅驗證完整 x/ 路由：請不要修改、建立或刪除任何檔案，不要啟動服務；完成後只回覆 X_ROUTE_TEST_OK。
+2026-09-21 12:29:10,971 - [INFO] 系統啟動成功：NVIDIA NIM Llama 3 模型已連線。
+2026-09-21 12:29:10,972 - [INFO] Codex CLI 已設定使用 ChatGPT 訂閱登入：C:\Users\U01572\.codex
+2026-09-21 12:29:11,057 - [INFO] 已從日誌恢復 0 筆快取。
+2026-09-21 12:29:11,057 - [INFO] 伺服器開始運行 (背景待命狀態)...
+2026-09-21 12:29:11,130 - [INFO] [ChatWebhook] delivered status=200 via=ChatWebhook.txt attempt=1 tls_verify=False
